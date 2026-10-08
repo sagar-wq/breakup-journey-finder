@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Admin &ndash; Breakup Journey Finder</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+{% if not logged_in %}
+<div class="auth-page">
+  <div class="auth-card">
+    <h1>Admin</h1>
+    <p class="sub">Password-protected. This is separate from the visitor access codes.</p>
+    {% if error %}
+      <div class="error">{{ error }}</div>
+    {% endif %}
+    <form method="post">
+      <div class="field">
+        <label for="password">Admin password</label>
+        <input type="password" id="password" name="password" autocomplete="off" required autofocus
+               style="text-transform: none; letter-spacing: normal; font-family: inherit;">
+      </div>
+      <button type="submit" class="btn-search">Enter</button>
+    </form>
+  </div>
+</div>
+
+{% else %}
+<div class="admin-page">
+  <div class="admin-topbar">
+    <h1>Access codes</h1>
+    <form method="post" action="{{ url_for('logout') }}">
+      <button type="submit" class="btn-small">Log out</button>
+    </form>
+  </div>
+
+  {% if message %}
+    <div class="admin-card">
+      {% if new_code %}
+        <div class="new-code-box">{{ new_code }}</div>
+        <p class="new-code-hint">{{ message }} Hand this code to whoever should get access &mdash; it's stored only as a hash, so this is the only time it's shown.</p>
+      {% else %}
+        <div class="success" style="margin-bottom:0;">{{ message }}</div>
+      {% endif %}
+    </div>
+  {% endif %}
+
+  <div class="admin-card">
+    <h2>Generate a new code</h2>
+    <form method="post" class="generate-form">
+      <input type="hidden" name="action" value="generate">
+      <div class="field">
+        <label for="label">Label (optional &ndash; who this is for)</label>
+        <input type="text" id="label" name="label" placeholder="e.g. Mom, coworker, ...">
+      </div>
+      <button type="submit" class="btn-search" style="width:auto; padding:0.7rem 1.4rem;">Generate code</button>
+    </form>
+  </div>
+
+  <div class="admin-card">
+    <h2>{{ codes|length }} code{{ '' if codes|length == 1 else 's' }} issued</h2>
+    {% if codes %}
+    <table class="codes-table">
+      <thead>
+        <tr>
+          <th>Label</th>
+          <th>Status</th>
+          <th>Created</th>
+          <th>Last used</th>
+          <th>Uses</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for c in codes %}
+        <tr class="{{ 'revoked' if c.revoked }}">
+          <td class="no-strike">{{ c.label or '—' }}</td>
+          <td class="no-strike">
+            {% if c.revoked %}<span class="badge-revoked">Revoked</span>
+            {% else %}<span class="badge-active">Active</span>{% endif %}
+          </td>
+          <td class="mono">{{ c.created_at[:10] }}</td>
+          <td class="mono">{{ c.last_used_at[:10] if c.last_used_at else 'never' }}</td>
+          <td class="mono">{{ c.use_count }}</td>
+          <td class="no-strike">
+            <form method="post" style="display:inline;">
+              <input type="hidden" name="code_id" value="{{ c.id }}">
+              {% if c.revoked %}
+                <input type="hidden" name="action" value="unrevoke">
+                <button type="submit" class="btn-small">Re-enable</button>
+              {% else %}
+                <input type="hidden" name="action" value="revoke">
+                <button type="submit" class="btn-small">Revoke</button>
+              {% endif %}
+            </form>
+          </td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    {% else %}
+      <p style="color: var(--muted); font-size: 0.9rem;">No codes yet &mdash; generate one above.</p>
+    {% endif %}
+  </div>
+</div>
+{% endif %}
+
+</body>
+</html>

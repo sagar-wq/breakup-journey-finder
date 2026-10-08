@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Breakup Journey Finder</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+{% macro duration_chip(minutes) %}{% if minutes %}<span class="mono chip-duration" title="Total travel time for this train">{{ minutes // 60 }}h {{ minutes % 60 }}m</span>{% endif %}{% endmacro %}
+{% macro confirm_chip(pct) %}{% if pct is not none %}<span class="chip-confirm{{ ' chip-confirm-low' if pct < 40 }}{{ ' chip-confirm-high' if pct >= 70 }}" title="Predicted chance this waitlisted/RAC ticket clears by chart preparation">{{ pct }}% confirm chance</span>{% endif %}{% endmacro %}
+<header class="page-head">
+  <div class="page-head-inner">
+    <span class="page-head-icon" aria-hidden="true">&#128645;</span>
+    <div>
+      <h1>Breakup Journey Finder</h1>
+      <p class="sub">Find split-ticket routes when the direct train has no seats.</p>
+    </div>
+    <form method="post" action="{{ url_for('logout') }}" class="logout-form">
+      <button type="submit" class="btn-logout">Log out</button>
+    </form>
+  </div>
+</header>
+
+<div class="loading-overlay" id="loading-overlay">
+  <div class="loading-card">
+    <div class="spinner"></div>
+    <strong>Searching live seat availability&hellip;</strong>
+    <p>This checks the direct route plus up to a dozen alternate junctions, so it can take 15&ndash;20 seconds.</p>
+  </div>
+</div>
+
+<main>
+  <div class="search-card">
+    <form method="post" id="search-form">
+      <div class="search-grid">
+        <div class="field combo-field">
+          <label for="source-input">From</label>
+          <input type="text" id="source-input" name="source_name" class="combo-input" autocomplete="off"
+                 placeholder="Type a station name or code"
+                 value="{{ form.get('source_name', '') }}">
+          <input type="hidden" name="source" id="source-code" value="{{ form.get('source', '') }}">
+          <div class="combo-menu" id="source-menu" hidden></div>
+        </div>
+
+        <button type="button" class="swap-btn" id="swap-btn" title="Swap From/To" aria-label="Swap From and To">&#8646;</button>
+
+        <div class="field combo-field">
+          <label for="dest-input">To</label>
+          <input type="text" id="dest-input" name="dest_name" class="combo-input" autocomplete="off"
+                 placeholder="Type a station name or code"
+                 value="{{ form.get('dest_name', '') }}">
+          <input type="hidden" name="dest" id="dest-code" value="{{ form.get('dest', '') }}">
+          <div class="combo-menu" id="dest-menu" hidden></div>
+        </div>
+      </div>
+
+      <div class="search-row-2">
+        <div class="field">
+          <label for="date">Date</label>
+          <input type="date" name="date" id="date" value="{{ form.get('date', today) }}" required>
+        </div>
+
+        <div class="field">
+          <label>Class</label>
+          <div class="class-segmented">
+            <input type="radio" name="travel_class" id="class-all" value="{{ all_classes_value }}"
+                   {{ 'checked' if form.get('travel_class', all_classes_value) == all_classes_value }}>
+            <label for="class-all">All Classes</label>
+            {% for c in classes %}
+              <input type="radio" name="travel_class" id="class-{{ c }}" value="{{ c }}"
+                     {{ 'checked' if form.get('travel_class') == c }}>
+              <label for="class-{{ c }}">{{ c }}</label>
+            {% endfor %}
+          </div>
+        </div>
+
+        <button type="submit" class="btn-search" id="search-btn">Search</button>
+      </div>
+
+      {% if using_mock %}
+        <p class="station-count">{{ station_count }} stations loaded &middot; sample train data only covers a handful of demo routes (see README)</p>
+      {% else %}
+        <p class="station-count">{{ station_count }} stations loaded &middot; live availability data (unofficial source, see README)</p>
+      {% endif %}
+    </form>
+  </div>
+
+  {% if error %}
+    <p class="error">{{ error }}</p>
+  {% endif %}
+
+  {% if result %}
+    {% set ns = namespace(banner='none') %}
+    {% if result.direct %}
+      {% set ns.banner = 'direct' %}
+    {% elif result.breakup %}
+      {% set ns.banner = 'breakup' %}
+    {% elif using_mock %}
+      {% set ns.banner = 'mock' %}
+    {% elif diagnostics and diagnostics.highlights %}
+      {% set ns.banner = 'partial' %}
+    {% else %}
+      {% set ns.banner = 'none' %}
+    {% endif %}
+
+    <div class="status-banner banner-{{ ns.banner }}">
+      {% if ns.banner == 'direct' %}
+        <span class="banner-icon">&#10003;</span> Direct trains found &mdash; no need to split this ticket.
+      {% elif ns.banner == 'breakup' %}
+        <span class="banner-icon">&#8644;</span> No direct seats, but {{ result.breakup|length }} breakup option{{ 's' if result.breakup|length != 1 }} found.
+      {% elif ns.banner == 'partial' %}
+        <span class="banner-icon">&#9673;</span> No clean breakup yet, but partial availability exists on some routes.
+      {% elif ns.banner == 'mock' %}
+        <span class="banner-icon">&#9888;</span> No routes found in the demo data.
+      {% else %}
+        <span class="banner-icon">&#10007;</span> No trains found for this exact search.
+      {% endif %}
+    </div>
+
+    {% if result.checked_best_direct %}
+      <div class="checked-trains-block">
+        <h3>Checked the {{ result.checked_best_direct|length }} best train{{ 's' if result.checked_best_direct|length != 1 }} on this route</h3>
+        <p class="hint">None had a seat in {{ form.class_label }} &mdash; alternate routes are suggested below.</p>
+        <table class="legs">
+          <thead><tr><th>Train</th><th>Dep</th><th>Arr</th><th>Duration</th><th>Class</th><th>Status</th><th></th></tr></thead>
+          <tbody>
+          {% for t in result.checked_best_direct %}
+            <tr>
+              <td><span class="mono">{{ t.train_no }}</span> {{ t.train_name }}</td>
+              <td class="mono">{{ t.dep_time }}</td>
+              <td class="mono">{{ t.arr_time }}{% if t.arr_day_offset %} (+{{ t.arr_day_offset }}d){% endif %}</td>
+              <td>{{ duration_chip(t.duration_minutes) }}</td>
+              <td><span class="mono">{{ t.matched_class or '—' }}</span></td>
+              <td><span class="status risk">{{ t.matched_status or 'NODATA' }}</span> {{ confirm_chip(t.matched_confirm_pct) }}</td>
+              <td><a href="https://www.irctc.co.in/nget/train-search" target="_blank" rel="noopener">Check on IRCTC &#8599;</a></td>
+            </tr>
+          {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    {% endif %}
+
+    <section class="results">
+      {% if result.direct %}
+        <h2>Direct trains available</h2>
+        <p class="hint">Seats are open on these trains &mdash; no breakup needed.</p>
+        <table class="legs">
+          <thead><tr><th>Train</th><th>Dep</th><th>Arr</th><th>Duration</th><th>Class</th><th></th></tr></thead>
+          <tbody>
+          {% for leg in result.direct %}
+            <tr>
+              <td><span class="mono">{{ leg.train_no }}</span> {{ leg.train_name }}</td>
+              <td class="mono">{{ leg.dep_time }}</td>
+              <td class="mono">{{ leg.arr_time }}{% if leg.arr_day_offset %} (+{{ leg.arr_day_offset }}d){% endif %}</td>
+              <td>{{ duration_chip(leg.duration_minutes) }}</td>
+              <td><span class="mono">{{ leg.matched_class }}</span> <span class="status ok">{{ leg.matched_status }}</span></td>
+              <td><a href="https://www.irctc.co.in/nget/train-search" target="_blank" rel="noopener">Book on IRCTC &#8599;</a></td>
+            </tr>
+          {% endfor %}
+          </tbody>
+        </table>
+
+      {% elif result.breakup %}
+        <h2>Suggested breakup journeys</h2>
+        <p class="hint">Book these as two separate tickets, with enough time to change trains at the junction.</p>
+        <div class="cards-grid">
+        {% for combo in result.breakup %}
+          <article class="combo">
+            <div class="combo-head">
+              <div class="journey-line">
+                <div class="journey-stop is-origin">
+                  <span class="stop-tag">From</span>
+                  <span class="dot"></span>
+                  <span class="label">{{ form.source_name.split(' (')[0] if form.source_name else form.source }}</span>
+                  <span class="mono stop-time">Departs {{ combo.leg1.dep_time }}</span>
+                </div>
+                <div class="journey-track"><span class="track-arrow">&#10148;</span></div>
+                <div class="journey-stop is-junction">
+                  <span class="stop-tag">Change train at</span>
+                  <span class="dot"></span>
+                  <span class="label">{{ combo.junction_name }} ({{ combo.junction }})</span>
+                  <span class="mono stop-time">Arrives {{ combo.leg1.arr_time }} &middot; departs {{ combo.leg2.dep_time }}</span>
+                </div>
+                <div class="journey-track"><span class="track-arrow">&#10148;</span></div>
+                <div class="journey-stop is-dest">
+                  <span class="stop-tag">To</span>
+                  <span class="dot"></span>
+                  <span class="label">{{ form.dest_name.split(' (')[0] if form.dest_name else form.dest }}</span>
+                  <span class="mono stop-time">Arrives {{ combo.leg2.arr_time }}</span>
+                </div>
+              </div>
+              <span class="total-time">{{ (combo.total_minutes // 60) }}h {{ combo.total_minutes % 60 }}m total</span>
+            </div>
+            <table class="legs">
+              <thead><tr><th>Leg</th><th>Train</th><th>Dep</th><th>Arr</th><th>Duration</th><th>Class</th><th></th></tr></thead>
+              <tbody>
+                <tr>
+                  <td><span class="leg-tag">1</span></td>
+                  <td><span class="mono">{{ combo.leg1.train_no }}</span> {{ combo.leg1.train_name }}</td>
+                  <td class="mono">{{ combo.leg1.dep_time }}</td>
+                  <td class="mono">{{ combo.leg1.arr_time }}{% if combo.leg1.arr_day_offset %} (+{{ combo.leg1.arr_day_offset }}d){% endif %}</td>
+                  <td>{{ duration_chip(combo.leg1.duration_minutes) }}</td>
+                  <td><span class="mono">{{ combo.leg1.matched_class }}</span> <span class="status {{ 'ok' if 'AVAILABLE' in combo.leg1.matched_status else 'risk' }}">{{ combo.leg1.matched_status }}</span> {{ confirm_chip(combo.leg1.matched_confirm_pct) }}</td>
+                  <td><a href="https://www.irctc.co.in/nget/train-search" target="_blank" rel="noopener">Book on IRCTC &#8599;</a></td>
+                </tr>
+                <tr>
+                  <td><span class="leg-tag">2</span></td>
+                  <td><span class="mono">{{ combo.leg2.train_no }}</span> {{ combo.leg2.train_name }}</td>
+                  <td class="mono">{{ combo.leg2.dep_time }}</td>
+                  <td class="mono">{{ combo.leg2.arr_time }}{% if combo.leg2.arr_day_offset %} (+{{ combo.leg2.arr_day_offset }}d){% endif %}</td>
+                  <td>{{ duration_chip(combo.leg2.duration_minutes) }}</td>
+                  <td><span class="mono">{{ combo.leg2.matched_class }}</span> <span class="status {{ 'ok' if 'AVAILABLE' in combo.leg2.matched_status else 'risk' }}">{{ combo.leg2.matched_status }}</span> {{ confirm_chip(combo.leg2.matched_confirm_pct) }}</td>
+                  <td><a href="https://www.irctc.co.in/nget/train-search" target="_blank" rel="noopener">Book on IRCTC &#8599;</a></td>
+                </tr>
+              </tbody>
+            </table>
+            <p class="buffer">
+              Connection buffer at {{ combo.junction }}: {{ combo.connection_buffer_minutes }} min &middot;
+              book on <a href="https://www.irctc.co.in/nget/train-search" target="_blank" rel="noopener">IRCTC</a>
+              or an authorized agent.
+            </p>
+          </article>
+        {% endfor %}
+        </div>
+
+      {% elif using_mock %}
+        <h2>No routes found in the demo data</h2>
+        <p class="hint">
+          This isn't a real "sold out" result — this prototype only ships with a
+          handful of made-up demo trains, not a real national schedule. Its mock
+          trains currently only run between: HWH, ASN, GAYA, PNBE, DDU, PRYJ, CNB,
+          NDLS, CSMT, NGP, ET, BPL, JHS, CPR, MFP, GKP. The 1,300+ stations in the
+          dropdown are a real station <em>list</em>, but most of them have zero
+          trains in this demo's mock schedule, so most searches — even ones that
+          would work in real life — will land here. Try a search between two of
+          the stations above, or see README.md to plug in a real train-data API.
+        </p>
+      {% else %}
+        {% set src_label = form.source_name.split(' (')[0] if form.source_name else form.source %}
+        {% set dst_label = form.dest_name.split(' (')[0] if form.dest_name else form.dest %}
+
+        {% if diagnostics and diagnostics.highlights %}
+          <h2>Partial availability found</h2>
+          <p class="hint">
+            No pair of trains connects in time for a full booked-through breakup,
+            but the routes below each have at least one train with a seat in
+            {{ form.class_label }} on both halves — worth a closer look if you're
+            flexible on timing or splitting across two dates.
+          </p>
+          <div class="cards-grid">
+          {% for h in diagnostics.highlights %}
+            <article class="combo highlight-combo">
+              <div class="combo-head">
+                <span class="route-path">
+                  <span class="stop">{{ src_label }}</span>
+                  <span class="arrow">&rarr;</span>
+                  <span class="stop stop-junction">{{ h.name }} ({{ h.code }})</span>
+                  <span class="arrow">&rarr;</span>
+                  <span class="stop">{{ dst_label }}</span>
+                </span>
+              </div>
+              <div class="leg-block-head">
+                <p class="buffer" style="margin:0">Leg 1 — {{ src_label }} &rarr; {{ h.name }}, trains with seats in {{ form.class_label }}:</p>
+                <a href="{{ h.leg1_url }}" target="_blank" rel="noopener">Search on IRCTC &#8599;</a>
+              </div>
+              <ul class="train-hits">
+                {% for t in h.leg1_available %}
+                  <li>
+                    <span class="mono">{{ t.train_no }}</span> {{ t.train_name }}
+                    <span class="mono">{{ t.dep_time }}&rarr;{{ t.arr_time }}{% if t.arr_day_offset %} (+{{ t.arr_day_offset }}d){% endif %}</span>
+                    {{ duration_chip(t.duration_minutes) }}
+                    <span class="mono">{{ t.matched_class }}</span>
+                    <span class="status ok">{{ t.status }}</span>
+                    {{ confirm_chip(t.confirm_pct) }}
+                    <a href="{{ t.schedule_url }}" target="_blank" rel="noopener">Book on IRCTC &#8599;</a>
+                  </li>
+                {% endfor %}
+              </ul>
+              <div class="leg-block-head">
+                <p class="buffer" style="margin:0">Leg 2 — {{ h.name }} &rarr; {{ dst_label }}, trains with seats in {{ form.class_label }}:</p>
+                <a href="{{ h.leg2_url }}" target="_blank" rel="noopener">Search on IRCTC &#8599;</a>
+              </div>
+              <ul class="train-hits">
+                {% for t in h.leg2_available %}
+                  <li>
+                    <span class="mono">{{ t.train_no }}</span> {{ t.train_name }}
+                    <span class="mono">{{ t.dep_time }}&rarr;{{ t.arr_time }}{% if t.arr_day_offset %} (+{{ t.arr_day_offset }}d){% endif %}</span>
+                    {{ duration_chip(t.duration_minutes) }}
+                    <span class="mono">{{ t.matched_class }}</span>
+                    <span class="status ok">{{ t.status }}</span>
+                    {{ confirm_chip(t.confirm_pct) }}
+                    <a href="{{ t.schedule_url }}" target="_blank" rel="noopener">Book on IRCTC &#8599;</a>
+                  </li>
+                {% endfor %}
+              </ul>
+            </article>
+          {% endfor %}
+          </div>
+        {% endif %}
+
+        {% if diagnostics and not diagnostics.highlights %}
+          <h2>No breakup combination found</h2>
+          <p class="hint">
+            None of the {{ diagnostics.summary_rows|length }} candidate junctions checked had a
+            seat in {{ form.class_label }} on <em>both</em> halves of the journey. Ranked below
+            by how close they came — junctions with an actual seat on one leg, then the
+            smallest waitlist numbers — tap a row to see the trains behind it.
+          </p>
+          <div class="summary-table-head">
+            <span class="col-route">Route</span>
+            <span class="col-leg">Leg 1 (board here)</span>
+            <span class="col-leg">Leg 2 (change here)</span>
+          </div>
+          {% for row in diagnostics.summary_rows %}
+            <details class="summary-row">
+              <summary class="summary-row-head">
+                <span class="route-path compact col-route">
+                  <span class="stop">{{ src_label }}</span>
+                  <span class="arrow">&rarr;</span>
+                  <span class="stop stop-junction">{{ row.name }} ({{ row.code }})</span>
+                  <span class="arrow">&rarr;</span>
+                  <span class="stop">{{ dst_label }}</span>
+                </span>
+                {% for leg in [row.leg1, row.leg2] %}
+                  <span class="col-leg">
+                    <span class="leg-tag-label">
+                      {% if loop.first %}Leg 1 ({{ src_label }} &rarr; {{ row.name }}):
+                      {% else %}Leg 2 ({{ row.name }} &rarr; {{ dst_label }}):
+                      {% endif %}
+                    </span>
+                    {% if leg.state == 'available' %}
+                      <span class="status ok">{{ leg.count }} train(s) available</span>
+                    {% elif leg.state == 'waitlisted' %}
+                      <span class="status risk">best waitlist: WL {{ leg.best_wl }}</span>
+                    {% elif leg.state == 'regret' %}
+                      <span class="status risk">fully booked (REGRET)</span>
+                    {% else %}
+                      <span class="hint" style="margin:0">no trains run this leg</span>
+                    {% endif %}
+                  </span>
+                {% endfor %}
+                <span class="collapse-hint">&#9650; tap here to collapse</span>
+              </summary>
+
+              <div class="summary-row-body">
+                {% if row.leg1_options %}
+                  <div class="leg-block-head">
+                    <strong>Leg 1 &rarr; onward — board at {{ src_label }}, then continue from {{ row.name }}</strong>
+                    <span class="onward-urls">
+                      <a href="{{ row.leg1_url }}" target="_blank" rel="noopener">Leg 1 on IRCTC &#8599;</a>
+                      <a href="{{ row.leg2_url }}" target="_blank" rel="noopener">Leg 2 on IRCTC &#8599;</a>
+                    </span>
+                  </div>
+                  <p class="col-label">Each train below has a seat in {{ form.class_label }} — the onward trains listed under it are only the ones you could actually still catch after it gets in</p>
+                  <div class="onward-groups">
+                    {% for opt in row.leg1_options %}
+                      {% set t = opt.train %}
+                      <div class="onward-group">
+                        <span class="route-chip route-chip-1">{{ src_label }} <span class="mono">({{ form.source }})</span> &rarr; {{ row.name }} <span class="mono">({{ row.code }})</span></span>
+                        <div class="onward-leg1">
+                          <span class="leg-tag">1</span>
+                          <span class="mono">{{ t.train_no }}</span> {{ t.train_name }}
+                          <span class="mono">{{ t.dep_time }}&rarr;{{ t.arr_time }}{% if t.arr_day_offset %} (+{{ t.arr_day_offset }}d){% endif %}</span>
+                          {{ duration_chip(t.duration_minutes) }}
+                          <span class="mono">{{ t.matched_class }}</span>
+                          <span class="status ok">{{ t.status }}</span>
+                          {{ confirm_chip(t.confirm_pct) }}
+                          <a href="{{ t.schedule_url }}" target="_blank" rel="noopener">Book on IRCTC &#8599;</a>
+                        </div>
+                        <div class="onward-arrow">
+                          <span class="route-chip route-chip-2">{{ row.name }} <span class="mono">({{ row.code }})</span> &rarr; {{ dst_label }} <span class="mono">({{ form.dest }})</span></span>
+                          <span aria-hidden="true">&#8627;</span> arrives {{ row.name }} {{ t.arr_time }} &mdash; catch onward:
+                        </div>
+                        {% if opt.onward.trains %}
+                          <ul class="train-hits onward-list">
+                            {% for o in opt.onward.trains %}
+                              <li>
+                                <span class="leg-tag leg-tag-2">2</span>
+                                <span class="mono">{{ o.train_no }}</span> {{ o.train_name }}
+                                <span class="mono">{{ o.dep_time }}&rarr;{{ o.arr_time }}{% if o.arr_day_offset %} (+{{ o.arr_day_offset }}d){% endif %}</span>
+                                {{ duration_chip(o.duration_minutes) }}
+                                {% if o.matched_class %}<span class="mono">{{ o.matched_class }}</span>{% endif %}
+                                <span class="status {{ 'ok' if o.is_available else 'risk' }}">{{ o.status }}</span>
+                                {{ confirm_chip(o.confirm_pct) }}
+                                <span class="hint buffer-tag">+{{ o.connection_buffer_minutes // 60 }}h {{ o.connection_buffer_minutes % 60 }}m to change</span>
+                                <a href="{{ o.schedule_url }}" target="_blank" rel="noopener">Book on IRCTC &#8599;</a>
+                              </li>
+                            {% endfor %}
+                            {% if opt.onward.more_count %}
+                              <li class="hint">+{{ opt.onward.more_count }} more train(s) depart {{ row.name }} after this arrival — <a href="{{ row.leg2_url }}" target="_blank" rel="noopener">see all on IRCTC &#8599;</a></li>
+                            {% endif %}
+                          </ul>
+                        {% else %}
+                          <p class="hint">No trains leave {{ row.name }} for {{ dst_label }} after this one gets in — <a href="{{ row.leg2_url }}" target="_blank" rel="noopener">double check on IRCTC &#8599;</a>.</p>
+                        {% endif %}
+                      </div>
+                    {% endfor %}
+                  </div>
+                {% else %}
+                  <p class="hint">
+                    No trains with a seat in {{ form.class_label }} on {{ src_label }} &rarr; {{ row.name }} (Leg 1) right now -
+                    <a href="{{ row.leg1_url }}" target="_blank" rel="noopener">check on IRCTC &#8599;</a>.
+                  </p>
+                  {% if row.leg2_available %}
+                    <div class="leg-block-head">
+                      <strong>Leg 2 trains that do have a seat — {{ row.name }} &rarr; {{ dst_label }}</strong>
+                      <span class="onward-urls">
+                        <a href="{{ row.leg2_url }}" target="_blank" rel="noopener">Leg 2 on IRCTC &#8599;</a>
+                      </span>
+                    </div>
+                    <p class="hint">
+                      Shown for reference only — not bookable as a connection yet, since there's no
+                      Leg 1 train to board that actually gets you to {{ row.name }} in time to catch these.
+                    </p>
+                    <ul class="train-hits">
+                      {% for t in row.leg2_available %}
+                        <li>
+                          <span class="mono">{{ t.train_no }}</span> {{ t.train_name }}
+                          <span class="mono">{{ t.dep_time }}&rarr;{{ t.arr_time }}{% if t.arr_day_offset %} (+{{ t.arr_day_offset }}d){% endif %}</span>
+                          {{ duration_chip(t.duration_minutes) }}
+                          <span class="mono">{{ t.matched_class }}</span>
+                          <span class="status ok">{{ t.status }}</span>
+                          {{ confirm_chip(t.confirm_pct) }}
+                          <a href="{{ t.schedule_url }}" target="_blank" rel="noopener">Book on IRCTC &#8599;</a>
+                        </li>
+                      {% endfor %}
+                    </ul>
+                  {% endif %}
+                {% endif %}
+
+                <p class="buffer">
+                  This only shows live availability — actual booking has to happen on
+                  <a href="{{ diagnostics.irctc_url }}" target="_blank" rel="noopener">IRCTC</a>
+                  or an authorized agent. Waitlisted/RAC tickets in AC classes are subject
+                  to auto-cancellation if not confirmed by chart preparation — check IRCTC's
+                  rules before relying on one. Onward trains use a minimum
+                  {{ diagnostics.min_connection_minutes }}-minute connection buffer — a real changeover may need more.
+                </p>
+              </div>
+            </details>
+          {% endfor %}
+        {% endif %}
+
+        {% if diagnostics %}
+          <div class="diagnostics-wrap">
+            <p class="eyebrow">For troubleshooting</p>
+            <details class="diagnostics">
+              <summary>Show what was actually fetched (raw live data)</summary>
+
+              <h3>Direct: {{ form.source }} &rarr; {{ form.dest }}</h3>
+              {% if diagnostics.direct_err %}
+                <p class="hint">Lookup failed: {{ diagnostics.direct_err }}</p>
+              {% elif diagnostics.direct_legs %}
+                <table class="legs">
+                  <thead><tr><th>Train</th><th>Dep</th><th>Arr</th><th>SL</th><th>3A</th><th>2A</th><th>1A</th></tr></thead>
+                  <tbody>
+                  {% for leg in diagnostics.direct_legs %}
+                    <tr>
+                      <td><span class="mono">{{ leg.train_no }}</span> {{ leg.train_name }}</td>
+                      <td class="mono">{{ leg.dep_time }}</td>
+                      <td class="mono">{{ leg.arr_time }}{% if leg.arr_day_offset %} (+{{ leg.arr_day_offset }}d){% endif %}</td>
+                      {% for cls in ['SL','3A','2A','1A'] %}
+                        <td class="mono">{{ leg.classes.get(cls, '-') }}</td>
+                      {% endfor %}
+                    </tr>
+                  {% endfor %}
+                  </tbody>
+                </table>
+              {% else %}
+                <p class="hint">No trains were returned for this exact pair.</p>
+              {% endif %}
+
+              <h3>Candidate breakup junctions tried</h3>
+              {% for j in diagnostics.junctions %}
+                <details class="junction-detail">
+                  <summary>via {{ j.name }} ({{ j.code }})</summary>
+                  <table class="legs">
+                    <thead><tr><th>Leg</th><th>Train</th><th>Dep</th><th>Arr</th><th>SL</th><th>3A</th><th>2A</th><th>1A</th></tr></thead>
+                    <tbody>
+                      {% if j.leg1_err %}
+                        <tr><td colspan="7">Leg 1 ({{ form.source }}&rarr;{{ j.code }}) lookup failed: {{ j.leg1_err }}</td></tr>
+                      {% elif not j.leg1_legs %}
+                        <tr><td colspan="7">Leg 1 ({{ form.source }}&rarr;{{ j.code }}): zero trains</td></tr>
+                      {% else %}
+                        {% for leg in j.leg1_legs %}
+                          <tr>
+                            <td>1</td>
+                            <td><span class="mono">{{ leg.train_no }}</span> {{ leg.train_name }}</td>
+                            <td class="mono">{{ leg.dep_time }}</td>
+                            <td class="mono">{{ leg.arr_time }}{% if leg.arr_day_offset %} (+{{ leg.arr_day_offset }}d){% endif %}</td>
+                            {% for cls in ['SL','3A','2A','1A'] %}
+                              <td class="mono">{{ leg.classes.get(cls, '-') }}</td>
+                            {% endfor %}
+                          </tr>
+                        {% endfor %}
+                      {% endif %}
+                      {% if j.leg2_err %}
+                        <tr><td colspan="7">Leg 2 ({{ j.code }}&rarr;{{ form.dest }}) lookup failed: {{ j.leg2_err }}</td></tr>
+                      {% elif not j.leg2_legs %}
+                        <tr><td colspan="7">Leg 2 ({{ j.code }}&rarr;{{ form.dest }}): zero trains</td></tr>
+                      {% else %}
+                        {% for leg in j.leg2_legs %}
+                          <tr>
+                            <td>2</td>
+                            <td><span class="mono">{{ leg.train_no }}</span> {{ leg.train_name }}</td>
+                            <td class="mono">{{ leg.dep_time }}</td>
+                            <td class="mono">{{ leg.arr_time }}{% if leg.arr_day_offset %} (+{{ leg.arr_day_offset }}d){% endif %}</td>
+                            {% for cls in ['SL','3A','2A','1A'] %}
+                              <td class="mono">{{ leg.classes.get(cls, '-') }}</td>
+                            {% endfor %}
+                          </tr>
+                        {% endfor %}
+                      {% endif %}
+                    </tbody>
+                  </table>
+                </details>
+              {% endfor %}
+            </details>
+          </div>
+        {% endif %}
+      {% endif %}
+    </section>
+  {% endif %}
+</main>
+
+<footer>
+  {% if using_mock %}
+    <p>Demo data source — see README.md to connect a real train-data API.</p>
+  {% else %}
+    <p>Live availability data (unofficial source) — see README.md for details and caveats. Booking happens on IRCTC.</p>
+  {% endif %}
+</footer>
+
+<script id="stations-data" type="application/json">{{ stations_json | safe }}</script>
+<script>
+(function () {
+  var STATIONS = JSON.parse(document.getElementById('stations-data').textContent);
+
+  function setupCombo(inputId, hiddenId, menuId) {
+    var input = document.getElementById(inputId);
+    var hidden = document.getElementById(hiddenId);
+    var menu = document.getElementById(menuId);
+    var activeIndex = -1;
+    var matches = [];
+
+    function render(list) {
+      menu.innerHTML = '';
+      list.forEach(function (station, i) {
+        var item = document.createElement('div');
+        item.className = 'combo-item' + (i === activeIndex ? ' active' : '');
+        item.textContent = station.name + ' (' + station.code + ')';
+        item.addEventListener('mousedown', function (e) {
+          e.preventDefault();
+          select(station);
+        });
+        menu.appendChild(item);
+      });
+      menu.hidden = list.length === 0;
+    }
+
+    function select(station) {
+      input.value = station.name + ' (' + station.code + ')';
+      hidden.value = station.code;
+      menu.hidden = true;
+      matches = [];
+      activeIndex = -1;
+    }
+
+    function search(query) {
+      query = query.trim().toLowerCase();
+      hidden.value = '';
+      if (!query) { menu.hidden = true; matches = []; return; }
+      matches = STATIONS.filter(function (s) {
+        return s.name.toLowerCase().indexOf(query) !== -1 ||
+               s.code.toLowerCase().indexOf(query) !== -1;
+      }).slice(0, 12);
+      activeIndex = -1;
+      render(matches);
+    }
+
+    input.addEventListener('input', function () { search(input.value); });
+    input.addEventListener('focus', function () { if (input.value) search(input.value); });
+    input.addEventListener('blur', function () {
+      setTimeout(function () { menu.hidden = true; }, 100);
+    });
+    input.addEventListener('keydown', function (e) {
+      if (menu.hidden || matches.length === 0) return;
+      if (e.key === 'ArrowDown') {
+        e.preventDefault();
+        activeIndex = Math.min(activeIndex + 1, matches.length - 1);
+        render(matches);
+      } else if (e.key === 'ArrowUp') {
+        e.preventDefault();
+        activeIndex = Math.max(activeIndex - 1, 0);
+        render(matches);
+      } else if (e.key === 'Enter') {
+        if (activeIndex >= 0) {
+          e.preventDefault();
+          select(matches[activeIndex]);
+        }
+      } else if (e.key === 'Escape') {
+        menu.hidden = true;
+      }
+    });
+
+    return { input: input, hidden: hidden };
+  }
+
+  var sourceCombo = setupCombo('source-input', 'source-code', 'source-menu');
+  var destCombo = setupCombo('dest-input', 'dest-code', 'dest-menu');
+
+  document.getElementById('swap-btn').addEventListener('click', function () {
+    var tmpVal = sourceCombo.input.value, tmpCode = sourceCombo.hidden.value;
+    sourceCombo.input.value = destCombo.input.value;
+    sourceCombo.hidden.value = destCombo.hidden.value;
+    destCombo.input.value = tmpVal;
+    destCombo.hidden.value = tmpCode;
+  });
+
+  var form = document.getElementById('search-form');
+  form.addEventListener('submit', function (e) {
+    var srcCode = document.getElementById('source-code').value;
+    var dstCode = document.getElementById('dest-code').value;
+    if (!srcCode || !dstCode) {
+      e.preventDefault();
+      alert('Pick a station from the dropdown for both From and To.');
+      return;
+    }
+    document.getElementById('search-btn').disabled = true;
+    document.getElementById('search-btn').textContent = 'Searching…';
+    document.getElementById('loading-overlay').classList.add('active');
+  });
+})();
+</script>
+</body>
+</html>

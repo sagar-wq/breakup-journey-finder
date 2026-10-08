@@ -1,0 +1,8444 @@
+[
+{
+"code": "KHH",
+"name": "Kichha",
+"lat": 28.91343,
+"lon": 79.51975,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BTU",
+"name": "Baraut",
+"lat": 29.09692,
+"lon": 77.27301,
+"state": "Uttar Pradesh"
+},
+{
+"code": "IJ",
+"name": "Itaunja",
+"lat": 27.08107,
+"lon": 80.89123,
+"state": "Uttar Pradesh"
+},
+{
+"code": "PBE",
+"name": "Pilibhit Jn",
+"lat": 28.61498,
+"lon": 79.81395,
+"state": "Uttar Pradesh"
+},
+{
+"code": "MBA",
+"name": "Mahoba",
+"lat": 25.30691,
+"lon": 79.84908,
+"state": "Uttar Pradesh"
+},
+{
+"code": "NOLI",
+"name": "Noli",
+"lat": 28.74657,
+"lon": 77.31077,
+"state": "Uttar Pradesh"
+},
+{
+"code": "SUJR",
+"name": "Sujra",
+"lat": 29.01273,
+"lon": 77.26134,
+"state": "Uttar Pradesh"
+},
+{
+"code": "GRD",
+"name": "Giridih",
+"lat": 24.18226,
+"lon": 86.31465,
+"state": "Jharkhand"
+},
+{
+"code": "CNPI",
+"name": "Chandanpahari",
+"lat": 24.40422,
+"lon": 86.95308,
+"state": "Jharkhand"
+},
+{
+"code": "CRC",
+"name": "Charkhari Road",
+"lat": 25.30756,
+"lon": 79.74565,
+"state": "Uttar Pradesh"
+},
+{
+"code": "MQP",
+"name": "Makrandpur",
+"lat": 28.21341,
+"lon": 79.2901,
+"state": "Uttar Pradesh"
+},
+{
+"code": "SEPR",
+"name": "Sherpur",
+"lat": 28.91936,
+"lon": 78.25287,
+"state": "Uttar Pradesh"
+},
+{
+"code": "CLW",
+"name": "Chilwariya",
+"lat": 27.487,
+"lon": 81.69873,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BTKD",
+"name": "Bharatkund",
+"lat": 26.6361,
+"lon": 82.12739,
+"state": "Uttar Pradesh"
+},
+{
+"code": "CPS",
+"name": "Chandpur Siau Halt",
+"lat": 29.13201,
+"lon": 78.27585,
+"state": "Uttar Pradesh"
+},
+{
+"code": "CSR",
+"name": "Chak Sikandar",
+"lat": 25.67672,
+"lon": 85.36525,
+"state": "Bihar"
+},
+{
+"code": "CRQ",
+"name": "Charpokhari Halt",
+"lat": 25.36152,
+"lon": 84.4876,
+"state": "Bihar"
+},
+{
+"code": "DAG",
+"name": "Dhang",
+"lat": 26.7174,
+"lon": 85.3533,
+"state": "Bihar"
+},
+{
+"code": "DIB",
+"name": "Dibai",
+"lat": 28.19378,
+"lon": 78.30308,
+"state": "Uttar Pradesh"
+},
+{
+"code": "DRN",
+"name": "Deoranian",
+"lat": 28.64478,
+"lon": 79.47647,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BGS",
+"name": "Begu Sarai",
+"lat": 25.4253,
+"lon": 86.13448,
+"state": "Bihar"
+},
+{
+"code": "ETAH",
+"name": "Etah",
+"lat": 27.57117,
+"lon": 78.65392,
+"state": "Uttar Pradesh"
+},
+{
+"code": "GIR",
+"name": "Gainsari Junction",
+"lat": 27.52684,
+"lon": 82.54418,
+"state": "Uttar Pradesh"
+},
+{
+"code": "GGH",
+"name": "Ghogardiha",
+"lat": 26.28277,
+"lon": 86.4685,
+"state": "Bihar"
+},
+{
+"code": "FRH",
+"name": "Farhatnagar",
+"lat": 27.08116,
+"lon": 80.14321,
+"state": "Uttar Pradesh"
+},
+{
+"code": "GATD",
+"name": "Gautamdhara",
+"lat": 23.34988,
+"lon": 85.63299,
+"state": "Jharkhand"
+},
+{
+"code": "GADM",
+"name": "Ganga Dham",
+"lat": 27.20976,
+"lon": 81.93051,
+"state": "Uttar Pradesh"
+},
+{
+"code": "GLH",
+"name": "Gulaothi",
+"lat": 28.58296,
+"lon": 77.8018,
+"state": "Uttar Pradesh"
+},
+{
+"code": "GYN",
+"name": "Gyanpur Road",
+"lat": 25.28014,
+"lon": 82.42729,
+"state": "Uttar Pradesh"
+},
+{
+"code": "JDR",
+"name": "Jiwdhara",
+"lat": 26.58172,
+"lon": 84.90687,
+"state": "Bihar"
+},
+{
+"code": "JBO",
+"name": "Jamadobu",
+"lat": 23.71514,
+"lon": 86.41003,
+"state": "Jharkhand"
+},
+{
+"code": "IDM",
+"name": "Indemau",
+"lat": 26.31834,
+"lon": 80.76702,
+"state": "Uttar Pradesh"
+},
+{
+"code": "ICL",
+"name": "Ichauli",
+"lat": 25.52096,
+"lon": 80.17883,
+"state": "Uttar Pradesh"
+},
+{
+"code": "HSB",
+"name": "Hasanbazar Halt",
+"lat": 25.26658,
+"lon": 84.3493,
+"state": "Bihar"
+},
+{
+"code": "JI",
+"name": "Jhusi",
+"lat": 25.43115,
+"lon": 81.91664,
+"state": "Uttar Pradesh"
+},
+{
+"code": "JKI",
+"name": "Kauriaa Jungle",
+"lat": 26.88107,
+"lon": 83.2998,
+"state": "Uttar Pradesh"
+},
+{
+"code": "KBSH",
+"name": "Krishna Ballabh",
+"lat": 24.25582,
+"lon": 86.48296,
+"state": "Jharkhand"
+},
+{
+"code": "KHTN",
+"name": "Khutauna",
+"lat": 26.49437,
+"lon": 86.39741,
+"state": "Bihar"
+},
+{
+"code": "KJC",
+"name": "Kasganj City",
+"lat": 27.81497,
+"lon": 78.65806,
+"state": "Uttar Pradesh"
+},
+{
+"code": "KID",
+"name": "Khairar Jn",
+"lat": 25.45196,
+"lon": 80.23607,
+"state": "Uttar Pradesh"
+},
+{
+"code": "KHOH",
+"name": "Khoh",
+"lat": 25.20949,
+"lon": 80.97998,
+"state": "Uttar Pradesh"
+},
+{
+"code": "KLAR",
+"name": "Kulpahar",
+"lat": 25.29552,
+"lon": 79.63751,
+"state": "Uttar Pradesh"
+},
+{
+"code": "KCT",
+"name": "Kirakat",
+"lat": 25.64535,
+"lon": 82.9248,
+"state": "Uttar Pradesh"
+},
+{
+"code": "KDPS",
+"name": "Kadipur Sani Ha",
+"lat": 27.86275,
+"lon": 80.77904,
+"state": "Uttar Pradesh"
+},
+{
+"code": "KITN",
+"name": "Khiri Town",
+"lat": 27.90294,
+"lon": 80.78848,
+"state": "Uttar Pradesh"
+},
+{
+"code": "KOZ",
+"name": "Kosma",
+"lat": 27.15666,
+"lon": 78.83728,
+"state": "Uttar Pradesh"
+},
+{
+"code": "MLQ",
+"name": "Malkera Junction",
+"lat": 23.77973,
+"lon": 86.29695,
+"state": "Jharkhand"
+},
+{
+"code": "KNH",
+"name": "Konch",
+"lat": 25.99511,
+"lon": 79.15771,
+"state": "Uttar Pradesh"
+},
+{
+"code": "KNPS",
+"name": "Kendposi",
+"lat": 22.29485,
+"lon": 85.73248,
+"state": "Jharkhand"
+},
+{
+"code": "KNF",
+"name": "Khanudih",
+"lat": 23.82022,
+"lon": 86.19216,
+"state": "Jharkhand"
+},
+{
+"code": "LRD",
+"name": "Lar Road",
+"lat": 26.21389,
+"lon": 83.91018,
+"state": "Uttar Pradesh"
+},
+{
+"code": "KURO",
+"name": "Korari",
+"lat": 26.48788,
+"lon": 80.529,
+"state": "Uttar Pradesh"
+},
+{
+"code": "MAI",
+"name": "Mehsi",
+"lat": 26.3549,
+"lon": 85.09632,
+"state": "Bihar"
+},
+{
+"code": "KXK",
+"name": "Kharkhauda",
+"lat": 28.83344,
+"lon": 77.73904,
+"state": "Uttar Pradesh"
+},
+{
+"code": "LGO",
+"name": "Lalgopalganj",
+"lat": 25.6422,
+"lon": 81.63018,
+"state": "Uttar Pradesh"
+},
+{
+"code": "LLJ",
+"name": "Lalganj",
+"lat": 26.17239,
+"lon": 80.97317,
+"state": "Uttar Pradesh"
+},
+{
+"code": "MALA",
+"name": "Mala",
+"lat": 28.59285,
+"lon": 79.91697,
+"state": "Uttar Pradesh"
+},
+{
+"code": "MJHL",
+"name": "Majada Halt",
+"lat": 28.46176,
+"lon": 78.74321,
+"state": "Uttar Pradesh"
+},
+{
+"code": "MHO",
+"name": "Mahpur",
+"lat": 25.60517,
+"lon": 83.24698,
+"state": "Uttar Pradesh"
+},
+{
+"code": "MGI",
+"name": "Manigachi",
+"lat": 26.21372,
+"lon": 86.1466,
+"state": "Bihar"
+},
+{
+"code": "MHI",
+"name": "Manihari",
+"lat": 25.34322,
+"lon": 87.61973,
+"state": "Bihar"
+},
+{
+"code": "MIN",
+"name": "Mihinpurwa",
+"lat": 28.02734,
+"lon": 81.38447,
+"state": "Uttar Pradesh"
+},
+{
+"code": "NEMA",
+"name": "Nema Halt",
+"lat": 25.40959,
+"lon": 85.07225,
+"state": "Bihar"
+},
+{
+"code": "MRHA",
+"name": "Murahara",
+"lat": 24.91338,
+"lon": 86.93453,
+"state": "Bihar"
+},
+{
+"code": "MTH",
+"name": "Mataundh",
+"lat": 25.41898,
+"lon": 80.14851,
+"state": "Uttar Pradesh"
+},
+{
+"code": "MQX",
+"name": "Meralgram",
+"lat": 24.19691,
+"lon": 83.70963,
+"state": "Jharkhand"
+},
+{
+"code": "MWF",
+"name": "Magardaha",
+"lat": 24.38875,
+"lon": 82.90584,
+"state": "Uttar Pradesh"
+},
+{
+"code": "MTR",
+"name": "Motipur",
+"lat": 26.25704,
+"lon": 85.1682,
+"state": "Bihar"
+},
+{
+"code": "MRLI",
+"name": "Murli Halt",
+"lat": 25.01716,
+"lon": 87.7732,
+"state": "Jharkhand"
+},
+{
+"code": "MSTH",
+"name": "Misrikh Tirath",
+"lat": 27.42248,
+"lon": 80.5303,
+"state": "Uttar Pradesh"
+},
+{
+"code": "MRIJ",
+"name": "Murliganj",
+"lat": 25.88851,
+"lon": 87.00045,
+"state": "Bihar"
+},
+{
+"code": "MGWN",
+"name": "Mahgawan Halt",
+"lat": 25.81726,
+"lon": 82.69625,
+"state": "Uttar Pradesh"
+},
+{
+"code": "DDD",
+"name": "Dhondha Dih",
+"lat": 25.67285,
+"lon": 83.79552,
+"state": "Uttar Pradesh"
+},
+{
+"code": "NRV",
+"name": "Nariyar",
+"lat": 26.24038,
+"lon": 85.21764,
+"state": "Bihar"
+},
+{
+"code": "NRY",
+"name": "Nyoriya Husenpur",
+"lat": 28.73453,
+"lon": 79.88966,
+"state": "Uttar Pradesh"
+},
+{
+"code": "NUQ",
+"name": "Nagar Untari",
+"lat": 24.28573,
+"lon": 83.51416,
+"state": "Jharkhand"
+},
+{
+"code": "NOMD",
+"name": "Noamundi",
+"lat": 22.15311,
+"lon": 85.51368,
+"state": "Jharkhand"
+},
+{
+"code": "ACH",
+"name": "Achalganj",
+"lat": 26.44464,
+"lon": 80.54541,
+"state": "Uttar Pradesh"
+},
+{
+"code": "NNX",
+"name": "Nanauta",
+"lat": 29.7122,
+"lon": 77.4424,
+"state": "Uttar Pradesh"
+},
+{
+"code": "OEL",
+"name": "Oel",
+"lat": 27.8198,
+"lon": 80.74816,
+"state": "Uttar Pradesh"
+},
+{
+"code": "PD",
+"name": "Pharadahan",
+"lat": 27.99346,
+"lon": 80.63195,
+"state": "Uttar Pradesh"
+},
+{
+"code": "NSA",
+"name": "Nishangara",
+"lat": 28.11246,
+"lon": 81.31127,
+"state": "Uttar Pradesh"
+},
+{
+"code": "MHUR",
+"name": "Mohanpur",
+"lat": 24.48846,
+"lon": 86.78565,
+"state": "Jharkhand"
+},
+{
+"code": "PNRA",
+"name": "Paniara",
+"lat": 25.90207,
+"lon": 83.52585,
+"state": "Uttar Pradesh"
+},
+{
+"code": "PLK",
+"name": "Palia Kalan",
+"lat": 28.42664,
+"lon": 80.58239,
+"state": "Uttar Pradesh"
+},
+{
+"code": "PPA",
+"name": "Pipra",
+"lat": 26.48978,
+"lon": 84.98573,
+"state": "Bihar"
+},
+{
+"code": "MHBG",
+"name": "Mahadev Buzurg",
+"lat": 27.451,
+"lon": 82.87452,
+"state": "Uttar Pradesh"
+},
+{
+"code": "PGC",
+"name": "Panchgachia",
+"lat": 25.96929,
+"lon": 86.59822,
+"state": "Bihar"
+},
+{
+"code": "RR",
+"name": "Richha Road",
+"lat": 28.71727,
+"lon": 79.4889,
+"state": "Uttar Pradesh"
+},
+{
+"code": "RGH",
+"name": "Ramgarhwa",
+"lat": 26.87384,
+"lon": 84.79715,
+"state": "Bihar"
+},
+{
+"code": "RCRA",
+"name": "Ramchaura",
+"lat": 26.99795,
+"lon": 83.26841,
+"state": "Uttar Pradesh"
+},
+{
+"code": "DPL",
+"name": "Danauli Phlwria",
+"lat": 25.42047,
+"lon": 86.24941,
+"state": "Bihar"
+},
+{
+"code": "PTPR",
+"name": "Pratabpur",
+"lat": 28.47642,
+"lon": 79.81455,
+"state": "Uttar Pradesh"
+},
+{
+"code": "JSR",
+"name": "Jasra",
+"lat": 25.28,
+"lon": 81.77462,
+"state": "Uttar Pradesh"
+},
+{
+"code": "SAPT",
+"name": "Sugapahari",
+"lat": 24.27892,
+"lon": 86.56874,
+"state": "Jharkhand"
+},
+{
+"code": "SAF",
+"name": "Salkhapur",
+"lat": 25.65508,
+"lon": 82.68047,
+"state": "Uttar Pradesh"
+},
+{
+"code": "SKW",
+"name": "Sheikhupur",
+"lat": 28.00386,
+"lon": 79.10473,
+"state": "Uttar Pradesh"
+},
+{
+"code": "SAHI",
+"name": "Sathi",
+"lat": 27.01588,
+"lon": 84.50386,
+"state": "Bihar"
+},
+{
+"code": "SFA",
+"name": "Sanhera Halt",
+"lat": 28.90338,
+"lon": 77.28234,
+"state": "Uttar Pradesh"
+},
+{
+"code": "SD",
+"name": "Sidhauli",
+"lat": 27.281,
+"lon": 80.83759,
+"state": "Uttar Pradesh"
+},
+{
+"code": "SDG",
+"name": "Sahadai Buzurg",
+"lat": 25.66149,
+"lon": 85.45509,
+"state": "Bihar"
+},
+{
+"code": "SG",
+"name": "Shahgarh",
+"lat": 28.55924,
+"lon": 80.04301,
+"state": "Uttar Pradesh"
+},
+{
+"code": "SDC",
+"name": "Saidabad",
+"lat": 25.37914,
+"lon": 82.1202,
+"state": "Uttar Pradesh"
+},
+{
+"code": "SBW",
+"name": "Shewbabudih",
+"lat": 23.65948,
+"lon": 86.39067,
+"state": "Jharkhand"
+},
+{
+"code": "SWC",
+"name": "Shivrampur",
+"lat": 25.21938,
+"lon": 80.82678,
+"state": "Uttar Pradesh"
+},
+{
+"code": "DXK",
+"name": "Dhana Kherli",
+"lat": 26.95017,
+"lon": 77.53578,
+"state": "Uttar Pradesh"
+},
+{
+"code": "FTS",
+"name": "Fatehpur Sikri",
+"lat": 27.09399,
+"lon": 77.6706,
+"state": "Uttar Pradesh"
+},
+{
+"code": "PTLI",
+"name": "Pathauli",
+"lat": 27.15684,
+"lon": 77.92459,
+"state": "Uttar Pradesh"
+},
+{
+"code": "SW",
+"name": "Sehramau",
+"lat": 28.36076,
+"lon": 80.29658,
+"state": "Uttar Pradesh"
+},
+{
+"code": "GOT",
+"name": "Got",
+"lat": 28.87097,
+"lon": 78.823,
+"state": "Uttar Pradesh"
+},
+{
+"code": "TKHA",
+"name": "Takha",
+"lat": 27.13574,
+"lon": 78.76726,
+"state": "Uttar Pradesh"
+},
+{
+"code": "TGB",
+"name": "Tangarbasuli",
+"lat": 23.37403,
+"lon": 85.06381,
+"state": "Jharkhand"
+},
+{
+"code": "TLR",
+"name": "Tulsipur",
+"lat": 27.53177,
+"lon": 82.41141,
+"state": "Uttar Pradesh"
+},
+{
+"code": "TLE",
+"name": "Talgaria",
+"lat": 23.68163,
+"lon": 86.33551,
+"state": "Jharkhand"
+},
+{
+"code": "THBN",
+"name": "Thana Bhawan",
+"lat": 29.59266,
+"lon": 77.41043,
+"state": "Uttar Pradesh"
+},
+{
+"code": "EKH",
+"name": "Eksari Halt",
+"lat": 25.13497,
+"lon": 85.88932,
+"state": "Bihar"
+},
+{
+"code": "VAA",
+"name": "Bhaga Junction",
+"lat": 23.72333,
+"lon": 86.40556,
+"state": "Jharkhand"
+},
+{
+"code": "UGP",
+"name": "Ugarpur",
+"lat": 27.35148,
+"lon": 79.51165,
+"state": "Uttar Pradesh"
+},
+{
+"code": "AO",
+"name": "Aonla",
+"lat": 28.29605,
+"lon": 79.16915,
+"state": "Uttar Pradesh"
+},
+{
+"code": "DBR",
+"name": "Dabhaura",
+"lat": 25.11793,
+"lon": 81.30313,
+"state": "Uttar Pradesh"
+},
+{
+"code": "ALY",
+"name": "Allahabad City",
+"lat": 25.44241,
+"lon": 81.82974,
+"state": "Uttar Pradesh"
+},
+{
+"code": "UWNR",
+"name": "Udwant Nagar Halt",
+"lat": 25.49653,
+"lon": 84.61131,
+"state": "Bihar"
+},
+{
+"code": "UCR",
+"name": "Unchahar Junction",
+"lat": 25.90232,
+"lon": 81.30014,
+"state": "Uttar Pradesh"
+},
+{
+"code": "VPH",
+"name": "Vachaspati Nagar",
+"lat": 26.4002,
+"lon": 86.32516,
+"state": "Bihar"
+},
+{
+"code": "BAKT",
+"name": "Barhara Kothi",
+"lat": 25.77694,
+"lon": 87.09632,
+"state": "Bihar"
+},
+{
+"code": "CM",
+"name": "Campierganj",
+"lat": 27.05777,
+"lon": 83.26738,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BBLK",
+"name": "B L Daspuri",
+"lat": 27.317,
+"lon": 79.36352,
+"state": "Uttar Pradesh"
+},
+{
+"code": "ASI",
+"name": "Arseni",
+"lat": 27.2431,
+"lon": 80.39386,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BFG",
+"name": "Bagthar",
+"lat": 26.79623,
+"lon": 77.52219,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BBE",
+"name": "Baghi Bardiha",
+"lat": 24.95308,
+"lon": 85.62333,
+"state": "Bihar"
+},
+{
+"code": "BFX",
+"name": "Baghi Ghauspur",
+"lat": 25.05195,
+"lon": 85.68403,
+"state": "Bihar"
+},
+{
+"code": "ANDN",
+"name": "Anand Nagar",
+"lat": 27.10371,
+"lon": 83.2707,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BAKA",
+"name": "Banka",
+"lat": 24.8659,
+"lon": 86.91169,
+"state": "Bihar"
+},
+{
+"code": "BJV",
+"name": "Bijauria",
+"lat": 28.57478,
+"lon": 79.65527,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BHJ",
+"name": "Barhaj Bazar",
+"lat": 26.28391,
+"lon": 83.7315,
+"state": "Uttar Pradesh"
+},
+{
+"code": "AWG",
+"name": "Awa Garh",
+"lat": 27.46425,
+"lon": 78.4734,
+"state": "Uttar Pradesh"
+},
+{
+"code": "SBK",
+"name": "Shahbaz Kuli",
+"lat": 25.6321,
+"lon": 83.67465,
+"state": "Uttar Pradesh"
+},
+{
+"code": "UMNR",
+"name": "Umeshnagar",
+"lat": 25.46109,
+"lon": 86.4312,
+"state": "Bihar"
+},
+{
+"code": "BDBP",
+"name": "Basudebpur",
+"lat": 24.63553,
+"lon": 87.98254,
+"state": "Bihar"
+},
+{
+"code": "BDHP",
+"name": "Bhudpur",
+"lat": 29.21809,
+"lon": 77.29117,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BKF",
+"name": "Bhikhna Thori",
+"lat": 27.3336,
+"lon": 84.61057,
+"state": "Bihar"
+},
+{
+"code": "BEHS",
+"name": "Bihar Sharif",
+"lat": 25.20612,
+"lon": 85.53907,
+"state": "Bihar"
+},
+{
+"code": "BHI",
+"name": "Baheri",
+"lat": 28.77739,
+"lon": 79.50032,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BHB",
+"name": "Badla Ghat",
+"lat": 25.55376,
+"lon": 86.58714,
+"state": "Bihar"
+},
+{
+"code": "BJO",
+"name": "Bijnor",
+"lat": 29.38563,
+"lon": 78.1468,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BLQR",
+"name": "Bilaspur Road",
+"lat": 28.8656,
+"lon": 79.25426,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BHLE",
+"name": "Barahat",
+"lat": 24.9206,
+"lon": 87.01008,
+"state": "Bihar"
+},
+{
+"code": "LLP",
+"name": "Lalitgram",
+"lat": 26.35666,
+"lon": 87.01227,
+"state": "Bihar"
+},
+{
+"code": "BGU",
+"name": "Bairgania",
+"lat": 26.73828,
+"lon": 85.27333,
+"state": "Bihar"
+},
+{
+"code": "BKT",
+"name": "Bakshi Ka Talab",
+"lat": 26.98345,
+"lon": 80.92233,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BFPA",
+"name": "Bhopatpur",
+"lat": 28.37546,
+"lon": 79.80514,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BADK",
+"name": "Barka",
+"lat": 29.07256,
+"lon": 77.2733,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BELA",
+"name": "Bela",
+"lat": 24.97843,
+"lon": 84.98135,
+"state": "Bihar"
+},
+{
+"code": "BMHR",
+"name": "Bamanheri",
+"lat": 29.51476,
+"lon": 77.70639,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BJ",
+"name": "Bahjoi",
+"lat": 28.4015,
+"lon": 78.63151,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BNSP",
+"name": "Bansapahar",
+"lat": 25.05551,
+"lon": 81.05002,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BLP",
+"name": "Balrampur",
+"lat": 27.41582,
+"lon": 82.16067,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BJMD",
+"name": "Bara Jamda",
+"lat": 22.16653,
+"lon": 85.41239,
+"state": "Jharkhand"
+},
+{
+"code": "BIC",
+"name": "Bichia",
+"lat": 28.18307,
+"lon": 81.27208,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BJE",
+"name": "Bhojudih Junction",
+"lat": 23.64217,
+"lon": 86.447,
+"state": "Jharkhand"
+},
+{
+"code": "BRY",
+"name": "Bareilly",
+"lat": 28.33728,
+"lon": 79.41097,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BPRA",
+"name": "Baripura",
+"lat": 25.34073,
+"lon": 79.94349,
+"state": "Uttar Pradesh"
+},
+{
+"code": "AKZ",
+"name": "Akashi",
+"lat": 23.38512,
+"lon": 84.88779,
+"state": "Jharkhand"
+},
+{
+"code": "CKYD",
+"name": "Chakra Road",
+"lat": 26.00121,
+"lon": 83.67218,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BSKH",
+"name": "Basukinath",
+"lat": 24.38894,
+"lon": 87.0451,
+"state": "Jharkhand"
+},
+{
+"code": "BNQL",
+"name": "Bhankala Halt",
+"lat": 29.84559,
+"lon": 77.47435,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BRLI",
+"name": "Barauli",
+"lat": 26.55206,
+"lon": 77.42499,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BNKI",
+"name": "Banmankhi Junction",
+"lat": 25.88509,
+"lon": 87.19366,
+"state": "Bihar"
+},
+{
+"code": "KAT",
+"name": "Khatauli",
+"lat": 29.27371,
+"lon": 77.73699,
+"state": "Uttar Pradesh"
+},
+{
+"code": "PQY",
+"name": "Pabli Khas",
+"lat": 29.05601,
+"lon": 77.69834,
+"state": "Uttar Pradesh"
+},
+{
+"code": "GUH",
+"name": "Guldhar",
+"lat": 28.70375,
+"lon": 77.45579,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BRU",
+"name": "Bhairoganj",
+"lat": 27.15142,
+"lon": 84.2424,
+"state": "Bihar"
+},
+{
+"code": "BTH",
+"name": "Bettiah",
+"lat": 26.80588,
+"lon": 84.52296,
+"state": "Bihar"
+},
+{
+"code": "BSC",
+"name": "Bulandshahr",
+"lat": 28.39192,
+"lon": 77.84824,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BTG",
+"name": "Basharatganj",
+"lat": 28.28801,
+"lon": 79.2852,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BRG",
+"name": "Bargarh",
+"lat": 25.16427,
+"lon": 81.45006,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BDME",
+"name": "Baidyanathdham Deoghar",
+"lat": 24.48926,
+"lon": 86.69207,
+"state": "Jharkhand"
+},
+{
+"code": "BYHA",
+"name": "Barya Ram",
+"lat": 25.56693,
+"lon": 82.22659,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BUG",
+"name": "Bagaha",
+"lat": 27.13005,
+"lon": 84.06699,
+"state": "Bihar"
+},
+{
+"code": "CAI",
+"name": "Chanpatia",
+"lat": 26.94163,
+"lon": 84.53064,
+"state": "Bihar"
+},
+{
+"code": "CAA",
+"name": "Chakia",
+"lat": 26.41718,
+"lon": 85.04636,
+"state": "Bihar"
+},
+{
+"code": "BXM",
+"name": "Belrayan",
+"lat": 28.37938,
+"lon": 80.91527,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BHGJ",
+"name": "Bihariganj",
+"lat": 25.7326,
+"lon": 86.99265,
+"state": "Bihar"
+},
+{
+"code": "CH",
+"name": "Chandausi Jn",
+"lat": 28.45863,
+"lon": 78.78027,
+"state": "Uttar Pradesh"
+},
+{
+"code": "CPJ",
+"name": "Kaptanganj Jn",
+"lat": 26.92639,
+"lon": 83.69991,
+"state": "Uttar Pradesh"
+},
+{
+"code": "AWS",
+"name": "Aswani Halt",
+"lat": 27.15958,
+"lon": 84.05184,
+"state": "Bihar"
+},
+{
+"code": "DES",
+"name": "Desari",
+"lat": 25.66836,
+"lon": 85.40877,
+"state": "Bihar"
+},
+{
+"code": "DGHR",
+"name": "Deoghar",
+"lat": 24.51178,
+"lon": 86.69712,
+"state": "Jharkhand"
+},
+{
+"code": "DEO",
+"name": "Deokali",
+"lat": 27.97732,
+"lon": 80.70516,
+"state": "Uttar Pradesh"
+},
+{
+"code": "DON",
+"name": "Derawan Halt",
+"lat": 23.23026,
+"lon": 76.10444,
+"state": "Jharkhand"
+},
+{
+"code": "DHT",
+"name": "Dhamara Ghat",
+"lat": 25.59082,
+"lon": 86.59952,
+"state": "Bihar"
+},
+{
+"code": "DLR",
+"name": "Dullahapur",
+"lat": 25.7999,
+"lon": 83.42326,
+"state": "Uttar Pradesh"
+},
+{
+"code": "DUMR",
+"name": "Dumra",
+"lat": 26.57699,
+"lon": 85.53364,
+"state": "Bihar"
+},
+{
+"code": "DHNA",
+"name": "Dhachna",
+"lat": 25.64647,
+"lon": 87.98694,
+"state": "Bihar"
+},
+{
+"code": "DMH",
+"name": "Dauram Madhepura",
+"lat": 25.90851,
+"lon": 86.78264,
+"state": "Bihar"
+},
+{
+"code": "BQF",
+"name": "Barahmuafi",
+"lat": 25.03989,
+"lon": 81.00993,
+"state": "Uttar Pradesh"
+},
+{
+"code": "FAP",
+"name": "Fakharpur Halt",
+"lat": 28.84697,
+"lon": 77.29352,
+"state": "Uttar Pradesh"
+},
+{
+"code": "GZT",
+"name": "Ghazipur Ghat",
+"lat": 25.60028,
+"lon": 83.6048,
+"state": "Uttar Pradesh"
+},
+{
+"code": "DPS",
+"name": "Dangoaposi",
+"lat": 22.16796,
+"lon": 85.59273,
+"state": "Jharkhand"
+},
+{
+"code": "DNWH",
+"name": "Daniyawan Bazar Halt",
+"lat": 25.4345,
+"lon": 85.2909,
+"state": "Bihar"
+},
+{
+"code": "AHM",
+"name": "Ahimanpur",
+"lat": 25.2524,
+"lon": 82.51154,
+"state": "Uttar Pradesh"
+},
+{
+"code": "DRGJ",
+"name": "Daraganj",
+"lat": 25.44265,
+"lon": 81.87999,
+"state": "Uttar Pradesh"
+},
+{
+"code": "DUMK",
+"name": "Dumka",
+"lat": 24.28953,
+"lon": 87.25498,
+"state": "Jharkhand"
+},
+{
+"code": "DXH",
+"name": "Duhai",
+"lat": 28.73028,
+"lon": 77.48036,
+"state": "Uttar Pradesh"
+},
+{
+"code": "DWLE",
+"name": "Dhauni",
+"lat": 25.01033,
+"lon": 86.99304,
+"state": "Bihar"
+},
+{
+"code": "DWJ",
+"name": "Dwarkaganj",
+"lat": 26.31642,
+"lon": 82.10908,
+"state": "Uttar Pradesh"
+},
+{
+"code": "EKR",
+"name": "Ekangarsarai",
+"lat": 25.22248,
+"lon": 85.23226,
+"state": "Bihar"
+},
+{
+"code": "GAH",
+"name": "Gawnaha",
+"lat": 27.26984,
+"lon": 84.52018,
+"state": "Bihar"
+},
+{
+"code": "BHGP",
+"name": "Bhagirathpur",
+"lat": 27.32663,
+"lon": 83.38771,
+"state": "Uttar Pradesh"
+},
+{
+"code": "NDJ",
+"name": "Nandganj",
+"lat": 25.54457,
+"lon": 83.39687,
+"state": "Uttar Pradesh"
+},
+{
+"code": "DYU",
+"name": "Diyuri",
+"lat": 28.60325,
+"lon": 79.87601,
+"state": "Uttar Pradesh"
+},
+{
+"code": "DYP",
+"name": "Daryapur",
+"lat": 26.1828,
+"lon": 81.24859,
+"state": "Uttar Pradesh"
+},
+{
+"code": "CBN",
+"name": "Chit Baragaon",
+"lat": 25.74411,
+"lon": 84.00154,
+"state": "Uttar Pradesh"
+},
+{
+"code": "FRDH",
+"name": "Faridaha Halt",
+"lat": 25.55796,
+"lon": 83.12602,
+"state": "Uttar Pradesh"
+},
+{
+"code": "GARA",
+"name": "Garha",
+"lat": 26.42629,
+"lon": 85.52097,
+"state": "Bihar"
+},
+{
+"code": "GDHA",
+"name": "Godha",
+"lat": 28.0059,
+"lon": 78.14123,
+"state": "Uttar Pradesh"
+},
+{
+"code": "GSDH",
+"name": "Garsanda Halt",
+"lat": 25.14262,
+"lon": 86.01131,
+"state": "Jharkhand"
+},
+{
+"code": "GHQ",
+"name": "Garhwa",
+"lat": 24.1752,
+"lon": 83.81322,
+"state": "Jharkhand"
+},
+{
+"code": "GNK",
+"name": "Garhnokha",
+"lat": 25.09724,
+"lon": 84.12284,
+"state": "Bihar"
+},
+{
+"code": "NGL",
+"name": "Nangal",
+"lat": 29.83255,
+"lon": 77.62227,
+"state": "Uttar Pradesh"
+},
+{
+"code": "MOZ",
+"name": "Muzaffarnagar",
+"lat": 29.46869,
+"lon": 77.70781,
+"state": "Uttar Pradesh"
+},
+{
+"code": "DRLA",
+"name": "Daurala",
+"lat": 29.11402,
+"lon": 77.70616,
+"state": "Uttar Pradesh"
+},
+{
+"code": "MDNR",
+"name": "Modinagar",
+"lat": 28.82791,
+"lon": 77.57172,
+"state": "Uttar Pradesh"
+},
+{
+"code": "GAW",
+"name": "Gainjahwa",
+"lat": 27.45466,
+"lon": 82.24506,
+"state": "Uttar Pradesh"
+},
+{
+"code": "GH",
+"name": "Ghughuli",
+"lat": 27.05395,
+"lon": 83.71377,
+"state": "Uttar Pradesh"
+},
+{
+"code": "SJGH",
+"name": "Sarai Jagdish",
+"lat": 25.30009,
+"lon": 82.36513,
+"state": "Uttar Pradesh"
+},
+{
+"code": "GCT",
+"name": "Ghazipur City",
+"lat": 25.58314,
+"lon": 83.56804,
+"state": "Uttar Pradesh"
+},
+{
+"code": "GKA",
+"name": "Gokhula",
+"lat": 27.06981,
+"lon": 84.53976,
+"state": "Bihar"
+},
+{
+"code": "GTRA",
+"name": "Gotra Halt",
+"lat": 28.80789,
+"lon": 77.30096,
+"state": "Uttar Pradesh"
+},
+{
+"code": "HBP",
+"name": "Harpar Bochaha",
+"lat": 25.60344,
+"lon": 85.75716,
+"state": "Bihar"
+},
+{
+"code": "GOPG",
+"name": "Gopalganj",
+"lat": 26.4542,
+"lon": 84.43555,
+"state": "Bihar"
+},
+{
+"code": "GQN",
+"name": "Garhani",
+"lat": 25.41189,
+"lon": 84.56962,
+"state": "Bihar"
+},
+{
+"code": "GUA",
+"name": "Gua",
+"lat": 22.21852,
+"lon": 85.3819,
+"state": "Jharkhand"
+},
+{
+"code": "GZN",
+"name": "New Ghaziabad",
+"lat": 28.6744,
+"lon": 77.43801,
+"state": "Uttar Pradesh"
+},
+{
+"code": "HLDR",
+"name": "Haldaur",
+"lat": 29.29008,
+"lon": 78.27506,
+"state": "Uttar Pradesh"
+},
+{
+"code": "GTF",
+"name": "Gumthal",
+"lat": 28.484,
+"lon": 78.75764,
+"state": "Uttar Pradesh"
+},
+{
+"code": "HIL",
+"name": "Hilsa",
+"lat": 25.31735,
+"lon": 85.27708,
+"state": "Bihar"
+},
+{
+"code": "HRT",
+"name": "Harnaut",
+"lat": 25.37176,
+"lon": 85.54072,
+"state": "Bihar"
+},
+{
+"code": "HRF",
+"name": "Hathras Kila",
+"lat": 27.59488,
+"lon": 78.05802,
+"state": "Uttar Pradesh"
+},
+{
+"code": "GRPA",
+"name": "Garhpura",
+"lat": 25.65472,
+"lon": 86.20904,
+"state": "Bihar"
+},
+{
+"code": "GTM",
+"name": "Ghatampur",
+"lat": 26.1513,
+"lon": 80.17471,
+"state": "Uttar Pradesh"
+},
+{
+"code": "GRMA",
+"name": "Ghormara",
+"lat": 24.4423,
+"lon": 86.86392,
+"state": "Jharkhand"
+},
+{
+"code": "HPI",
+"name": "Harapatti",
+"lat": 25.8814,
+"lon": 87.09263,
+"state": "Bihar"
+},
+{
+"code": "IZN",
+"name": "Izzatnagar",
+"lat": 28.38827,
+"lon": 79.42117,
+"state": "Uttar Pradesh"
+},
+{
+"code": "HGJ",
+"name": "Harduaganj",
+"lat": 27.99048,
+"lon": 78.12803,
+"state": "Uttar Pradesh"
+},
+{
+"code": "HRNG",
+"name": "Harpur Nag Halt",
+"lat": 26.38642,
+"lon": 85.07714,
+"state": "Bihar"
+},
+{
+"code": "HIND",
+"name": "Hind",
+"lat": 29.53039,
+"lon": 77.36347,
+"state": "Uttar Pradesh"
+},
+{
+"code": "JHD",
+"name": "Jehanabad",
+"lat": 25.22471,
+"lon": 84.98996,
+"state": "Bihar"
+},
+{
+"code": "HTW",
+"name": "Hathua",
+"lat": 26.3689,
+"lon": 84.34025,
+"state": "Bihar"
+},
+{
+"code": "HPLE",
+"name": "Hatpuraini",
+"lat": 25.15583,
+"lon": 86.98507,
+"state": "Bihar"
+},
+{
+"code": "JHDC",
+"name": "Jehanabad Court",
+"lat": 25.20114,
+"lon": 84.98416,
+"state": "Bihar"
+},
+{
+"code": "IRN",
+"name": "Irgaon",
+"lat": 23.42155,
+"lon": 84.78325,
+"state": "Jharkhand"
+},
+{
+"code": "AILM",
+"name": "Ailam",
+"lat": 29.27199,
+"lon": 77.29153,
+"state": "Uttar Pradesh"
+},
+{
+"code": "JGG",
+"name": "Jangiganj",
+"lat": 25.30532,
+"lon": 82.35067,
+"state": "Uttar Pradesh"
+},
+{
+"code": "ITKY",
+"name": "Itky",
+"lat": 23.35221,
+"lon": 85.1271,
+"state": "Jharkhand"
+},
+{
+"code": "HZR",
+"name": "Hafizpur",
+"lat": 28.67165,
+"lon": 77.78583,
+"state": "Uttar Pradesh"
+},
+{
+"code": "JRJ",
+"name": "Jargaon",
+"lat": 28.56047,
+"lon": 78.76865,
+"state": "Uttar Pradesh"
+},
+{
+"code": "KEG",
+"name": "Karengi",
+"lat": 28.34684,
+"lon": 79.04135,
+"state": "Uttar Pradesh"
+},
+{
+"code": "JKN",
+"name": "Jakhanian",
+"lat": 25.74094,
+"lon": 83.36956,
+"state": "Uttar Pradesh"
+},
+{
+"code": "KB",
+"name": "Khairatabad",
+"lat": 27.52134,
+"lon": 80.74084,
+"state": "Uttar Pradesh"
+},
+{
+"code": "JKP",
+"name": "Jharekapur",
+"lat": 27.68064,
+"lon": 80.72893,
+"state": "Uttar Pradesh"
+},
+{
+"code": "JSB",
+"name": "Yamuna South Bank",
+"lat": 25.90233,
+"lon": 80.22665,
+"state": "Uttar Pradesh"
+},
+{
+"code": "JNKR",
+"name": "Janakinagar",
+"lat": 25.8816,
+"lon": 87.11695,
+"state": "Bihar"
+},
+{
+"code": "KCO",
+"name": "Kachhia Bridge",
+"lat": 27.94417,
+"lon": 78.8638,
+"state": "Uttar Pradesh"
+},
+{
+"code": "JNK",
+"name": "Jhinkpani",
+"lat": 22.42001,
+"lon": 85.77066,
+"state": "Jharkhand"
+},
+{
+"code": "KBE",
+"name": "Kurebhar",
+"lat": 26.40947,
+"lon": 82.1116,
+"state": "Uttar Pradesh"
+},
+{
+"code": "JUA",
+"name": "Jarauna",
+"lat": 25.55713,
+"lon": 82.39914,
+"state": "Uttar Pradesh"
+},
+{
+"code": "KBR",
+"name": "Kabrai",
+"lat": 25.38519,
+"lon": 80.03824,
+"state": "Uttar Pradesh"
+},
+{
+"code": "KALI",
+"name": "Kaili",
+"lat": 28.78539,
+"lon": 77.75277,
+"state": "Uttar Pradesh"
+},
+{
+"code": "KARH",
+"name": "Kakraha Rest House",
+"lat": 27.99845,
+"lon": 81.42053,
+"state": "Uttar Pradesh"
+},
+{
+"code": "KHNM",
+"name": "Kunda Harnamganj",
+"lat": 25.71418,
+"lon": 81.50955,
+"state": "Uttar Pradesh"
+},
+{
+"code": "KFA",
+"name": "Koparia",
+"lat": 25.66104,
+"lon": 86.59816,
+"state": "Bihar"
+},
+{
+"code": "KLNA",
+"name": "Kolhana Halt",
+"lat": 24.81075,
+"lon": 85.18873,
+"state": "Bihar"
+},
+{
+"code": "KLB",
+"name": "Kiraoli",
+"lat": 27.1339,
+"lon": 77.78581,
+"state": "Uttar Pradesh"
+},
+{
+"code": "KJLU",
+"name": "Khari Jhalu",
+"lat": 29.33186,
+"lon": 78.2189,
+"state": "Uttar Pradesh"
+},
+{
+"code": "KKTA",
+"name": "Kollikhutaha",
+"lat": 25.18966,
+"lon": 86.98783,
+"state": "Bihar"
+},
+{
+"code": "KJY",
+"name": "Khurja City",
+"lat": 28.25245,
+"lon": 77.84116,
+"state": "Uttar Pradesh"
+},
+{
+"code": "KRJR",
+"name": "Karjara",
+"lat": 24.8083,
+"lon": 85.15184,
+"state": "Bihar"
+},
+{
+"code": "KTI",
+"name": "Kanti",
+"lat": 26.19894,
+"lon": 85.28509,
+"state": "Bihar"
+},
+{
+"code": "KS",
+"name": "Kheta Sarai",
+"lat": 25.96577,
+"lon": 82.68866,
+"state": "Uttar Pradesh"
+},
+{
+"code": "KYH",
+"name": "Khairah",
+"lat": 25.86101,
+"lon": 84.76011,
+"state": "Bihar"
+},
+{
+"code": "KUMB",
+"name": "Kumarbagh",
+"lat": 26.87452,
+"lon": 84.51158,
+"state": "Bihar"
+},
+{
+"code": "LAK",
+"name": "Lakho",
+"lat": 25.41636,
+"lon": 86.205,
+"state": "Bihar"
+},
+{
+"code": "KZS",
+"name": "Kuakhera Halt",
+"lat": 28.54647,
+"lon": 78.76652,
+"state": "Uttar Pradesh"
+},
+{
+"code": "KYBR",
+"name": "Khairatiya Bandh Road",
+"lat": 28.27229,
+"lon": 81.08177,
+"state": "Uttar Pradesh"
+},
+{
+"code": "LKN",
+"name": "Lakhminia",
+"lat": 25.42607,
+"lon": 86.30927,
+"state": "Bihar"
+},
+{
+"code": "LOG",
+"name": "Lohgara",
+"lat": 25.25045,
+"lon": 81.73019,
+"state": "Uttar Pradesh"
+},
+{
+"code": "LMN",
+"name": "Lachhmanpur",
+"lat": 26.05047,
+"lon": 81.25726,
+"state": "Uttar Pradesh"
+},
+{
+"code": "LNO",
+"name": "Lohna Road",
+"lat": 26.22088,
+"lon": 86.22906,
+"state": "Bihar"
+},
+{
+"code": "MEM",
+"name": "Mau Aimma",
+"lat": 25.69832,
+"lon": 81.91377,
+"state": "Uttar Pradesh"
+},
+{
+"code": "MEQ",
+"name": "Malethu Kanak",
+"lat": 26.60377,
+"lon": 82.12489,
+"state": "Uttar Pradesh"
+},
+{
+"code": "MBS",
+"name": "Madhosingh",
+"lat": 25.24993,
+"lon": 82.55228,
+"state": "Uttar Pradesh"
+},
+{
+"code": "MDVB",
+"name": "Mandar Vidyapith Halt",
+"lat": 24.8344,
+"lon": 87.02026,
+"state": "Bihar"
+},
+{
+"code": "MDLE",
+"name": "Mandar Hill",
+"lat": 24.80608,
+"lon": 87.02616,
+"state": "Bihar"
+},
+{
+"code": "MDCR",
+"name": "Masaudhi Court Halt",
+"lat": 25.36629,
+"lon": 85.04391,
+"state": "Bihar"
+},
+{
+"code": "MEW",
+"name": "Marhaura",
+"lat": 25.96908,
+"lon": 84.85098,
+"state": "Bihar"
+},
+{
+"code": "LYD",
+"name": "Layabad",
+"lat": 23.77342,
+"lon": 86.35191,
+"state": "Jharkhand"
+},
+{
+"code": "MHC",
+"name": "Masrakh",
+"lat": 26.10223,
+"lon": 84.80854,
+"state": "Bihar"
+},
+{
+"code": "MIQ",
+"name": "Mirhakur",
+"lat": 27.1512,
+"lon": 77.86601,
+"state": "Uttar Pradesh"
+},
+{
+"code": "MKP",
+"name": "Manikpur Jn",
+"lat": 25.06349,
+"lon": 81.09366,
+"state": "Uttar Pradesh"
+},
+{
+"code": "MHRL",
+"name": "Mahrail",
+"lat": 26.29408,
+"lon": 86.28478,
+"state": "Bihar"
+},
+{
+"code": "MKI",
+"name": "Bapudham Motihari",
+"lat": 26.65552,
+"lon": 84.90525,
+"state": "Bihar"
+},
+{
+"code": "MHL",
+"name": "Mahwal",
+"lat": 26.30186,
+"lon": 85.12631,
+"state": "Bihar"
+},
+{
+"code": "MGRR",
+"name": "Magarpur",
+"lat": 25.32271,
+"lon": 78.85878,
+"state": "Uttar Pradesh"
+},
+{
+"code": "MIH",
+"name": "Mihrawan",
+"lat": 25.87118,
+"lon": 82.69433,
+"state": "Uttar Pradesh"
+},
+{
+"code": "MIW",
+"name": "Mighauna",
+"lat": 28.24322,
+"lon": 79.82652,
+"state": "Uttar Pradesh"
+},
+{
+"code": "MJV",
+"name": "Manjhagarh",
+"lat": 26.41723,
+"lon": 84.50426,
+"state": "Bihar"
+},
+{
+"code": "MNDR",
+"name": "Mandi Dhanaura",
+"lat": 28.95312,
+"lon": 78.2615,
+"state": "Uttar Pradesh"
+},
+{
+"code": "MNQ",
+"name": "Mainpuri",
+"lat": 27.21651,
+"lon": 79.03477,
+"state": "Uttar Pradesh"
+},
+{
+"code": "MNO",
+"name": "Mehnar Road",
+"lat": 25.65431,
+"lon": 85.50448,
+"state": "Bihar"
+},
+{
+"code": "MNZ",
+"name": "Manani",
+"lat": 29.88491,
+"lon": 77.49861,
+"state": "Uttar Pradesh"
+},
+{
+"code": "MLN",
+"name": "Mailani",
+"lat": 28.28435,
+"lon": 80.34732,
+"state": "Uttar Pradesh"
+},
+{
+"code": "MNS",
+"name": "Manshahi",
+"lat": 25.47568,
+"lon": 87.58812,
+"state": "Bihar"
+},
+{
+"code": "MRJD",
+"name": "Marajdwa",
+"lat": 27.04305,
+"lon": 84.60192,
+"state": "Bihar"
+},
+{
+"code": "MSP",
+"name": "Mansurpur",
+"lat": 29.35538,
+"lon": 77.71918,
+"state": "Uttar Pradesh"
+},
+{
+"code": "MUT",
+"name": "Meerut Cant",
+"lat": 29.016,
+"lon": 77.68694,
+"state": "Uttar Pradesh"
+},
+{
+"code": "MTC",
+"name": "Meerut City",
+"lat": 28.97761,
+"lon": 77.67511,
+"state": "Uttar Pradesh"
+},
+{
+"code": "MUD",
+"name": "Muradnagar",
+"lat": 28.75902,
+"lon": 77.50677,
+"state": "Uttar Pradesh"
+},
+{
+"code": "MSRP",
+"name": "Murhesi Rampur",
+"lat": 27.41243,
+"lon": 77.62742,
+"state": "Uttar Pradesh"
+},
+{
+"code": "MT",
+"name": "Matera",
+"lat": 27.78493,
+"lon": 81.55345,
+"state": "Uttar Pradesh"
+},
+{
+"code": "MOM",
+"name": "Maman",
+"lat": 28.33037,
+"lon": 77.86109,
+"state": "Uttar Pradesh"
+},
+{
+"code": "MPUE",
+"name": "Mainpuri Kachri",
+"lat": 27.22714,
+"lon": 79.06563,
+"state": "Uttar Pradesh"
+},
+{
+"code": "MUZ",
+"name": "Mohiuddinpur",
+"lat": 28.88541,
+"lon": 77.62153,
+"state": "Uttar Pradesh"
+},
+{
+"code": "MXY",
+"name": "Mahuariya",
+"lat": 24.22774,
+"lon": 83.31052,
+"state": "Uttar Pradesh"
+},
+{
+"code": "MZW",
+"name": "Manjhwe",
+"lat": 24.81429,
+"lon": 85.30663,
+"state": "Bihar"
+},
+{
+"code": "MUH",
+"name": "Murthiha",
+"lat": 28.03046,
+"lon": 81.37815,
+"state": "Uttar Pradesh"
+},
+{
+"code": "NDU",
+"name": "Nadauj",
+"lat": 25.29654,
+"lon": 85.01734,
+"state": "Bihar"
+},
+{
+"code": "NSU",
+"name": "Nisui",
+"lat": 28.29093,
+"lon": 79.23645,
+"state": "Uttar Pradesh"
+},
+{
+"code": "NKE",
+"name": "Narkatiaganj Jn",
+"lat": 27.10504,
+"lon": 84.46404,
+"state": "Bihar"
+},
+{
+"code": "NTG",
+"name": "Nursratabad Kharkhar",
+"lat": 28.77528,
+"lon": 77.30778,
+"state": "Uttar Pradesh"
+},
+{
+"code": "NMA",
+"name": "Nirmali",
+"lat": 26.30532,
+"lon": 86.57462,
+"state": "Bihar"
+},
+{
+"code": "NLD",
+"name": "Nalanda",
+"lat": 25.12236,
+"lon": 85.46277,
+"state": "Bihar"
+},
+{
+"code": "SSC",
+"name": "Shahi",
+"lat": 28.58817,
+"lon": 79.691,
+"state": "Uttar Pradesh"
+},
+{
+"code": "NJA",
+"name": "Nagjua",
+"lat": 23.37829,
+"lon": 84.96684,
+"state": "Jharkhand"
+},
+{
+"code": "PEE",
+"name": "Paterhi",
+"lat": 25.92356,
+"lon": 84.80549,
+"state": "Bihar"
+},
+{
+"code": "OBR",
+"name": "Obra Dam",
+"lat": 24.43866,
+"lon": 82.97595,
+"state": "Uttar Pradesh"
+},
+{
+"code": "PJLE",
+"name": "Panjwara Road",
+"lat": 24.87705,
+"lon": 87.01368,
+"state": "Bihar"
+},
+{
+"code": "PHX",
+"name": "Pathakpur",
+"lat": 28.36969,
+"lon": 78.58049,
+"state": "Uttar Pradesh"
+},
+{
+"code": "PMYA",
+"name": "Parminiya Halt",
+"lat": 25.82656,
+"lon": 86.59504,
+"state": "Bihar"
+},
+{
+"code": "PMI",
+"name": "Paimar",
+"lat": 24.80693,
+"lon": 85.11241,
+"state": "Bihar"
+},
+{
+"code": "PIRO",
+"name": "Piro",
+"lat": 25.32136,
+"lon": 84.42054,
+"state": "Bihar"
+},
+{
+"code": "PMM",
+"name": "Parsehra Mal",
+"lat": 27.72992,
+"lon": 80.72918,
+"state": "Uttar Pradesh"
+},
+{
+"code": "PFT",
+"name": "Pothahi",
+"lat": 25.48661,
+"lon": 85.09864,
+"state": "Bihar"
+},
+{
+"code": "PQE",
+"name": "Pawapuri Road",
+"lat": 25.15921,
+"lon": 85.51171,
+"state": "Bihar"
+},
+{
+"code": "PLS",
+"name": "Pipalsana",
+"lat": 28.95215,
+"lon": 78.83533,
+"state": "Uttar Pradesh"
+},
+{
+"code": "PRTP",
+"name": "Partapur",
+"lat": 28.92511,
+"lon": 77.6487,
+"state": "Uttar Pradesh"
+},
+{
+"code": "PUF",
+"name": "Pauta",
+"lat": 28.4516,
+"lon": 79.81187,
+"state": "Uttar Pradesh"
+},
+{
+"code": "PLWR",
+"name": "Phulwaria",
+"lat": 26.4688,
+"lon": 84.25562,
+"state": "Uttar Pradesh"
+},
+{
+"code": "PLP",
+"name": "Phulpur",
+"lat": 25.55253,
+"lon": 82.09153,
+"state": "Uttar Pradesh"
+},
+{
+"code": "PRG",
+"name": "Prayag",
+"lat": 25.46794,
+"lon": 81.86708,
+"state": "Uttar Pradesh"
+},
+{
+"code": "PNSA",
+"name": "Punsia",
+"lat": 24.95317,
+"lon": 87.00375,
+"state": "Bihar"
+},
+{
+"code": "KRSL",
+"name": "Krishnashilla",
+"lat": 24.15503,
+"lon": 82.7685,
+"state": "Uttar Pradesh"
+},
+{
+"code": "RMGJ",
+"name": "Ramganj",
+"lat": 26.04917,
+"lon": 82.02073,
+"state": "Uttar Pradesh"
+},
+{
+"code": "PRKE",
+"name": "Purua Khera",
+"lat": 28.38702,
+"lon": 78.94859,
+"state": "Uttar Pradesh"
+},
+{
+"code": "RBK",
+"name": "Reoti Bahora Khera",
+"lat": 28.31871,
+"lon": 79.10705,
+"state": "Uttar Pradesh"
+},
+{
+"code": "PPKD",
+"name": "Paprakund",
+"lat": 24.42109,
+"lon": 82.93171,
+"state": "Uttar Pradesh"
+},
+{
+"code": "PRZ",
+"name": "Parsa",
+"lat": 27.43515,
+"lon": 82.9085,
+"state": "Uttar Pradesh"
+},
+{
+"code": "PRBZ",
+"name": "Parsa Bazar",
+"lat": 25.55002,
+"lon": 85.11888,
+"state": "Bihar"
+},
+{
+"code": "RNIR",
+"name": "Rajnarainpur",
+"lat": 28.31386,
+"lon": 80.41836,
+"state": "Uttar Pradesh"
+},
+{
+"code": "PPN",
+"name": "Punpun",
+"lat": 25.48823,
+"lon": 85.09877,
+"state": "Bihar"
+},
+{
+"code": "RBN",
+"name": "Raghubans Nagar",
+"lat": 25.75671,
+"lon": 87.06006,
+"state": "Bihar"
+},
+{
+"code": "RGLI",
+"name": "Rangauli",
+"lat": 25.15023,
+"lon": 79.88728,
+"state": "Uttar Pradesh"
+},
+{
+"code": "RRE",
+"name": "Rahul Road",
+"lat": 25.27419,
+"lon": 85.53093,
+"state": "Bihar"
+},
+{
+"code": "RGD",
+"name": "Rajgir",
+"lat": 25.03307,
+"lon": 85.4147,
+"state": "Bihar"
+},
+{
+"code": "RPLY",
+"name": "Rupauli",
+"lat": 25.87933,
+"lon": 87.05794,
+"state": "Bihar"
+},
+{
+"code": "RPV",
+"name": "Rajapatti",
+"lat": 26.18081,
+"lon": 84.80838,
+"state": "Bihar"
+},
+{
+"code": "PTRE",
+"name": "Patara",
+"lat": 26.23217,
+"lon": 80.20345,
+"state": "Uttar Pradesh"
+},
+{
+"code": "RBJ",
+"name": "Raibojha",
+"lat": 27.97121,
+"lon": 81.47165,
+"state": "Uttar Pradesh"
+},
+{
+"code": "RNA",
+"name": "Rohana Kalan",
+"lat": 29.57572,
+"lon": 77.68576,
+"state": "Uttar Pradesh"
+},
+{
+"code": "RIGA",
+"name": "Riga",
+"lat": 26.64454,
+"lon": 85.42571,
+"state": "Bihar"
+},
+{
+"code": "RPMN",
+"name": "Rampurmani Hara",
+"lat": 29.8056,
+"lon": 77.45987,
+"state": "Uttar Pradesh"
+},
+{
+"code": "RNQ",
+"name": "Renukut",
+"lat": 24.20356,
+"lon": 83.0399,
+"state": "Uttar Pradesh"
+},
+{
+"code": "RRS",
+"name": "Raghuraj Singh",
+"lat": 26.25584,
+"lon": 80.87967,
+"state": "Uttar Pradesh"
+},
+{
+"code": "RJ",
+"name": "Rawat Ganj",
+"lat": 26.95783,
+"lon": 83.28588,
+"state": "Uttar Pradesh"
+},
+{
+"code": "SBM",
+"name": "Sonbarsa Kacheri",
+"lat": 25.79381,
+"lon": 86.59566,
+"state": "Bihar"
+},
+{
+"code": "SAHR",
+"name": "Saheri",
+"lat": 25.5591,
+"lon": 83.44912,
+"state": "Uttar Pradesh"
+},
+{
+"code": "RZJ",
+"name": "Razaganj",
+"lat": 27.9944,
+"lon": 80.63289,
+"state": "Uttar Pradesh"
+},
+{
+"code": "RTR",
+"name": "Ramnathpur",
+"lat": 25.41236,
+"lon": 82.01778,
+"state": "Uttar Pradesh"
+},
+{
+"code": "SIPA",
+"name": "Singhookharia",
+"lat": 22.49824,
+"lon": 85.79513,
+"state": "Jharkhand"
+},
+{
+"code": "RUSD",
+"name": "Runnisaidpur",
+"lat": 26.41058,
+"lon": 85.51969,
+"state": "Bihar"
+},
+{
+"code": "SEW",
+"name": "Sehal",
+"lat": 28.91857,
+"lon": 78.82266,
+"state": "Uttar Pradesh"
+},
+{
+"code": "DUB",
+"name": "Dabtara",
+"lat": 28.36842,
+"lon": 78.99116,
+"state": "Uttar Pradesh"
+},
+{
+"code": "SKHK",
+"name": "Sukhasan Kothi",
+"lat": 25.84139,
+"lon": 87.1521,
+"state": "Bihar"
+},
+{
+"code": "SHC",
+"name": "Saharsa Jn",
+"lat": 25.87521,
+"lon": 86.59495,
+"state": "Bihar"
+},
+{
+"code": "SHK",
+"name": "Sheikpura",
+"lat": 25.13209,
+"lon": 85.85402,
+"state": "Bihar"
+},
+{
+"code": "SMKR",
+"name": "Sham Kauria",
+"lat": 26.03582,
+"lon": 84.83304,
+"state": "Bihar"
+},
+{
+"code": "SKF",
+"name": "Sakhoti Tanda",
+"lat": 29.19263,
+"lon": 77.71805,
+"state": "Uttar Pradesh"
+},
+{
+"code": "SMQL",
+"name": "Shamli",
+"lat": 29.4446,
+"lon": 77.31623,
+"state": "Uttar Pradesh"
+},
+{
+"code": "SOI",
+"name": "Sonaripur",
+"lat": 28.47464,
+"lon": 80.72742,
+"state": "Uttar Pradesh"
+},
+{
+"code": "SQW",
+"name": "Sidhwalia",
+"lat": 26.33384,
+"lon": 84.667,
+"state": "Bihar"
+},
+{
+"code": "SJJ",
+"name": "Sanjha",
+"lat": 25.06583,
+"lon": 87.00085,
+"state": "Bihar"
+},
+{
+"code": "SILO",
+"name": "Silao",
+"lat": 25.0786,
+"lon": 85.43464,
+"state": "Bihar"
+},
+{
+"code": "SOW",
+"name": "Suhsarai",
+"lat": 25.27395,
+"lon": 85.53003,
+"state": "Bihar"
+},
+{
+"code": "SKTN",
+"name": "Shakti Nagar",
+"lat": 24.1229,
+"lon": 82.70473,
+"state": "Uttar Pradesh"
+},
+{
+"code": "SNX",
+"name": "Saneh Road",
+"lat": 29.68965,
+"lon": 78.4494,
+"state": "Uttar Pradesh"
+},
+{
+"code": "SRA",
+"name": "Semra",
+"lat": 26.71195,
+"lon": 84.8137,
+"state": "Bihar"
+},
+{
+"code": "SRSI",
+"name": "Sarsi",
+"lat": 25.86332,
+"lon": 87.28522,
+"state": "Bihar"
+},
+{
+"code": "STF",
+"name": "Sikta",
+"lat": 27.02436,
+"lon": 84.68054,
+"state": "Bihar"
+},
+{
+"code": "SRNK",
+"name": "Soron",
+"lat": 27.88335,
+"lon": 78.74846,
+"state": "Uttar Pradesh"
+},
+{
+"code": "SOU",
+"name": "Supaul",
+"lat": 26.11756,
+"lon": 86.60302,
+"state": "Bihar"
+},
+{
+"code": "SNDY",
+"name": "Sandai",
+"lat": 28.57263,
+"lon": 79.99098,
+"state": "Uttar Pradesh"
+},
+{
+"code": "SPGL",
+"name": "Sarai Gopal",
+"lat": 25.54866,
+"lon": 81.82228,
+"state": "Uttar Pradesh"
+},
+{
+"code": "STH",
+"name": "Sethal",
+"lat": 28.54319,
+"lon": 79.56737,
+"state": "Uttar Pradesh"
+},
+{
+"code": "SRMN",
+"name": "Semraon",
+"lat": 25.39516,
+"lon": 84.52704,
+"state": "Bihar"
+},
+{
+"code": "SNDT",
+"name": "Sindri Town",
+"lat": 23.66099,
+"lon": 86.47988,
+"state": "Jharkhand"
+},
+{
+"code": "SRN",
+"name": "Soron",
+"lat": 27.88369,
+"lon": 78.7488,
+"state": "Uttar Pradesh"
+},
+{
+"code": "GTI",
+"name": "Ghutai",
+"lat": 25.28943,
+"lon": 79.44132,
+"state": "Uttar Pradesh"
+},
+{
+"code": "SSKA",
+"name": "Sisarka",
+"lat": 28.43128,
+"lon": 78.84628,
+"state": "Uttar Pradesh"
+},
+{
+"code": "SRNT",
+"name": "Sarnath",
+"lat": 25.376,
+"lon": 83.03263,
+"state": "Uttar Pradesh"
+},
+{
+"code": "SRY",
+"name": "Sirari",
+"lat": 25.13285,
+"lon": 85.95259,
+"state": "Bihar"
+},
+{
+"code": "SVC",
+"name": "Siwan Kachari",
+"lat": 26.2267,
+"lon": 84.34872,
+"state": "Bihar"
+},
+{
+"code": "SYC",
+"name": "Sarai Chandi",
+"lat": 25.53942,
+"lon": 81.97958,
+"state": "Uttar Pradesh"
+},
+{
+"code": "SYH",
+"name": "Saiyedpur Bhtri",
+"lat": 25.53972,
+"lon": 83.23297,
+"state": "Uttar Pradesh"
+},
+{
+"code": "TABU",
+"name": "Talaburu",
+"lat": 22.35817,
+"lon": 85.75594,
+"state": "Jharkhand"
+},
+{
+"code": "TEA",
+"name": "Taregna",
+"lat": 25.35523,
+"lon": 85.03811,
+"state": "Bihar"
+},
+{
+"code": "TELY",
+"name": "Telia",
+"lat": 24.80589,
+"lon": 87.02625,
+"state": "Bihar"
+},
+{
+"code": "TB",
+"name": "Tharbitia",
+"lat": 26.21853,
+"lon": 86.65738,
+"state": "Bihar"
+},
+{
+"code": "TNGI",
+"name": "Tungi Halt",
+"lat": 25.17199,
+"lon": 85.52721,
+"state": "Bihar"
+},
+{
+"code": "TRG",
+"name": "Tarighat",
+"lat": 25.57172,
+"lon": 83.6021,
+"state": "Uttar Pradesh"
+},
+{
+"code": "THJ",
+"name": "Talheri Buzurg",
+"lat": 29.76692,
+"lon": 77.64431,
+"state": "Uttar Pradesh"
+},
+{
+"code": "TIA",
+"name": "Tilaya",
+"lat": 24.822,
+"lon": 85.4011,
+"state": "Bihar"
+},
+{
+"code": "TKLE",
+"name": "Tikani",
+"lat": 25.10839,
+"lon": 86.99325,
+"state": "Bihar"
+},
+{
+"code": "AYRN",
+"name": "Akshaywat Rai Nagar",
+"lat": 25.68877,
+"lon": 85.31541,
+"state": "Bihar"
+},
+{
+"code": "THE",
+"name": "Thawe Junction",
+"lat": 26.43899,
+"lon": 84.3944,
+"state": "Bihar"
+},
+{
+"code": "TPZ",
+"name": "Tapri Jn",
+"lat": 29.91573,
+"lon": 77.58327,
+"state": "Uttar Pradesh"
+},
+{
+"code": "TQN",
+"name": "Tikunia",
+"lat": 28.37882,
+"lon": 80.98122,
+"state": "Uttar Pradesh"
+},
+{
+"code": "TRN",
+"name": "Taraon",
+"lat": 25.52619,
+"lon": 83.31118,
+"state": "Uttar Pradesh"
+},
+{
+"code": "UB",
+"name": "Uska Bazar",
+"lat": 27.18999,
+"lon": 83.12595,
+"state": "Uttar Pradesh"
+},
+{
+"code": "VNN",
+"name": "Bhanaur",
+"lat": 25.57316,
+"lon": 82.53002,
+"state": "Uttar Pradesh"
+},
+{
+"code": "VPN",
+"name": "Vidyapatinagar",
+"lat": 25.60197,
+"lon": 85.80234,
+"state": "Bihar"
+},
+{
+"code": "UGU",
+"name": "Ugu",
+"lat": 26.80434,
+"lon": 80.29939,
+"state": "Uttar Pradesh"
+},
+{
+"code": "VKNR",
+"name": "Valmikinagar Rd",
+"lat": 27.19506,
+"lon": 84.03455,
+"state": "Bihar"
+},
+{
+"code": "AFR",
+"name": "Asafpur",
+"lat": 28.40555,
+"lon": 78.90596,
+"state": "Uttar Pradesh"
+},
+{
+"code": "AMA",
+"name": "Atamanda",
+"lat": 28.58606,
+"lon": 79.46814,
+"state": "Uttar Pradesh"
+},
+{
+"code": "AHU",
+"name": "Ahirauli",
+"lat": 27.30686,
+"lon": 83.03422,
+"state": "Uttar Pradesh"
+},
+{
+"code": "WZJ",
+"name": "Wazerganj",
+"lat": 24.81312,
+"lon": 85.22564,
+"state": "Bihar"
+},
+{
+"code": "WENA",
+"name": "Wena",
+"lat": 25.32662,
+"lon": 85.53196,
+"state": "Bihar"
+},
+{
+"code": "YDV",
+"name": "Yadvendranagar",
+"lat": 25.75656,
+"lon": 82.75141,
+"state": "Uttar Pradesh"
+},
+{
+"code": "YEAM",
+"name": "Yogendra Dham Halt",
+"lat": 27.4546,
+"lon": 81.72854,
+"state": "Uttar Pradesh"
+},
+{
+"code": "AKW",
+"name": "Akora",
+"lat": 25.61369,
+"lon": 80.13999,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BEU",
+"name": "Bisheshwarganj",
+"lat": 27.34128,
+"lon": 81.83382,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BPR",
+"name": "Bhojipura Jn",
+"lat": 28.49398,
+"lon": 79.44724,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BFV",
+"name": "Bahelia Buzurg",
+"lat": 28.04692,
+"lon": 80.51254,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BHBR",
+"name": "Bathua Bazar",
+"lat": 26.49683,
+"lon": 84.23218,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BTKP",
+"name": "Bharat Kup",
+"lat": 25.21717,
+"lon": 80.76768,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BIK",
+"name": "Bhira Kheri",
+"lat": 28.3348,
+"lon": 80.48613,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BAOL",
+"name": "Baoli",
+"lat": 29.14046,
+"lon": 77.27802,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BTX",
+"name": "Bela Tal",
+"lat": 25.27679,
+"lon": 79.55448,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BLTR",
+"name": "Belthara Road",
+"lat": 26.12142,
+"lon": 83.84172,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BCY",
+"name": "Varanasi City",
+"lat": 25.33412,
+"lon": 83.01411,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BNKJ",
+"name": "Banke Ganj",
+"lat": 28.15848,
+"lon": 80.41629,
+"state": "Uttar Pradesh"
+},
+{
+"code": "DMW",
+"name": "Dalmau Junction",
+"lat": 26.07525,
+"lon": 81.05365,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BWR",
+"name": "Barwa Sagar",
+"lat": 25.35185,
+"lon": 78.73163,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BUBT",
+"name": "Buraha Bhartha",
+"lat": 27.10822,
+"lon": 78.67033,
+"state": "Uttar Pradesh"
+},
+{
+"code": "GTP",
+"name": "Ghatpuri",
+"lat": 28.12525,
+"lon": 79.20594,
+"state": "Uttar Pradesh"
+},
+{
+"code": "JGD",
+"name": "Jagadishpur",
+"lat": 24.27303,
+"lon": 86.52517,
+"state": "Jharkhand"
+},
+{
+"code": "DWI",
+"name": "Dingwahi",
+"lat": 25.41681,
+"lon": 80.41416,
+"state": "Uttar Pradesh"
+},
+{
+"code": "GLBN",
+"name": "Gujran Balwa",
+"lat": 29.4068,
+"lon": 77.30136,
+"state": "Uttar Pradesh"
+},
+{
+"code": "GK",
+"name": "Gola Gokaranath",
+"lat": 28.08465,
+"lon": 80.47547,
+"state": "Uttar Pradesh"
+},
+{
+"code": "GDO",
+"name": "Goverdhan",
+"lat": 27.52055,
+"lon": 77.46164,
+"state": "Uttar Pradesh"
+},
+{
+"code": "GRMR",
+"name": "Garhi Manikpur",
+"lat": 25.78633,
+"lon": 81.40315,
+"state": "Uttar Pradesh"
+},
+{
+"code": "JLQ",
+"name": "Jalpur",
+"lat": 29.01236,
+"lon": 78.87036,
+"state": "Uttar Pradesh"
+},
+{
+"code": "HIR",
+"name": "Harinagar",
+"lat": 27.15665,
+"lon": 84.32451,
+"state": "Bihar"
+},
+{
+"code": "JKNI",
+"name": "Jharkhandi",
+"lat": 27.43305,
+"lon": 82.17976,
+"state": "Uttar Pradesh"
+},
+{
+"code": "ITE",
+"name": "Intiyathok",
+"lat": 27.27555,
+"lon": 82.02544,
+"state": "Uttar Pradesh"
+},
+{
+"code": "KDQ",
+"name": "Kadipur",
+"lat": 25.44872,
+"lon": 83.0913,
+"state": "Uttar Pradesh"
+},
+{
+"code": "IDGJ",
+"name": "Iradatganj",
+"lat": 25.31789,
+"lon": 81.81928,
+"state": "Uttar Pradesh"
+},
+{
+"code": "KEX",
+"name": "Khekra",
+"lat": 28.8715,
+"lon": 77.28892,
+"state": "Uttar Pradesh"
+},
+{
+"code": "HDK",
+"name": "Handia Khas",
+"lat": 25.35747,
+"lon": 82.18941,
+"state": "Uttar Pradesh"
+},
+{
+"code": "JJP",
+"name": "Jhanjharpur",
+"lat": 26.22849,
+"lon": 86.26783,
+"state": "Bihar"
+},
+{
+"code": "JSC",
+"name": "Jalesar City",
+"lat": 27.45987,
+"lon": 78.30634,
+"state": "Uttar Pradesh"
+},
+{
+"code": "KDF",
+"name": "Khundaur",
+"lat": 26.02008,
+"lon": 82.01505,
+"state": "Uttar Pradesh"
+},
+{
+"code": "KJTW",
+"name": "Kajgaon Terhwan",
+"lat": 25.68567,
+"lon": 82.70545,
+"state": "Uttar Pradesh"
+},
+{
+"code": "KHU",
+"name": "Khurhand",
+"lat": 25.35258,
+"lon": 80.49498,
+"state": "Uttar Pradesh"
+},
+{
+"code": "KMDR",
+"name": "Karimuddin Pur",
+"lat": 25.70037,
+"lon": 83.86058,
+"state": "Uttar Pradesh"
+},
+{
+"code": "KMP",
+"name": "Kamlapur",
+"lat": 27.37844,
+"lon": 80.82228,
+"state": "Uttar Pradesh"
+},
+{
+"code": "KFK",
+"name": "Katka",
+"lat": 25.25025,
+"lon": 82.63425,
+"state": "Uttar Pradesh"
+},
+{
+"code": "SPPR",
+"name": "Shudnipur",
+"lat": 25.62626,
+"lon": 82.6405,
+"state": "Uttar Pradesh"
+},
+{
+"code": "KRTL",
+"name": "Kartauli",
+"lat": 28.31104,
+"lon": 79.42762,
+"state": "Uttar Pradesh"
+},
+{
+"code": "KSNR",
+"name": "Khushal Nagar",
+"lat": 26.98778,
+"lon": 83.69839,
+"state": "Uttar Pradesh"
+},
+{
+"code": "KQL",
+"name": "Kandhla",
+"lat": 29.3247,
+"lon": 77.29324,
+"state": "Uttar Pradesh"
+},
+{
+"code": "KZI",
+"name": "Khandrawali",
+"lat": 29.38258,
+"lon": 77.29388,
+"state": "Uttar Pradesh"
+},
+{
+"code": "LMP",
+"name": "Lakhimpur",
+"lat": 27.94741,
+"lon": 80.77763,
+"state": "Uttar Pradesh"
+},
+{
+"code": "LBW",
+"name": "Laiburwa Halt",
+"lat": 27.52604,
+"lon": 82.46834,
+"state": "Uttar Pradesh"
+},
+{
+"code": "MLKA",
+"name": "Maluka",
+"lat": 22.20291,
+"lon": 85.67294,
+"state": "Jharkhand"
+},
+{
+"code": "MCV",
+"name": "Macharya",
+"lat": 28.77257,
+"lon": 78.8037,
+"state": "Uttar Pradesh"
+},
+{
+"code": "MFJ",
+"name": "Muftiganj",
+"lat": 25.70091,
+"lon": 82.82777,
+"state": "Uttar Pradesh"
+},
+{
+"code": "MFX",
+"name": "Madaraha",
+"lat": 25.27364,
+"lon": 81.76428,
+"state": "Uttar Pradesh"
+},
+{
+"code": "MJHR",
+"name": "Majhiari",
+"lat": 25.17898,
+"lon": 81.51883,
+"state": "Uttar Pradesh"
+},
+{
+"code": "MNKN",
+"name": "Manikalan Halt",
+"lat": 25.91755,
+"lon": 82.69116,
+"state": "Uttar Pradesh"
+},
+{
+"code": "MOG",
+"name": "Mohiuddinnagar",
+"lat": 25.6063,
+"lon": 85.70332,
+"state": "Bihar"
+},
+{
+"code": "MLW",
+"name": "Mallanwan",
+"lat": 27.03624,
+"lon": 80.15833,
+"state": "Uttar Pradesh"
+},
+{
+"code": "MBP",
+"name": "Mohibullapur",
+"lat": 26.90923,
+"lon": 80.93892,
+"state": "Uttar Pradesh"
+},
+{
+"code": "MANW",
+"name": "Manwa",
+"lat": 27.21885,
+"lon": 80.8496,
+"state": "Uttar Pradesh"
+},
+{
+"code": "MUV",
+"name": "Manduadih",
+"lat": 25.3,
+"lon": 82.97208,
+"state": "Uttar Pradesh"
+},
+{
+"code": "NRNR",
+"name": "Nurnagar",
+"lat": 28.91541,
+"lon": 77.71299,
+"state": "Uttar Pradesh"
+},
+{
+"code": "MZGI",
+"name": "Manzurgarhi",
+"lat": 27.96429,
+"lon": 78.10663,
+"state": "Uttar Pradesh"
+},
+{
+"code": "NEW",
+"name": "Nivari",
+"lat": 25.32806,
+"lon": 78.82007,
+"state": "Uttar Pradesh"
+},
+{
+"code": "NDW",
+"name": "Nadwan",
+"lat": 25.39669,
+"lon": 85.06567,
+"state": "Bihar"
+},
+{
+"code": "NNNL",
+"name": "Nandani Lagunia",
+"lat": 25.62541,
+"lon": 85.63138,
+"state": "Bihar"
+},
+{
+"code": "NTU",
+"name": "Nigatpur",
+"lat": 25.25122,
+"lon": 82.75851,
+"state": "Uttar Pradesh"
+},
+{
+"code": "NUH",
+"name": "Naugarh",
+"lat": 27.27503,
+"lon": 83.0883,
+"state": "Uttar Pradesh"
+},
+{
+"code": "PDPH",
+"name": "Padapahar Junction",
+"lat": 22.15655,
+"lon": 85.54596,
+"state": "Jharkhand"
+},
+{
+"code": "RBGJ",
+"name": "Roberts Ganj",
+"lat": 24.68314,
+"lon": 83.07782,
+"state": "Uttar Pradesh"
+},
+{
+"code": "POKL",
+"name": "Peokol",
+"lat": 26.3408,
+"lon": 83.9302,
+"state": "Uttar Pradesh"
+},
+{
+"code": "PPC",
+"name": "Pipraich",
+"lat": 26.82831,
+"lon": 83.53585,
+"state": "Uttar Pradesh"
+},
+{
+"code": "PFM",
+"name": "Phaphamau Jn",
+"lat": 25.52426,
+"lon": 81.86641,
+"state": "Uttar Pradesh"
+},
+{
+"code": "PNHI",
+"name": "Panhai",
+"lat": 25.08168,
+"lon": 81.18949,
+"state": "Uttar Pradesh"
+},
+{
+"code": "RHN",
+"name": "Roshanpur",
+"lat": 29.04656,
+"lon": 78.88773,
+"state": "Uttar Pradesh"
+},
+{
+"code": "SBV",
+"name": "Simri Bhakhtiyarpur",
+"lat": 25.72086,
+"lon": 86.59738,
+"state": "Bihar"
+},
+{
+"code": "RORA",
+"name": "Rora",
+"lat": 25.2939,
+"lon": 79.23677,
+"state": "Uttar Pradesh"
+},
+{
+"code": "RMF",
+"name": "Ramna",
+"lat": 24.23975,
+"lon": 83.60571,
+"state": "Jharkhand"
+},
+{
+"code": "RTB",
+"name": "Raja Talab",
+"lat": 25.26391,
+"lon": 82.85073,
+"state": "Uttar Pradesh"
+},
+{
+"code": "RJL",
+"name": "Rajmahal",
+"lat": 25.05253,
+"lon": 87.83145,
+"state": "Jharkhand"
+},
+{
+"code": "RS",
+"name": "Risia",
+"lat": 27.68882,
+"lon": 81.60551,
+"state": "Uttar Pradesh"
+},
+{
+"code": "RAK",
+"name": "Ramkot",
+"lat": 27.53431,
+"lon": 80.59741,
+"state": "Uttar Pradesh"
+},
+{
+"code": "SKJ",
+"name": "Sahibpur Kamal Jn",
+"lat": 25.42704,
+"lon": 86.40013,
+"state": "Bihar"
+},
+{
+"code": "STZ",
+"name": "Satraon",
+"lat": 26.28359,
+"lon": 83.82138,
+"state": "Uttar Pradesh"
+},
+{
+"code": "STP",
+"name": "Sitapur",
+"lat": 27.55873,
+"lon": 80.69776,
+"state": "Uttar Pradesh"
+},
+{
+"code": "SNMY",
+"name": "Sindri Marshalling Yard",
+"lat": 23.66704,
+"lon": 86.46618,
+"state": "Jharkhand"
+},
+{
+"code": "SGPA",
+"name": "Sugapahari",
+"lat": 24.27902,
+"lon": 86.57805,
+"state": "Jharkhand"
+},
+{
+"code": "SJV",
+"name": "Sanjhauli Halt",
+"lat": 25.14389,
+"lon": 84.19103,
+"state": "Bihar"
+},
+{
+"code": "SNZ",
+"name": "Sherganj",
+"lat": 28.38049,
+"lon": 79.80486,
+"state": "Uttar Pradesh"
+},
+{
+"code": "SSNR",
+"name": "Satsang Nagar Halt",
+"lat": 24.49031,
+"lon": 86.68168,
+"state": "Jharkhand"
+},
+{
+"code": "TIL",
+"name": "Tilrath",
+"lat": 25.44118,
+"lon": 86.06853,
+"state": "Bihar"
+},
+{
+"code": "BHKL",
+"name": "Bhakrauli",
+"lat": 28.30847,
+"lon": 78.47467,
+"state": "Uttar Pradesh"
+},
+{
+"code": "SWE",
+"name": "Siwaith",
+"lat": 25.57704,
+"lon": 81.86926,
+"state": "Uttar Pradesh"
+},
+{
+"code": "TSAH",
+"name": "Tata Sijua Halt",
+"lat": 23.77451,
+"lon": 86.33167,
+"state": "Jharkhand"
+},
+{
+"code": "SZP",
+"name": "Shahjahanpur",
+"lat": 27.8934,
+"lon": 79.90454,
+"state": "Uttar Pradesh"
+},
+{
+"code": "TQA",
+"name": "Takia",
+"lat": 26.31168,
+"lon": 80.78202,
+"state": "Uttar Pradesh"
+},
+{
+"code": "AA",
+"name": "Ataria",
+"lat": 27.17246,
+"lon": 80.86103,
+"state": "Uttar Pradesh"
+},
+{
+"code": "AED",
+"name": "Aulenda",
+"lat": 27.02915,
+"lon": 77.61258,
+"state": "Uttar Pradesh"
+},
+{
+"code": "ARH",
+"name": "Amhera",
+"lat": 29.26224,
+"lon": 78.2858,
+"state": "Uttar Pradesh"
+},
+{
+"code": "WRGN",
+"name": "Warigaon Newada",
+"lat": 25.58615,
+"lon": 82.56832,
+"state": "Uttar Pradesh"
+},
+{
+"code": "ATRR",
+"name": "Atraura",
+"lat": 25.31611,
+"lon": 82.31402,
+"state": "Uttar Pradesh"
+},
+{
+"code": "ZNP",
+"name": "Zindpura",
+"lat": 28.19135,
+"lon": 79.8497,
+"state": "Uttar Pradesh"
+},
+{
+"code": "XBKJ",
+"name": "Bikramganj",
+"lat": 25.21891,
+"lon": 84.27373,
+"state": "Bihar"
+},
+{
+"code": "ATKS",
+"name": "Atwa Kursath",
+"lat": 27.13457,
+"lon": 80.26721,
+"state": "Uttar Pradesh"
+},
+{
+"code": "ARP",
+"name": "Atrampur",
+"lat": 25.57202,
+"lon": 81.74566,
+"state": "Uttar Pradesh"
+},
+{
+"code": "ARKA",
+"name": "Arkha",
+"lat": 25.86732,
+"lon": 81.33128,
+"state": "Uttar Pradesh"
+},
+{
+"code": "AUR",
+"name": "Atrauli Road",
+"lat": 28.09719,
+"lon": 78.22011,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BCB",
+"name": "Bhowra Junction",
+"lat": 23.67077,
+"lon": 86.41701,
+"state": "Jharkhand"
+},
+{
+"code": "BGQ",
+"name": "Bhongaon",
+"lat": 27.25904,
+"lon": 79.16572,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BIP",
+"name": "Bahilpurwa",
+"lat": 25.13709,
+"lon": 80.9986,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BGAN",
+"name": "Bangain",
+"lat": 27.23899,
+"lon": 81.90592,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BHLP",
+"name": "Bhulanpur",
+"lat": 25.28788,
+"lon": 82.95752,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BAHP",
+"name": "Band Hamirpur",
+"lat": 26.32975,
+"lon": 80.74438,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BBJ",
+"name": "Babaganj",
+"lat": 27.96429,
+"lon": 81.56861,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BDMA",
+"name": "Budhma",
+"lat": 25.90277,
+"lon": 86.85701,
+"state": "Bihar"
+},
+{
+"code": "BPM",
+"name": "Bagpat Road",
+"lat": 28.9575,
+"lon": 77.27259,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BMJ",
+"name": "Bridgemanganj",
+"lat": 27.19554,
+"lon": 83.1971,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BRK",
+"name": "Bahraich",
+"lat": 27.58154,
+"lon": 81.60752,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BRMX",
+"name": "Barmi",
+"lat": 27.48941,
+"lon": 80.56082,
+"state": "Uttar Pradesh"
+},
+{
+"code": "ALNP",
+"name": "Akelahanspur Halt",
+"lat": 28.34054,
+"lon": 80.31557,
+"state": "Uttar Pradesh"
+},
+{
+"code": "AON",
+"name": "Araon",
+"lat": 27.11434,
+"lon": 78.69225,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BTJ",
+"name": "Bishnathganj",
+"lat": 25.8019,
+"lon": 81.93538,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BUS",
+"name": "Badausa",
+"lat": 25.24842,
+"lon": 80.65101,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BSZ",
+"name": "Bharwa Sumerpur",
+"lat": 25.82541,
+"lon": 80.16742,
+"state": "Uttar Pradesh"
+},
+{
+"code": "AKS",
+"name": "Ankuspur",
+"lat": 25.57132,
+"lon": 83.49401,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BSUR",
+"name": "Bisalpur",
+"lat": 28.29052,
+"lon": 79.8126,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BTRI",
+"name": "Bitrol",
+"lat": 27.98407,
+"lon": 78.92398,
+"state": "Uttar Pradesh"
+},
+{
+"code": "ALS",
+"name": "Amlori Sarsar",
+"lat": 26.29471,
+"lon": 84.34558,
+"state": "Bihar"
+},
+{
+"code": "BBW",
+"name": "Bodarwar",
+"lat": 26.878,
+"lon": 83.63819,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BBA",
+"name": "Babrala",
+"lat": 28.26649,
+"lon": 78.40341,
+"state": "Uttar Pradesh"
+},
+{
+"code": "ATE",
+"name": "Atarra",
+"lat": 25.29137,
+"lon": 80.57649,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BED",
+"name": "Baseri",
+"lat": 26.74699,
+"lon": 77.54302,
+"state": "Uttar Pradesh"
+},
+{
+"code": "ATW",
+"name": "Atwa Muthia Halt",
+"lat": 27.27399,
+"lon": 80.41548,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BGMU",
+"name": "Bangarmau",
+"lat": 26.89182,
+"lon": 80.22206,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BBHT",
+"name": "Barabar Halt",
+"lat": 25.05586,
+"lon": 84.97437,
+"state": "Bihar"
+},
+{
+"code": "BARL",
+"name": "Baral",
+"lat": 28.49409,
+"lon": 77.80998,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BNY",
+"name": "Barhni",
+"lat": 27.4958,
+"lon": 82.79183,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BMKI",
+"name": "Bapudham Motihari",
+"lat": 26.65573,
+"lon": 84.90529,
+"state": "Bihar"
+},
+{
+"code": "ALMW",
+"name": "Almaw",
+"lat": 25.25991,
+"lon": 82.48994,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BMY",
+"name": "Bamiana",
+"lat": 28.26312,
+"lon": 79.32911,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BHDR",
+"name": "Bhadri",
+"lat": 25.67666,
+"lon": 81.56775,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BSCK",
+"name": "Basuchak",
+"lat": 25.53141,
+"lon": 83.34822,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BSY",
+"name": "Barsathi",
+"lat": 25.56413,
+"lon": 82.47395,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BSKR",
+"name": "Basi Kiratpur",
+"lat": 29.49723,
+"lon": 78.21328,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BQP",
+"name": "Bighapur",
+"lat": 26.35515,
+"lon": 80.69345,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BSWA",
+"name": "Baiswara",
+"lat": 26.28484,
+"lon": 80.83471,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BYP",
+"name": "Baijnathpur",
+"lat": 25.90101,
+"lon": 86.65377,
+"state": "Bihar"
+},
+{
+"code": "AMO",
+"name": "Amolwa",
+"lat": 27.21116,
+"lon": 84.47849,
+"state": "Bihar"
+},
+{
+"code": "CHBR",
+"name": "Chaure Bazar",
+"lat": 26.46953,
+"lon": 82.11874,
+"state": "Uttar Pradesh"
+},
+{
+"code": "DDW",
+"name": "Dudwa",
+"lat": 28.50831,
+"lon": 80.67216,
+"state": "Uttar Pradesh"
+},
+{
+"code": "CIH",
+"name": "Chilhia",
+"lat": 27.35207,
+"lon": 82.99086,
+"state": "Uttar Pradesh"
+},
+{
+"code": "CAMU",
+"name": "Chamua",
+"lat": 27.1377,
+"lon": 84.40083,
+"state": "Bihar"
+},
+{
+"code": "DOX",
+"name": "Dohna",
+"lat": 28.43406,
+"lon": 79.43273,
+"state": "Uttar Pradesh"
+},
+{
+"code": "DMPR",
+"name": "Dharampur",
+"lat": 28.15031,
+"lon": 78.26573,
+"state": "Uttar Pradesh"
+},
+{
+"code": "TKRU",
+"name": "Takhrau",
+"lat": 27.2742,
+"lon": 79.21245,
+"state": "Uttar Pradesh"
+},
+{
+"code": "DHRJ",
+"name": "Dhirganj",
+"lat": 25.74564,
+"lon": 81.92434,
+"state": "Uttar Pradesh"
+},
+{
+"code": "DPSR",
+"name": "Dapsaura",
+"lat": 25.9835,
+"lon": 80.20295,
+"state": "Uttar Pradesh"
+},
+{
+"code": "FNO",
+"name": "Fungo Halt",
+"lat": 25.61873,
+"lon": 86.60448,
+"state": "Bihar"
+},
+{
+"code": "FRD",
+"name": "Farhedi",
+"lat": 28.71172,
+"lon": 78.79372,
+"state": "Uttar Pradesh"
+},
+{
+"code": "FTC",
+"name": "Fatehpur Chursi",
+"lat": 26.84351,
+"lon": 80.26179,
+"state": "Uttar Pradesh"
+},
+{
+"code": "GNGL",
+"name": "Gangauli",
+"lat": 25.66811,
+"lon": 82.86309,
+"state": "Uttar Pradesh"
+},
+{
+"code": "GRRG",
+"name": "Gurli Ramgarhwa",
+"lat": 27.18574,
+"lon": 83.77143,
+"state": "Uttar Pradesh"
+},
+{
+"code": "DYK",
+"name": "Dudhia Khurd",
+"lat": 28.46474,
+"lon": 80.1978,
+"state": "Uttar Pradesh"
+},
+{
+"code": "DXN",
+"name": "Duddhinagar",
+"lat": 24.20903,
+"lon": 83.21679,
+"state": "Uttar Pradesh"
+},
+{
+"code": "GEB",
+"name": "Garh Baruari",
+"lat": 26.01935,
+"lon": 86.6056,
+"state": "Bihar"
+},
+{
+"code": "GHRI",
+"name": "Ghori Halt",
+"lat": 27.37396,
+"lon": 80.50329,
+"state": "Uttar Pradesh"
+},
+{
+"code": "GJMB",
+"name": "Ganjmuradabad",
+"lat": 26.98789,
+"lon": 80.17701,
+"state": "Uttar Pradesh"
+},
+{
+"code": "GAJU",
+"name": "Gaju Halt",
+"lat": 27.20423,
+"lon": 80.37297,
+"state": "Uttar Pradesh"
+},
+{
+"code": "HA",
+"name": "Hargaon",
+"lat": 27.76919,
+"lon": 80.72823,
+"state": "Uttar Pradesh"
+},
+{
+"code": "HZN",
+"name": "Hazrat Nagar Halt",
+"lat": 28.63333,
+"lon": 78.66591,
+"state": "Uttar Pradesh"
+},
+{
+"code": "HLD",
+"name": "Haludpukur",
+"lat": 22.74282,
+"lon": 86.26076,
+"state": "Jharkhand"
+},
+{
+"code": "GSGJ",
+"name": "Ghausganj",
+"lat": 27.13513,
+"lon": 80.29183,
+"state": "Uttar Pradesh"
+},
+{
+"code": "JRQ",
+"name": "Jharokhas",
+"lat": 24.17962,
+"lon": 83.16415,
+"state": "Uttar Pradesh"
+},
+{
+"code": "JEA",
+"name": "Nakaha Jungle",
+"lat": 26.80314,
+"lon": 83.36075,
+"state": "Uttar Pradesh"
+},
+{
+"code": "JMN",
+"name": "Jamuawan",
+"lat": 24.81523,
+"lon": 85.29248,
+"state": "Bihar"
+},
+{
+"code": "IPR",
+"name": "Islampur",
+"lat": 25.13858,
+"lon": 85.2173,
+"state": "Bihar"
+},
+{
+"code": "KD",
+"name": "Kundarkhi",
+"lat": 28.68044,
+"lon": 78.78807,
+"state": "Uttar Pradesh"
+},
+{
+"code": "CKTD",
+"name": "Chitrakutdham Karwi",
+"lat": 25.21761,
+"lon": 80.92278,
+"state": "Uttar Pradesh"
+},
+{
+"code": "CHTT",
+"name": "Chitta Halt",
+"lat": 17.82344,
+"lon": 77.53708,
+"state": "Uttar Pradesh"
+},
+{
+"code": "CKSR",
+"name": "Chak Safaura Halt",
+"lat": 28.2112,
+"lon": 79.84248,
+"state": "Uttar Pradesh"
+},
+{
+"code": "CHWT",
+"name": "Chhaprawat",
+"lat": 28.54197,
+"lon": 77.79989,
+"state": "Uttar Pradesh"
+},
+{
+"code": "KEMR",
+"name": "Kemri",
+"lat": 28.80986,
+"lon": 79.1978,
+"state": "Uttar Pradesh"
+},
+{
+"code": "CPU",
+"name": "Chopan",
+"lat": 24.51403,
+"lon": 83.02584,
+"state": "Uttar Pradesh"
+},
+{
+"code": "KJA",
+"name": "Khajurhat",
+"lat": 26.52531,
+"lon": 82.12681,
+"state": "Uttar Pradesh"
+},
+{
+"code": "DBD",
+"name": "Deoband",
+"lat": 29.68003,
+"lon": 77.67087,
+"state": "Uttar Pradesh"
+},
+{
+"code": "CUK",
+"name": "Churk",
+"lat": 24.64968,
+"lon": 83.1032,
+"state": "Uttar Pradesh"
+},
+{
+"code": "KHRY",
+"name": "Khairahi",
+"lat": 24.80204,
+"lon": 82.98577,
+"state": "Uttar Pradesh"
+},
+{
+"code": "CTHT",
+"name": "Chatar Halt",
+"lat": 24.84214,
+"lon": 85.49537,
+"state": "Bihar"
+},
+{
+"code": "KHRI",
+"name": "Kharkhari",
+"lat": 23.76012,
+"lon": 86.23489,
+"state": "Jharkhand"
+},
+{
+"code": "KSC",
+"name": "Kashi Chak",
+"lat": 25.0708,
+"lon": 85.71875,
+"state": "Bihar"
+},
+{
+"code": "KRYA",
+"name": "Kurraiya",
+"lat": 28.41682,
+"lon": 80.24421,
+"state": "Uttar Pradesh"
+},
+{
+"code": "KPKI",
+"name": "Qasimpur Kheri",
+"lat": 29.18277,
+"lon": 77.28593,
+"state": "Uttar Pradesh"
+},
+{
+"code": "KPE",
+"name": "Kauwapur",
+"lat": 27.51582,
+"lon": 82.2979,
+"state": "Uttar Pradesh"
+},
+{
+"code": "LPW",
+"name": "Loharpurwa",
+"lat": 27.08264,
+"lon": 83.26848,
+"state": "Uttar Pradesh"
+},
+{
+"code": "LER",
+"name": "Lehra",
+"lat": 27.16124,
+"lon": 83.23414,
+"state": "Uttar Pradesh"
+},
+{
+"code": "KVC",
+"name": "Kaparpura",
+"lat": 26.17989,
+"lon": 85.30923,
+"state": "Bihar"
+},
+{
+"code": "LAD",
+"name": "Lohardaga",
+"lat": 23.44597,
+"lon": 84.70733,
+"state": "Jharkhand"
+},
+{
+"code": "KTRR",
+"name": "Kathara Road",
+"lat": 26.31001,
+"lon": 80.22874,
+"state": "Uttar Pradesh"
+},
+{
+"code": "KWW",
+"name": "Kuswa",
+"lat": 27.47381,
+"lon": 78.4037,
+"state": "Uttar Pradesh"
+},
+{
+"code": "MAH",
+"name": "Madhoganj",
+"lat": 27.11796,
+"lon": 80.13546,
+"state": "Uttar Pradesh"
+},
+{
+"code": "LKQ",
+"name": "Laukaha Bazar",
+"lat": 26.5432,
+"lon": 86.46301,
+"state": "Bihar"
+},
+{
+"code": "MJL",
+"name": "Majhowlia",
+"lat": 26.80277,
+"lon": 84.61914,
+"state": "Bihar"
+},
+{
+"code": "MJPB",
+"name": "Manjhra Purab",
+"lat": 28.30065,
+"lon": 81.1604,
+"state": "Uttar Pradesh"
+},
+{
+"code": "MAY",
+"name": "Mariahu",
+"lat": 25.59701,
+"lon": 82.59817,
+"state": "Uttar Pradesh"
+},
+{
+"code": "KDRD",
+"name": "Khuldil Road",
+"lat": 24.36837,
+"lon": 82.86161,
+"state": "Uttar Pradesh"
+},
+{
+"code": "DWDI",
+"name": "Dighwa Dubauli",
+"lat": 26.26523,
+"lon": 84.74325,
+"state": "Bihar"
+},
+{
+"code": "MHBZ",
+"name": "Mahtha Bazar",
+"lat": 27.39156,
+"lon": 82.95738,
+"state": "Uttar Pradesh"
+},
+{
+"code": "MIM",
+"name": "Maniram",
+"lat": 26.83827,
+"lon": 83.34241,
+"state": "Uttar Pradesh"
+},
+{
+"code": "MNJR",
+"name": "Manjhlepur",
+"lat": 25.99458,
+"lon": 81.17862,
+"state": "Uttar Pradesh"
+},
+{
+"code": "MDE",
+"name": "Makhdumpur Gaya",
+"lat": 25.07713,
+"lon": 84.97911,
+"state": "Bihar"
+},
+{
+"code": "MHQ",
+"name": "Mahuda",
+"lat": 23.74748,
+"lon": 86.27078,
+"state": "Jharkhand"
+},
+{
+"code": "MMD",
+"name": "Maheshmunda",
+"lat": 24.23242,
+"lon": 86.38903,
+"state": "Jharkhand"
+},
+{
+"code": "MUUA",
+"name": "Mahuawa Khurd",
+"lat": 26.85436,
+"lon": 83.59392,
+"state": "Uttar Pradesh"
+},
+{
+"code": "MPG",
+"name": "Manpur Nagaria",
+"lat": 27.9083,
+"lon": 78.8182,
+"state": "Uttar Pradesh"
+},
+{
+"code": "NBUE",
+"name": "Nibkarori",
+"lat": 27.32875,
+"lon": 79.40996,
+"state": "Uttar Pradesh"
+},
+{
+"code": "NM",
+"name": "Naimisharanya",
+"lat": 27.35514,
+"lon": 80.48444,
+"state": "Uttar Pradesh"
+},
+{
+"code": "NWD",
+"name": "Nawadih",
+"lat": 24.88676,
+"lon": 85.54865,
+"state": "Bihar"
+},
+{
+"code": "NHF",
+"name": "Nihasta Halt",
+"lat": 26.21231,
+"lon": 80.92504,
+"state": "Uttar Pradesh"
+},
+{
+"code": "NRKP",
+"name": "Narkopi",
+"lat": 23.37562,
+"lon": 85.01562,
+"state": "Jharkhand"
+},
+{
+"code": "NNP",
+"name": "Nanpara Junction",
+"lat": 27.85989,
+"lon": 81.51259,
+"state": "Uttar Pradesh"
+},
+{
+"code": "NPR",
+"name": "Nepalganj Road",
+"lat": 28.01087,
+"lon": 81.60073,
+"state": "Uttar Pradesh"
+},
+{
+"code": "NTV",
+"name": "Nautanwa",
+"lat": 27.42688,
+"lon": 83.4213,
+"state": "Uttar Pradesh"
+},
+{
+"code": "PKNA",
+"name": "Pakhna",
+"lat": 27.30252,
+"lon": 79.30432,
+"state": "Uttar Pradesh"
+},
+{
+"code": "PPH",
+"name": "Pipri Dih",
+"lat": 25.87905,
+"lon": 83.50057,
+"state": "Uttar Pradesh"
+},
+{
+"code": "PPU",
+"name": "Piparpur",
+"lat": 26.13782,
+"lon": 82.03895,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BNDA",
+"name": "Banda Jn",
+"lat": 25.47768,
+"lon": 80.33625,
+"state": "Uttar Pradesh"
+},
+{
+"code": "PDR",
+"name": "Payagpur",
+"lat": 27.40707,
+"lon": 81.77619,
+"state": "Uttar Pradesh"
+},
+{
+"code": "PPW",
+"name": "Pachperwa",
+"lat": 27.52804,
+"lon": 82.65781,
+"state": "Uttar Pradesh"
+},
+{
+"code": "PRSP",
+"name": "Prasadpur",
+"lat": 28.54694,
+"lon": 80.08117,
+"state": "Uttar Pradesh"
+},
+{
+"code": "PJ",
+"name": "Peppeganj",
+"lat": 26.93057,
+"lon": 83.29444,
+"state": "Uttar Pradesh"
+},
+{
+"code": "PIS",
+"name": "Piska",
+"lat": 23.32954,
+"lon": 85.2061,
+"state": "Jharkhand"
+},
+{
+"code": "PRSL",
+"name": "Pandrasali",
+"lat": 22.63341,
+"lon": 85.80691,
+"state": "Jharkhand"
+},
+{
+"code": "PP",
+"name": "Puranpur",
+"lat": 28.51491,
+"lon": 80.15095,
+"state": "Uttar Pradesh"
+},
+{
+"code": "RDV",
+"name": "Radha Balampur",
+"lat": 26.08386,
+"lon": 81.10703,
+"state": "Uttar Pradesh"
+},
+{
+"code": "RGU",
+"name": "Ragaul",
+"lat": 25.68695,
+"lon": 80.12968,
+"state": "Uttar Pradesh"
+},
+{
+"code": "PTYR",
+"name": "Patiyara",
+"lat": 26.62795,
+"lon": 80.4765,
+"state": "Uttar Pradesh"
+},
+{
+"code": "SFPR",
+"name": "Safipur",
+"lat": 26.74434,
+"lon": 80.35477,
+"state": "Uttar Pradesh"
+},
+{
+"code": "SBZ",
+"name": "Siswa Bazar",
+"lat": 27.14957,
+"lon": 83.75635,
+"state": "Uttar Pradesh"
+},
+{
+"code": "SGL",
+"name": "Sagauli Jn",
+"lat": 26.75819,
+"lon": 84.73934,
+"state": "Bihar"
+},
+{
+"code": "SDT",
+"name": "Sadat",
+"lat": 25.67331,
+"lon": 83.30838,
+"state": "Uttar Pradesh"
+},
+{
+"code": "RJI",
+"name": "Rajawari",
+"lat": 25.49769,
+"lon": 83.13077,
+"state": "Uttar Pradesh"
+},
+{
+"code": "RXL",
+"name": "Raxaul Jn",
+"lat": 26.98702,
+"lon": 84.84456,
+"state": "Bihar"
+},
+{
+"code": "SDBH",
+"name": "Sindri Block Hut",
+"lat": 23.69294,
+"lon": 86.44709,
+"state": "Jharkhand"
+},
+{
+"code": "SKGH",
+"name": "Saktesgarh",
+"lat": 24.99974,
+"lon": 82.82189,
+"state": "Uttar Pradesh"
+},
+{
+"code": "SRU",
+"name": "Salempur Jn",
+"lat": 26.29805,
+"lon": 83.92327,
+"state": "Uttar Pradesh"
+},
+{
+"code": "SNAP",
+"name": "Sona Arjunpur",
+"lat": 29.75828,
+"lon": 77.45253,
+"state": "Uttar Pradesh"
+},
+{
+"code": "SIRA",
+"name": "Sirhi Itara",
+"lat": 26.36701,
+"lon": 80.21523,
+"state": "Uttar Pradesh"
+},
+{
+"code": "SOT",
+"name": "Shohratgarh",
+"lat": 27.37471,
+"lon": 82.96929,
+"state": "Uttar Pradesh"
+},
+{
+"code": "SRMP",
+"name": "Sirsi Mukhdumpr",
+"lat": 28.63321,
+"lon": 78.63517,
+"state": "Uttar Pradesh"
+},
+{
+"code": "SUNM",
+"name": "Sunamai Halt",
+"lat": 28.09737,
+"lon": 78.22053,
+"state": "Uttar Pradesh"
+},
+{
+"code": "THW",
+"name": "Tharwai",
+"lat": 25.53922,
+"lon": 81.91469,
+"state": "Uttar Pradesh"
+},
+{
+"code": "TBTN",
+"name": "Thana Bhawan Tn",
+"lat": 29.58113,
+"lon": 77.40205,
+"state": "Uttar Pradesh"
+},
+{
+"code": "SZN",
+"name": "Shahbaznagar",
+"lat": 27.92891,
+"lon": 79.88703,
+"state": "Uttar Pradesh"
+},
+{
+"code": "SUBR",
+"name": "Subhagpur",
+"lat": 27.26251,
+"lon": 82.01764,
+"state": "Uttar Pradesh"
+},
+{
+"code": "TNUE",
+"name": "Tindauli",
+"lat": 27.18305,
+"lon": 78.92129,
+"state": "Uttar Pradesh"
+},
+{
+"code": "TTI",
+"name": "Turtipar",
+"lat": 26.16121,
+"lon": 83.89084,
+"state": "Uttar Pradesh"
+},
+{
+"code": "URPR",
+"name": "Ugrasenpur",
+"lat": 25.56821,
+"lon": 82.18917,
+"state": "Uttar Pradesh"
+},
+{
+"code": "UNLA",
+"name": "Unaula",
+"lat": 26.78843,
+"lon": 83.47143,
+"state": "Uttar Pradesh"
+},
+{
+"code": "THA",
+"name": "Tehta",
+"lat": 25.11307,
+"lon": 84.98502,
+"state": "Bihar"
+},
+{
+"code": "TPB",
+"name": "Trilokpur",
+"lat": 27.50819,
+"lon": 82.70108,
+"state": "Uttar Pradesh"
+},
+{
+"code": "DBNR",
+"name": "Dibnapur",
+"lat": 28.52436,
+"lon": 79.51619,
+"state": "Uttar Pradesh"
+},
+{
+"code": "UJH",
+"name": "Ujhani",
+"lat": 27.99524,
+"lon": 79.01491,
+"state": "Uttar Pradesh"
+},
+{
+"code": "UBN",
+"name": "Ubarni",
+"lat": 26.11821,
+"lon": 81.16363,
+"state": "Uttar Pradesh"
+},
+{
+"code": "MRPR",
+"name": "Mau Ranipur",
+"lat": 25.26127,
+"lon": 79.13679,
+"state": "Uttar Pradesh"
+},
+{
+"code": "WRS",
+"name": "Waris Aleganj",
+"lat": 25.01543,
+"lon": 85.64218,
+"state": "Bihar"
+},
+{
+"code": "VZPH",
+"name": "Vazeerpur Halt",
+"lat": 28.14854,
+"lon": 79.86399,
+"state": "Uttar Pradesh"
+},
+{
+"code": "YFP",
+"name": "Yusufpur",
+"lat": 25.63901,
+"lon": 83.74868,
+"state": "Uttar Pradesh"
+},
+{
+"code": "KSJF",
+"name": "Kasganj Mg",
+"lat": 27.80127,
+"lon": 78.64517,
+"state": "Uttar Pradesh"
+},
+{
+"code": "MANI",
+"name": "Mani Halt",
+"lat": 25.17399,
+"lon": 84.23127,
+"state": "Bihar"
+},
+{
+"code": "AGY",
+"name": "Agori Khas",
+"lat": 24.59896,
+"lon": 83.05611,
+"state": "Uttar Pradesh"
+},
+{
+"code": "JNU",
+"name": "Jaunpur Jn",
+"lat": 25.76285,
+"lon": 82.6997,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BXLL",
+"name": "Billi",
+"lat": 24.45338,
+"lon": 83.01194,
+"state": "Uttar Pradesh"
+},
+{
+"code": "SPP",
+"name": "Shahpur Patoree",
+"lat": 25.63943,
+"lon": 85.5813,
+"state": "Bihar"
+},
+{
+"code": "KADH",
+"name": "Khairadih Halt",
+"lat": 25.03505,
+"lon": 84.05472,
+"state": "Bihar"
+},
+{
+"code": "BEJ",
+"name": "Beniganj",
+"lat": 27.29992,
+"lon": 80.4406,
+"state": "Uttar Pradesh"
+},
+{
+"code": "SPB",
+"name": "Sonekpur Halt",
+"lat": 28.63028,
+"lon": 78.69314,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BIRL",
+"name": "Biraul",
+"lat": 25.93706,
+"lon": 86.23373,
+"state": "Bihar"
+},
+{
+"code": "PQN",
+"name": "Pariawan Kalakankar Road",
+"lat": 25.82579,
+"lon": 81.3686,
+"state": "Uttar Pradesh"
+},
+{
+"code": "JNN",
+"name": "Jamuniatand",
+"lat": 23.75454,
+"lon": 86.19195,
+"state": "Jharkhand"
+},
+{
+"code": "BEM",
+"name": "Budaun",
+"lat": 28.02749,
+"lon": 79.13602,
+"state": "Uttar Pradesh"
+},
+{
+"code": "MOTA",
+"name": "Mota",
+"lat": 27.28898,
+"lon": 79.25373,
+"state": "Uttar Pradesh"
+},
+{
+"code": "NOH",
+"name": "Nigohi",
+"lat": 28.09892,
+"lon": 79.8785,
+"state": "Uttar Pradesh"
+},
+{
+"code": "AIH",
+"name": "Alawalpur I Pur",
+"lat": 29.0478,
+"lon": 77.27164,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BYH",
+"name": "Bhiti",
+"lat": 25.33355,
+"lon": 82.26135,
+"state": "Uttar Pradesh"
+},
+{
+"code": "RKJE",
+"name": "Rakhitpur",
+"lat": 23.72574,
+"lon": 86.49087,
+"state": "Jharkhand"
+},
+{
+"code": "RJK",
+"name": "Raja Ka Sahaspur",
+"lat": 28.62622,
+"lon": 78.7801,
+"state": "Uttar Pradesh"
+},
+{
+"code": "TJD",
+"name": "Tajpur Dehma",
+"lat": 25.72814,
+"lon": 83.92969,
+"state": "Uttar Pradesh"
+},
+{
+"code": "DHE",
+"name": "Dodhi",
+"lat": 25.60488,
+"lon": 82.99895,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BRDV",
+"name": "Baradev",
+"lat": 26.70178,
+"lon": 80.41193,
+"state": "Uttar Pradesh"
+},
+{
+"code": "MKHI",
+"name": "Makhi",
+"lat": 26.66143,
+"lon": 80.46114,
+"state": "Uttar Pradesh"
+},
+{
+"code": "KZA",
+"name": "Khada",
+"lat": 27.18293,
+"lon": 83.86838,
+"state": "Uttar Pradesh"
+},
+{
+"code": "DOT",
+"name": "Dhakia Tiwari",
+"lat": 28.02881,
+"lon": 79.88587,
+"state": "Uttar Pradesh"
+},
+{
+"code": "TKA",
+"name": "Teharka",
+"lat": 25.30023,
+"lon": 78.91732,
+"state": "Uttar Pradesh"
+},
+{
+"code": "KCU",
+"name": "Kachhiaa",
+"lat": 27.97338,
+"lon": 78.88311,
+"state": "Uttar Pradesh"
+},
+{
+"code": "JDW",
+"name": "Jarauda Nara",
+"lat": 29.42673,
+"lon": 77.70544,
+"state": "Uttar Pradesh"
+},
+{
+"code": "KER",
+"name": "Kirihrapur",
+"lat": 26.0455,
+"lon": 83.73706,
+"state": "Uttar Pradesh"
+},
+{
+"code": "RMC",
+"name": "Ram Chaura Road",
+"lat": 25.60949,
+"lon": 81.68695,
+"state": "Uttar Pradesh"
+},
+{
+"code": "IGTA",
+"name": "Ingohta",
+"lat": 25.75838,
+"lon": 80.12668,
+"state": "Uttar Pradesh"
+},
+{
+"code": "CBSA",
+"name": "Chaibasa",
+"lat": 22.56049,
+"lon": 85.81234,
+"state": "Jharkhand"
+},
+{
+"code": "ORC",
+"name": "Orchha",
+"lat": 25.40112,
+"lon": 78.64423,
+"state": "Uttar Pradesh"
+},
+{
+"code": "JAMA",
+"name": "Jama",
+"lat": 24.34551,
+"lon": 87.14492,
+"state": "Jharkhand"
+},
+{
+"code": "BWP",
+"name": "Bhawanipur Kalan",
+"lat": 27.41562,
+"lon": 82.1611,
+"state": "Uttar Pradesh"
+},
+{
+"code": "CKH",
+"name": "Chakand",
+"lat": 24.89014,
+"lon": 84.99549,
+"state": "Bihar"
+},
+{
+"code": "WDM",
+"name": "Wyndhamganj",
+"lat": 24.26411,
+"lon": 83.40161,
+"state": "Uttar Pradesh"
+},
+{
+"code": "RG",
+"name": "Rajghat Narora",
+"lat": 28.23566,
+"lon": 78.35359,
+"state": "Uttar Pradesh"
+},
+{
+"code": "JDPR",
+"name": "Jagdishpur",
+"lat": 24.27311,
+"lon": 86.5255,
+"state": "Jharkhand"
+},
+{
+"code": "BJLP",
+"name": "Barai Jalalpur",
+"lat": 27.44961,
+"lon": 80.80012,
+"state": "Uttar Pradesh"
+},
+{
+"code": "PDPR",
+"name": "Purandarpur",
+"lat": 27.20998,
+"lon": 83.34747,
+"state": "Uttar Pradesh"
+},
+{
+"code": "KSMB",
+"name": "Kastla Kasmabad",
+"lat": 25.11494,
+"lon": 85.79836,
+"state": "Bihar"
+},
+{
+"code": "BHHZ",
+"name": "Behta Hazipur Halt",
+"lat": 28.71973,
+"lon": 77.30404,
+"state": "Uttar Pradesh"
+},
+{
+"code": "KWH",
+"name": "Kachhwa Road",
+"lat": 25.25047,
+"lon": 82.70662,
+"state": "Uttar Pradesh"
+},
+{
+"code": "SHTS",
+"name": "Sambhal Hatim Sarai",
+"lat": 28.59691,
+"lon": 78.56824,
+"state": "Uttar Pradesh"
+},
+{
+"code": "AUI",
+"name": "Aurahi",
+"lat": 25.82302,
+"lon": 87.13505,
+"state": "Bihar"
+},
+{
+"code": "HAR",
+"name": "Hamirpur Road",
+"lat": 26.01651,
+"lon": 80.19069,
+"state": "Uttar Pradesh"
+},
+{
+"code": "SWW",
+"name": "Shahanagar Timarua",
+"lat": 27.41646,
+"lon": 78.25971,
+"state": "Uttar Pradesh"
+},
+{
+"code": "SLWR",
+"name": "Silawar",
+"lat": 29.5054,
+"lon": 77.345,
+"state": "Uttar Pradesh"
+},
+{
+"code": "LVR",
+"name": "Lokvidyapith Nagar",
+"lat": 27.15441,
+"lon": 83.30684,
+"state": "Uttar Pradesh"
+},
+{
+"code": "KTDD",
+"name": "Kataiya Dandi",
+"lat": 25.14906,
+"lon": 81.39848,
+"state": "Uttar Pradesh"
+},
+{
+"code": "DDNA",
+"name": "Dudhaunda",
+"lat": 25.57331,
+"lon": 83.08448,
+"state": "Uttar Pradesh"
+},
+{
+"code": "VPO",
+"name": "Bhupia Mau",
+"lat": 25.87522,
+"lon": 81.97029,
+"state": "Uttar Pradesh"
+},
+{
+"code": "AHQ",
+"name": "Ahera Halt",
+"lat": 28.92642,
+"lon": 77.27862,
+"state": "Uttar Pradesh"
+},
+{
+"code": "HDT",
+"name": "Hardattpur",
+"lat": 25.27691,
+"lon": 82.9076,
+"state": "Uttar Pradesh"
+},
+{
+"code": "GIF",
+"name": "Gani Dham Halt",
+"lat": 25.16345,
+"lon": 86.98627,
+"state": "Bihar"
+},
+{
+"code": "TKRP",
+"name": "Tikauli Rawatpur",
+"lat": 26.39905,
+"lon": 80.61316,
+"state": "Uttar Pradesh"
+},
+{
+"code": "LUSA",
+"name": "Lusa",
+"lat": 24.87655,
+"lon": 82.84332,
+"state": "Uttar Pradesh"
+},
+{
+"code": "RNRD",
+"name": "Ranipur Road",
+"lat": 25.27092,
+"lon": 79.05587,
+"state": "Uttar Pradesh"
+},
+{
+"code": "ARJ",
+"name": "Aunrihar Jn",
+"lat": 25.54466,
+"lon": 83.18727,
+"state": "Uttar Pradesh"
+},
+{
+"code": "PEH",
+"name": "Pathardih Junction",
+"lat": 23.67552,
+"lon": 86.43456,
+"state": "Jharkhand"
+},
+{
+"code": "JPD",
+"name": "Jalalpur Dhai",
+"lat": 26.0212,
+"lon": 81.13598,
+"state": "Uttar Pradesh"
+},
+{
+"code": "SUIA",
+"name": "Suraincha",
+"lat": 27.33652,
+"lon": 80.83011,
+"state": "Uttar Pradesh"
+},
+{
+"code": "DN",
+"name": "Dhanari",
+"lat": 28.32846,
+"lon": 78.5096,
+"state": "Uttar Pradesh"
+},
+{
+"code": "SRDW",
+"name": "Shrimad Dwarakapuri",
+"lat": 27.36469,
+"lon": 79.56964,
+"state": "Uttar Pradesh"
+},
+{
+"code": "RGB",
+"name": "Ramganga",
+"lat": 28.29812,
+"lon": 79.37503,
+"state": "Uttar Pradesh"
+},
+{
+"code": "CXA",
+"name": "Chandsara",
+"lat": 28.87621,
+"lon": 77.72575,
+"state": "Uttar Pradesh"
+},
+{
+"code": "ANPR",
+"name": "Anpara",
+"lat": 24.21739,
+"lon": 82.76617,
+"state": "Uttar Pradesh"
+},
+{
+"code": "TMA",
+"name": "Tamuria",
+"lat": 26.24572,
+"lon": 86.35276,
+"state": "Bihar"
+},
+{
+"code": "RCP",
+"name": "Ramachandrapur",
+"lat": 25.99648,
+"lon": 81.26727,
+"state": "Uttar Pradesh"
+},
+{
+"code": "GNTR",
+"name": "Gauntra Halt",
+"lat": 27.13445,
+"lon": 80.21786,
+"state": "Uttar Pradesh"
+},
+{
+"code": "RJO",
+"name": "Rajendra Pul",
+"lat": 25.38745,
+"lon": 86.01055,
+"state": "Bihar"
+},
+{
+"code": "GKP",
+"name": "Gorakhpur Jn",
+"lat": 26.75931,
+"lon": 83.3815,
+"state": "Uttar Pradesh"
+},
+{
+"code": "GKC",
+"name": "Gorakhpur Cant",
+"lat": 26.75065,
+"lon": 83.41682,
+"state": "Uttar Pradesh"
+},
+{
+"code": "KTHL",
+"name": "Kathola",
+"lat": 27.14656,
+"lon": 81.85566,
+"state": "Uttar Pradesh"
+},
+{
+"code": "TKVR",
+"name": "Tappa Khajuriay",
+"lat": 25.8074,
+"lon": 84.68889,
+"state": "Bihar"
+},
+{
+"code": "BKNA",
+"name": "Bakaina Halt",
+"lat": 29.0358,
+"lon": 78.27473,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BMU",
+"name": "Bamhrauli",
+"lat": 25.44494,
+"lon": 81.74164,
+"state": "Uttar Pradesh"
+},
+{
+"code": "SFG",
+"name": "Subedarganj",
+"lat": 25.43988,
+"lon": 81.7899,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BJU",
+"name": "Barauni Jn",
+"lat": 25.46177,
+"lon": 85.98875,
+"state": "Bihar"
+},
+{
+"code": "SANR",
+"name": "Sardarnagar",
+"lat": 26.70086,
+"lon": 83.49405,
+"state": "Uttar Pradesh"
+},
+{
+"code": "NNPR",
+"name": "Nonapar",
+"lat": 26.35321,
+"lon": 83.96979,
+"state": "Uttar Pradesh"
+},
+{
+"code": "ZRDE",
+"name": "Jiradei",
+"lat": 26.22082,
+"lon": 84.25614,
+"state": "Bihar"
+},
+{
+"code": "SV",
+"name": "Siwan Jn",
+"lat": 26.21072,
+"lon": 84.35927,
+"state": "Bihar"
+},
+{
+"code": "PCK",
+"name": "Pachrukhi",
+"lat": 26.16263,
+"lon": 84.41567,
+"state": "Bihar"
+},
+{
+"code": "KPS",
+"name": "Kopa Samhota",
+"lat": 25.85187,
+"lon": 84.65281,
+"state": "Bihar"
+},
+{
+"code": "NRA",
+"name": "Nunkhar",
+"lat": 26.42548,
+"lon": 83.88018,
+"state": "Uttar Pradesh"
+},
+{
+"code": "MB",
+"name": "Moradabad",
+"lat": 28.83162,
+"lon": 78.7658,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BTT",
+"name": "Bhatni Jn",
+"lat": 26.38126,
+"lon": 83.93403,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BDL",
+"name": "Vindhyachal",
+"lat": 25.16077,
+"lon": 82.50202,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BHTR",
+"name": "Bhatpar Rani",
+"lat": 26.31048,
+"lon": 84.0331,
+"state": "Uttar Pradesh"
+},
+{
+"code": "PKRA",
+"name": "Parsa Khera",
+"lat": 28.43337,
+"lon": 79.34185,
+"state": "Uttar Pradesh"
+},
+{
+"code": "CHTI",
+"name": "Chaneti",
+"lat": 28.3088,
+"lon": 79.42917,
+"state": "Uttar Pradesh"
+},
+{
+"code": "SAI",
+"name": "Sarai",
+"lat": 25.77996,
+"lon": 85.27661,
+"state": "Bihar"
+},
+{
+"code": "BTPH",
+"name": "Chakia Thermal Halt",
+"lat": 25.40126,
+"lon": 86.01624,
+"state": "Bihar"
+},
+{
+"code": "GWH",
+"name": "Ghoshawar",
+"lat": 25.73742,
+"lon": 85.24335,
+"state": "Bihar"
+},
+{
+"code": "HJP",
+"name": "Hajipur Jn",
+"lat": 25.70291,
+"lon": 85.2155,
+"state": "Bihar"
+},
+{
+"code": "MBWC",
+"name": "Moradabad West",
+"lat": 28.83866,
+"lon": 78.75963,
+"state": "Uttar Pradesh"
+},
+{
+"code": "HRH",
+"name": "Harthala",
+"lat": 28.87199,
+"lon": 78.7356,
+"state": "Uttar Pradesh"
+},
+{
+"code": "ALD",
+"name": "Allahabad Jn",
+"lat": 25.44624,
+"lon": 81.82882,
+"state": "Uttar Pradesh"
+},
+{
+"code": "KWD",
+"name": "Karwandia",
+"lat": 24.9532,
+"lon": 84.0846,
+"state": "Bihar"
+},
+{
+"code": "SSM",
+"name": "Sasaram",
+"lat": 24.95593,
+"lon": 84.01942,
+"state": "Bihar"
+},
+{
+"code": "CBJ",
+"name": "Clutter Buck Ganj",
+"lat": 28.3969,
+"lon": 79.37195,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BE",
+"name": "Bareilly",
+"lat": 28.33715,
+"lon": 79.41084,
+"state": "Uttar Pradesh"
+},
+{
+"code": "RYS",
+"name": "Rasuriya",
+"lat": 28.26396,
+"lon": 79.47446,
+"state": "Uttar Pradesh"
+},
+{
+"code": "JHSA",
+"name": "Jhansi A Cabin",
+"lat": 25.41949,
+"lon": 78.54579,
+"state": "Uttar Pradesh"
+},
+{
+"code": "JHS",
+"name": "Jhansi Jn",
+"lat": 25.44358,
+"lon": 78.55298,
+"state": "Uttar Pradesh"
+},
+{
+"code": "KGF",
+"name": "Kathghar",
+"lat": 28.82607,
+"lon": 78.79669,
+"state": "Uttar Pradesh"
+},
+{
+"code": "DLP",
+"name": "Dalpatpur",
+"lat": 28.82044,
+"lon": 78.87719,
+"state": "Uttar Pradesh"
+},
+{
+"code": "SAR",
+"name": "Shahzad Nagar",
+"lat": 28.75003,
+"lon": 79.05215,
+"state": "Uttar Pradesh"
+},
+{
+"code": "DAM",
+"name": "Dhamora",
+"lat": 28.70713,
+"lon": 79.08774,
+"state": "Uttar Pradesh"
+},
+{
+"code": "GDK",
+"name": "Gonda Kachahri",
+"lat": 27.14023,
+"lon": 81.93403,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BBHL",
+"name": "Bela Bela",
+"lat": 26.13719,
+"lon": 81.24876,
+"state": "Uttar Pradesh"
+},
+{
+"code": "POE",
+"name": "Pawapuri Road Halt",
+"lat": 25.16023,
+"lon": 85.51292,
+"state": "Bihar"
+},
+{
+"code": "KHM",
+"name": "Kusmhi",
+"lat": 26.72824,
+"lon": 83.45384,
+"state": "Uttar Pradesh"
+},
+{
+"code": "NYN",
+"name": "Naini",
+"lat": 25.39314,
+"lon": 81.86004,
+"state": "Uttar Pradesh"
+},
+{
+"code": "JTB",
+"name": "Jagatbela",
+"lat": 26.77222,
+"lon": 83.2785,
+"state": "Uttar Pradesh"
+},
+{
+"code": "DMG",
+"name": "Domingarh",
+"lat": 26.76525,
+"lon": 83.34199,
+"state": "Uttar Pradesh"
+},
+{
+"code": "DAP",
+"name": "Dagmagpur",
+"lat": 25.09888,
+"lon": 82.80099,
+"state": "Uttar Pradesh"
+},
+{
+"code": "CI",
+"name": "Chhapra Kacheri",
+"lat": 25.78599,
+"lon": 84.74709,
+"state": "Bihar"
+},
+{
+"code": "BFP",
+"name": "Bilochpura Agra",
+"lat": 27.20262,
+"lon": 77.98717,
+"state": "Uttar Pradesh"
+},
+{
+"code": "RNKA",
+"name": "Runkuta",
+"lat": 27.22285,
+"lon": 77.89793,
+"state": "Uttar Pradesh"
+},
+{
+"code": "SLBN",
+"name": "Salai Banwa",
+"lat": 24.42121,
+"lon": 83.0089,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BHA",
+"name": "Bhandai",
+"lat": 27.06906,
+"lon": 77.96681,
+"state": "Uttar Pradesh"
+},
+{
+"code": "AGC",
+"name": "Agra Cantt",
+"lat": 27.15799,
+"lon": 77.99015,
+"state": "Uttar Pradesh"
+},
+{
+"code": "RKM",
+"name": "Raja Ki Mandi",
+"lat": 27.19381,
+"lon": 77.99661,
+"state": "Uttar Pradesh"
+},
+{
+"code": "PKA",
+"name": "Pradhankhunta",
+"lat": 23.77259,
+"lon": 86.51598,
+"state": "Jharkhand"
+},
+{
+"code": "DOKM",
+"name": "Dokra Halt",
+"lat": 23.78288,
+"lon": 86.48081,
+"state": "Jharkhand"
+},
+{
+"code": "DHN",
+"name": "Dhanbad Jn",
+"lat": 23.79097,
+"lon": 86.42896,
+"state": "Jharkhand"
+},
+{
+"code": "AMG",
+"name": "Alamnagar",
+"lat": 26.84708,
+"lon": 80.86031,
+"state": "Uttar Pradesh"
+},
+{
+"code": "PNK",
+"name": "Panki",
+"lat": 26.45917,
+"lon": 80.23644,
+"state": "Uttar Pradesh"
+},
+{
+"code": "CAM",
+"name": "Chhota Ambana",
+"lat": 23.76275,
+"lon": 86.57461,
+"state": "Jharkhand"
+},
+{
+"code": "SAE",
+"name": "Simaria",
+"lat": 25.41072,
+"lon": 86.01373,
+"state": "Bihar"
+},
+{
+"code": "DLQ",
+"name": "Dalelnagar",
+"lat": 27.11854,
+"lon": 80.41962,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BGH",
+"name": "Baghauli",
+"lat": 27.22808,
+"lon": 80.29631,
+"state": "Uttar Pradesh"
+},
+{
+"code": "AH",
+"name": "Achhnera Jn",
+"lat": 27.18176,
+"lon": 77.75784,
+"state": "Uttar Pradesh"
+},
+{
+"code": "SKB",
+"name": "Shikohabad Jn",
+"lat": 27.08569,
+"lon": 78.57495,
+"state": "Uttar Pradesh"
+},
+{
+"code": "KAA",
+"name": "Kaurara",
+"lat": 27.029,
+"lon": 78.66481,
+"state": "Uttar Pradesh"
+},
+{
+"code": "GD",
+"name": "Gonda Jn",
+"lat": 27.15461,
+"lon": 81.97815,
+"state": "Uttar Pradesh"
+},
+{
+"code": "KGFR",
+"name": "Kathghar Right Bank",
+"lat": 28.83211,
+"lon": 78.80823,
+"state": "Uttar Pradesh"
+},
+{
+"code": "KGFE",
+"name": "Kathghar East",
+"lat": 28.83269,
+"lon": 78.8095,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BLM",
+"name": "Balamu Jn",
+"lat": 27.16736,
+"lon": 80.3525,
+"state": "Uttar Pradesh"
+},
+{
+"code": "JAR",
+"name": "Junair Halt",
+"lat": 25.27361,
+"lon": 85.2507,
+"state": "Bihar"
+},
+{
+"code": "LNWT",
+"name": "Lucknow West (Alh)",
+"lat": 26.82944,
+"lon": 80.90961,
+"state": "Uttar Pradesh"
+},
+{
+"code": "LKO",
+"name": "Lucknow",
+"lat": 26.83067,
+"lon": 80.92529,
+"state": "Uttar Pradesh"
+},
+{
+"code": "CPR",
+"name": "Chhapra",
+"lat": 25.78832,
+"lon": 84.725,
+"state": "Bihar"
+},
+{
+"code": "KEI",
+"name": "Kashi",
+"lat": 25.32656,
+"lon": 83.03194,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BBRM",
+"name": "Baba Bhagwan Ram Halt",
+"lat": 25.31589,
+"lon": 83.03841,
+"state": "Uttar Pradesh"
+},
+{
+"code": "VYN",
+"name": "Vyasnagar",
+"lat": 25.29701,
+"lon": 83.07135,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BHBV",
+"name": "Block Hut B",
+"lat": 25.27487,
+"lon": 83.1022,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BSB",
+"name": "Varanasi Jn",
+"lat": 25.32728,
+"lon": 82.98647,
+"state": "Uttar Pradesh"
+},
+{
+"code": "AHMP",
+"name": "Adarsh Manpur",
+"lat": 25.13448,
+"lon": 85.91106,
+"state": "Bihar"
+},
+{
+"code": "KRNN",
+"name": "Karnauti Halt",
+"lat": 25.39629,
+"lon": 85.54705,
+"state": "Bihar"
+},
+{
+"code": "RSWN",
+"name": "Rameshwar Nagar",
+"lat": 26.9804,
+"lon": 84.52011,
+"state": "Bihar"
+},
+{
+"code": "APRH",
+"name": "Alehpur Halt",
+"lat": 26.20946,
+"lon": 84.78899,
+"state": "Bihar"
+},
+{
+"code": "MUHI",
+"name": "Murhari Halt",
+"lat": 25.34141,
+"lon": 85.53301,
+"state": "Bihar"
+},
+{
+"code": "PPNI",
+"name": "Paras Pani",
+"lat": 24.38141,
+"lon": 83.04895,
+"state": "Uttar Pradesh"
+},
+{
+"code": "ASSH",
+"name": "Aishbagh",
+"lat": 26.83609,
+"lon": 80.90862,
+"state": "Uttar Pradesh"
+},
+{
+"code": "METR",
+"name": "Methi Tikur",
+"lat": 26.69884,
+"lon": 80.41847,
+"state": "Uttar Pradesh"
+},
+{
+"code": "NON",
+"name": "Nonar Halt",
+"lat": 25.28647,
+"lon": 84.37077,
+"state": "Bihar"
+},
+{
+"code": "KCYN",
+"name": "Kachhiyana Halt",
+"lat": 25.13312,
+"lon": 85.98011,
+"state": "Bihar"
+},
+{
+"code": "TJW",
+"name": "Tejpurwa Halt",
+"lat": 25.94008,
+"lon": 84.8197,
+"state": "Bihar"
+},
+{
+"code": "APP",
+"name": "Ambapendarpur Halt",
+"lat": 25.26696,
+"lon": 85.52971,
+"state": "Bihar"
+},
+{
+"code": "KXR",
+"name": "Kuria",
+"lat": 26.46822,
+"lon": 85.00541,
+"state": "Bihar"
+},
+{
+"code": "DRQ",
+"name": "Dharminiya",
+"lat": 26.86552,
+"lon": 84.79344,
+"state": "Bihar"
+},
+{
+"code": "RGBD",
+"name": "Ramganga",
+"lat": 28.29773,
+"lon": 79.37464,
+"state": "Uttar Pradesh"
+},
+{
+"code": "PPRH",
+"name": "Piparahan Halt",
+"lat": 26.22433,
+"lon": 85.24691,
+"state": "Bihar"
+},
+{
+"code": "MPF",
+"name": "Muirpur Road",
+"lat": 24.20609,
+"lon": 83.09439,
+"state": "Uttar Pradesh"
+},
+{
+"code": "CAPA",
+"name": "Chhapra Jn",
+"lat": 25.7879,
+"lon": 84.72437,
+"state": "Bihar"
+},
+{
+"code": "KJGY",
+"name": "Khanalampura Gy",
+"lat": 29.92919,
+"lon": 77.58351,
+"state": "Uttar Pradesh"
+},
+{
+"code": "TKND",
+"name": "Trivikramdeo Nagar",
+"lat": 26.30191,
+"lon": 84.70897,
+"state": "Bihar"
+},
+{
+"code": "UDKN",
+"name": "Udaypur Khurd",
+"lat": 28.48623,
+"lon": 80.17841,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BHTH",
+"name": "Bhairopatti Halt",
+"lat": 25.89491,
+"lon": 86.90719,
+"state": "Bihar"
+},
+{
+"code": "LIJ",
+"name": "Lakshmiganj",
+"lat": 26.92779,
+"lon": 83.78816,
+"state": "Uttar Pradesh"
+},
+{
+"code": "KULH",
+"name": "Kulha-Halt",
+"lat": 26.36941,
+"lon": 80.65646,
+"state": "Uttar Pradesh"
+},
+{
+"code": "NKPU",
+"name": "Nekpur",
+"lat": 24.9957,
+"lon": 85.33886,
+"state": "Bihar"
+},
+{
+"code": "BMPT",
+"name": "Banni Mahamman",
+"lat": 25.89128,
+"lon": 84.77867,
+"state": "Bihar"
+},
+{
+"code": "RJJN",
+"name": "Rajajan Halt",
+"lat": 25.61496,
+"lon": 85.6709,
+"state": "Bihar"
+},
+{
+"code": "PPTA",
+"name": "Patliputra",
+"lat": 25.62143,
+"lon": 85.06851,
+"state": "Bihar"
+},
+{
+"code": "VPDA",
+"name": "Vidyapatidham",
+"lat": 25.60206,
+"lon": 85.80243,
+"state": "Bihar"
+},
+{
+"code": "GNAN",
+"name": "Gonda Jn",
+"lat": 27.15392,
+"lon": 81.97762,
+"state": "Uttar Pradesh"
+},
+{
+"code": "EC31",
+"name": "Kharuara Halt",
+"lat": 25.43163,
+"lon": 85.54362,
+"state": "Bihar"
+},
+{
+"code": "SDPH",
+"name": "Sardar Patel Halt",
+"lat": 25.05038,
+"lon": 85.42411,
+"state": "Bihar"
+},
+{
+"code": "IMBG",
+"name": "Imlibigha Halt",
+"lat": 25.30079,
+"lon": 85.53137,
+"state": "Bihar"
+},
+{
+"code": "XKA",
+"name": "Kamta",
+"lat": 25.33657,
+"lon": 85.27775,
+"state": "Bihar"
+},
+{
+"code": "DKR",
+"name": "Dekpura Halt",
+"lat": 25.26115,
+"lon": 85.52942,
+"state": "Bihar"
+},
+{
+"code": "SXQ",
+"name": "Suaheri",
+"lat": 29.43682,
+"lon": 78.19083,
+"state": "Uttar Pradesh"
+},
+{
+"code": "LUA",
+"name": "Laluri Khera",
+"lat": 28.60797,
+"lon": 79.74624,
+"state": "Uttar Pradesh"
+},
+{
+"code": "NARD",
+"name": "Naika Road",
+"lat": 25.44858,
+"lon": 85.29238,
+"state": "Bihar"
+},
+{
+"code": "AGTR",
+"name": "Agauthar Halt",
+"lat": 26.00815,
+"lon": 84.84376,
+"state": "Bihar"
+},
+{
+"code": "MCO",
+"name": "Motihari Court",
+"lat": 26.62564,
+"lon": 84.90543,
+"state": "Bihar"
+},
+{
+"code": "BUGN",
+"name": "Bhurjiha Baragn",
+"lat": 27.6381,
+"lon": 80.72631,
+"state": "Uttar Pradesh"
+},
+{
+"code": "LKJN",
+"name": "Link Jn. Cabin",
+"lat": 25.35683,
+"lon": 81.84187,
+"state": "Uttar Pradesh"
+},
+{
+"code": "JHH",
+"name": "Jhalra Halt",
+"lat": 29.4203,
+"lon": 78.1764,
+"state": "Uttar Pradesh"
+},
+{
+"code": "CLKN",
+"name": "Chuchela Kalan",
+"lat": 29.0146,
+"lon": 78.2728,
+"state": "Uttar Pradesh"
+},
+{
+"code": "DLPR",
+"name": "Dayalpur",
+"lat": 25.63221,
+"lon": 81.88948,
+"state": "Uttar Pradesh"
+},
+{
+"code": "CKRD",
+"name": "Chakmakrand",
+"lat": 25.69753,
+"lon": 85.27403,
+"state": "Bihar"
+},
+{
+"code": "OHAN",
+"name": "Ohancabin",
+"lat": 25.10246,
+"lon": 81.01725,
+"state": "Uttar Pradesh"
+},
+{
+"code": "SHER",
+"name": "Sher",
+"lat": 26.35166,
+"lon": 84.62829,
+"state": "Bihar"
+},
+{
+"code": "BICI",
+"name": "Barkichampi",
+"lat": 23.48361,
+"lon": 84.70975,
+"state": "Jharkhand"
+},
+{
+"code": "MCY",
+"name": "Machriawan",
+"lat": 25.46248,
+"lon": 85.29442,
+"state": "Bihar"
+},
+{
+"code": "JLT",
+"name": "Jhamat Halt",
+"lat": 27.20003,
+"lon": 83.34038,
+"state": "Uttar Pradesh"
+},
+{
+"code": "SPPA",
+"name": "Sherpur Dhipura",
+"lat": 25.59994,
+"lon": 85.84816,
+"state": "Bihar"
+},
+{
+"code": "ASAR",
+"name": "Asra Halt",
+"lat": 29.24976,
+"lon": 77.29144,
+"state": "Uttar Pradesh"
+},
+{
+"code": "DPNR",
+"name": "Deepnagar Halt",
+"lat": 25.14067,
+"lon": 85.48327,
+"state": "Bihar"
+},
+{
+"code": "PETA",
+"name": "Pandetola",
+"lat": 24.74154,
+"lon": 87.06032,
+"state": "Bihar"
+},
+{
+"code": "GKPE",
+"name": "Gorakhpur East",
+"lat": 26.75877,
+"lon": 83.38739,
+"state": "Uttar Pradesh"
+},
+{
+"code": "KPCM",
+"name": "Kuwarchintawa",
+"lat": 26.51743,
+"lon": 84.94211,
+"state": "Bihar"
+},
+{
+"code": "JNDO",
+"name": "Jehanabad Court",
+"lat": 25.20122,
+"lon": 84.98424,
+"state": "Bihar"
+},
+{
+"code": "JDPT",
+"name": "Jagdishpur",
+"lat": 25.14823,
+"lon": 86.98462,
+"state": "Bihar"
+},
+{
+"code": "BRWH",
+"name": "Baherwa Halt",
+"lat": 25.25188,
+"lon": 82.79229,
+"state": "Uttar Pradesh"
+},
+{
+"code": "NMUE",
+"name": "Numaishgarh Halt",
+"lat": 28.40774,
+"lon": 77.84231,
+"state": "Uttar Pradesh"
+},
+{
+"code": "XGN",
+"name": "Gokulnagar",
+"lat": 25.48797,
+"lon": 85.30219,
+"state": "Bihar"
+},
+{
+"code": "TSG",
+"name": "Sitapur City (Thomasganj)",
+"lat": 27.56989,
+"lon": 80.69026,
+"state": "Uttar Pradesh"
+},
+{
+"code": "GRNA",
+"name": "Gurhanwa",
+"lat": 26.74758,
+"lon": 85.21576,
+"state": "Bihar"
+},
+{
+"code": "BURA",
+"name": "Bahuara",
+"lat": 25.89687,
+"lon": 84.78348,
+"state": "Bihar"
+},
+{
+"code": "BRSA",
+"name": "Barwa Kalan",
+"lat": 27.39127,
+"lon": 83.40834,
+"state": "Uttar Pradesh"
+},
+{
+"code": "JWK",
+"name": "Jawaharpur Kamsan",
+"lat": 27.52481,
+"lon": 78.58828,
+"state": "Uttar Pradesh"
+},
+{
+"code": "DYW",
+"name": "Diyawan Halt",
+"lat": 25.38173,
+"lon": 85.28392,
+"state": "Bihar"
+},
+{
+"code": "CHAH",
+"name": "Chailaha Halt",
+"lat": 26.67481,
+"lon": 84.89465,
+"state": "Bihar"
+},
+{
+"code": "SISN",
+"name": "Sisauna",
+"lat": 29.21616,
+"lon": 78.28055,
+"state": "Uttar Pradesh"
+},
+{
+"code": "KWC",
+"name": "Kundwa Chainpur",
+"lat": 26.77188,
+"lon": 85.18312,
+"state": "Bihar"
+},
+{
+"code": "SSGR",
+"name": "Sisai Gulabrai",
+"lat": 26.28239,
+"lon": 83.77687,
+"state": "Uttar Pradesh"
+},
+{
+"code": "KAMR",
+"name": "Khurrampur",
+"lat": 25.16872,
+"lon": 85.22132,
+"state": "Bihar"
+},
+{
+"code": "SRJK",
+"name": "Suraj Kunda",
+"lat": 26.1427,
+"lon": 81.20292,
+"state": "Uttar Pradesh"
+},
+{
+"code": "PKRH",
+"name": "Parsa Kerwan Halt",
+"lat": 26.05361,
+"lon": 84.82738,
+"state": "Bihar"
+},
+{
+"code": "DEPI",
+"name": "Deenapatti",
+"lat": 25.89498,
+"lon": 86.93716,
+"state": "Bihar"
+},
+{
+"code": "BKRH",
+"name": "Brij Kishor Halt",
+"lat": 26.31374,
+"lon": 84.69461,
+"state": "Bihar"
+},
+{
+"code": "NRKG",
+"name": "Narkatiaganj Jn",
+"lat": 27.10503,
+"lon": 84.46404,
+"state": "Bihar"
+},
+{
+"code": "NAKD",
+"name": "Naik Dih",
+"lat": 25.84703,
+"lon": 83.46601,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BRIH",
+"name": "Bairi Halt",
+"lat": 25.15861,
+"lon": 84.21132,
+"state": "Bihar"
+},
+{
+"code": "HIS",
+"name": "Hisua",
+"lat": 24.8596,
+"lon": 85.41783,
+"state": "Bihar"
+},
+{
+"code": "IDS",
+"name": "Ishardaspur",
+"lat": 25.94785,
+"lon": 81.25395,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BYQ",
+"name": "Bahai",
+"lat": 26.12233,
+"lon": 81.01528,
+"state": "Uttar Pradesh"
+},
+{
+"code": "GKHT",
+"name": "Gram Kharika",
+"lat": 25.67204,
+"lon": 85.38791,
+"state": "Bihar"
+},
+{
+"code": "KTLP",
+"name": "Katalpur Halt",
+"lat": 26.22929,
+"lon": 84.77284,
+"state": "Bihar"
+},
+{
+"code": "SLHI",
+"name": "Shilhauri Halt",
+"lat": 25.95302,
+"lon": 84.83375,
+"state": "Bihar"
+},
+{
+"code": "RTU",
+"name": "Ratan Sarai",
+"lat": 26.37354,
+"lon": 84.57358,
+"state": "Bihar"
+},
+{
+"code": "MSHW",
+"name": "Musharwa Halt",
+"lat": 27.05163,
+"lon": 84.48696,
+"state": "Bihar"
+},
+{
+"code": "CHIT",
+"name": "Chithari Halt",
+"lat": 25.22831,
+"lon": 79.89076,
+"state": "Uttar Pradesh"
+},
+{
+"code": "NKV",
+"name": "Nakardei",
+"lat": 26.94896,
+"lon": 84.89194,
+"state": "Bihar"
+},
+{
+"code": "MMDL",
+"name": "Mohini Mandal(H",
+"lat": 26.67868,
+"lon": 85.38906,
+"state": "Bihar"
+},
+{
+"code": "SWT",
+"name": "Shivwala Tehu",
+"lat": 27.38293,
+"lon": 78.22459,
+"state": "Uttar Pradesh"
+},
+{
+"code": "JUBS",
+"name": "Jubbasahani",
+"lat": 26.17489,
+"lon": 85.36979,
+"state": "Bihar"
+},
+{
+"code": "HPLB",
+"name": "Hatpuraini",
+"lat": 25.15535,
+"lon": 86.98459,
+"state": "Bihar"
+},
+{
+"code": "MMDP",
+"name": "Mohamadpur",
+"lat": 24.87739,
+"lon": 85.41562,
+"state": "Bihar"
+},
+{
+"code": "GOX",
+"name": "Gobindpur Dugli",
+"lat": 26.0853,
+"lon": 83.79151,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BLV",
+"name": "Bhelwa",
+"lat": 26.99413,
+"lon": 84.77836,
+"state": "Bihar"
+},
+{
+"code": "TNNH",
+"name": "Tapaswinarayan Nagar Halt",
+"lat": 26.63162,
+"lon": 85.44595,
+"state": "Bihar"
+},
+{
+"code": "BDUA",
+"name": "Basudeopur Chandail Halt",
+"lat": 25.64874,
+"lon": 85.54269,
+"state": "Bihar"
+},
+{
+"code": "JGF",
+"name": "Jogidih",
+"lat": 24.27691,
+"lon": 83.05229,
+"state": "Uttar Pradesh"
+},
+{
+"code": "TERH",
+"name": "Terha Halt",
+"lat": 25.99565,
+"lon": 84.84937,
+"state": "Bihar"
+},
+{
+"code": "ANGM",
+"name": "Aungari Dham",
+"lat": 25.19133,
+"lon": 85.22616,
+"state": "Bihar"
+},
+{
+"code": "GNDM",
+"name": "Gunrajpur Dhama",
+"lat": 26.06945,
+"lon": 84.82113,
+"state": "Bihar"
+},
+{
+"code": "GGG",
+"name": "Gangagarh Halt",
+"lat": 27.85034,
+"lon": 78.73911,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BGRR",
+"name": "Bagarpur Halt",
+"lat": 29.07907,
+"lon": 78.27804,
+"state": "Uttar Pradesh"
+},
+{
+"code": "KWBR",
+"name": "Katwar Bazaar",
+"lat": 25.56264,
+"lon": 82.44886,
+"state": "Uttar Pradesh"
+},
+{
+"code": "DALF",
+"name": "Dali Ganj",
+"lat": 26.87564,
+"lon": 80.92774,
+"state": "Uttar Pradesh"
+},
+{
+"code": "PJPI",
+"name": "Prajapati Halt",
+"lat": 26.8159,
+"lon": 84.50216,
+"state": "Bihar"
+},
+{
+"code": "BEHT",
+"name": "Bihat Halt",
+"lat": 25.44977,
+"lon": 86.03346,
+"state": "Bihar"
+},
+{
+"code": "MRPM",
+"name": "Mathurapur Mor Halt",
+"lat": 29.66096,
+"lon": 78.42224,
+"state": "Uttar Pradesh"
+},
+{
+"code": "SHHT",
+"name": "Singhaul Halt",
+"lat": 25.43501,
+"lon": 86.09668,
+"state": "Bihar"
+},
+{
+"code": "DHWN",
+"name": "Dhaniyawan",
+"lat": 25.42199,
+"lon": 85.28747,
+"state": "Bihar"
+},
+{
+"code": "NKBR",
+"name": "Narkatia Bazar",
+"lat": 26.48834,
+"lon": 84.38246,
+"state": "Bihar"
+},
+{
+"code": "GMX",
+"name": "Gurmura",
+"lat": 24.3549,
+"lon": 83.04777,
+"state": "Uttar Pradesh"
+},
+{
+"code": "OBAC",
+"name": "Obra-A-Cabin",
+"lat": 24.44633,
+"lon": 82.98831,
+"state": "Uttar Pradesh"
+},
+{
+"code": "MTBG",
+"name": "Matia Barghat Halt",
+"lat": 26.94154,
+"lon": 83.7571,
+"state": "Uttar Pradesh"
+},
+{
+"code": "KHDH",
+"name": "Karahdih Halt",
+"lat": 25.06885,
+"lon": 85.43268,
+"state": "Bihar"
+},
+{
+"code": "PBQ",
+"name": "Pathardih Bazar",
+"lat": 23.68254,
+"lon": 86.43126,
+"state": "Jharkhand"
+},
+{
+"code": "LCNC",
+"name": "Lucknow City",
+"lat": 26.85925,
+"lon": 80.91798,
+"state": "Uttar Pradesh"
+},
+{
+"code": "EC28",
+"name": "Pura Halt",
+"lat": 24.81502,
+"lon": 85.23956,
+"state": "Bihar"
+},
+{
+"code": "BELT",
+"name": "Bela Halt",
+"lat": 25.03826,
+"lon": 86.99826,
+"state": "Bihar"
+},
+{
+"code": "BRRZ",
+"name": "Barara Buzurg",
+"lat": 26.05265,
+"lon": 81.08414,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BPGR",
+"name": "Benipurgram Halt",
+"lat": 26.31724,
+"lon": 85.48135,
+"state": "Bihar"
+},
+{
+"code": "PRSN",
+"name": "Parsa Nagar",
+"lat": 26.77638,
+"lon": 84.68692,
+"state": "Bihar"
+},
+{
+"code": "GAHT",
+"name": "Ghusia Halt",
+"lat": 25.19195,
+"lon": 84.2479,
+"state": "Bihar"
+},
+{
+"code": "DHBI",
+"name": "Dhabauli Halt",
+"lat": 25.68209,
+"lon": 85.34218,
+"state": "Bihar"
+},
+{
+"code": "RPWN",
+"name": "Rambhawan Halt",
+"lat": 25.25475,
+"lon": 85.23928,
+"state": "Bihar"
+},
+{
+"code": "KRRH",
+"name": "Kharuara Halt",
+"lat": 25.43178,
+"lon": 85.54377,
+"state": "Bihar"
+},
+{
+"code": "DXU",
+"name": "Duhru",
+"lat": 26.08361,
+"lon": 80.17672,
+"state": "Uttar Pradesh"
+},
+{
+"code": "MVKR",
+"name": "Mahawan Khor Halt",
+"lat": 26.97583,
+"lon": 83.27682,
+"state": "Uttar Pradesh"
+},
+{
+"code": "SGYW",
+"name": "Singriawan",
+"lat": 25.40952,
+"lon": 85.28454,
+"state": "Bihar"
+},
+{
+"code": "BGAR",
+"name": "Bangari",
+"lat": 26.53809,
+"lon": 84.92128,
+"state": "Bihar"
+},
+{
+"code": "BMHT",
+"name": "Baraw More",
+"lat": 25.04379,
+"lon": 84.06204,
+"state": "Bihar"
+},
+{
+"code": "NKU",
+"name": "Nakardei",
+"lat": 26.94869,
+"lon": 84.89167,
+"state": "Bihar"
+},
+{
+"code": "HHP",
+"name": "Harhar Fatehpur",
+"lat": 29.56225,
+"lon": 77.38734,
+"state": "Uttar Pradesh"
+},
+{
+"code": "NRSD",
+"name": "New Runnisaidpur Halt",
+"lat": 26.38538,
+"lon": 85.51593,
+"state": "Bihar"
+},
+{
+"code": "PPDI",
+"name": "Pipradih",
+"lat": 24.99367,
+"lon": 86.99449,
+"state": "Bihar"
+},
+{
+"code": "SANH",
+"name": "Sanha Halt",
+"lat": 25.42741,
+"lon": 86.36843,
+"state": "Bihar"
+},
+{
+"code": "RSC",
+"name": "Ramganga South",
+"lat": 28.29597,
+"lon": 79.36979,
+"state": "Uttar Pradesh"
+},
+{
+"code": "NIT",
+"name": "Naikot",
+"lat": 27.36101,
+"lon": 83.39661,
+"state": "Uttar Pradesh"
+},
+{
+"code": "KAMA",
+"name": "Kamta Halt",
+"lat": 25.33674,
+"lon": 85.27792,
+"state": "Bihar"
+},
+{
+"code": "LHNR",
+"name": "Lakshmanpur Halt",
+"lat": 27.53183,
+"lon": 82.33976,
+"state": "Uttar Pradesh"
+},
+{
+"code": "LHNA",
+"name": "Lohanda",
+"lat": 25.35412,
+"lon": 85.27902,
+"state": "Bihar"
+},
+{
+"code": "FAH",
+"name": "Fateha Halt",
+"lat": 25.59842,
+"lon": 85.87146,
+"state": "Bihar"
+},
+{
+"code": "PURA",
+"name": "Pura Halt",
+"lat": 24.81519,
+"lon": 85.23973,
+"state": "Bihar"
+},
+{
+"code": "CIF",
+"name": "Chhapra Kacheri Jn.",
+"lat": 25.78615,
+"lon": 84.74662,
+"state": "Bihar"
+},
+{
+"code": "BRHD",
+"name": "Baba Raghuni Halt Dwarika",
+"lat": 25.76005,
+"lon": 86.5968,
+"state": "Bihar"
+},
+{
+"code": "MFH",
+"name": "Mahrauli",
+"lat": 28.66387,
+"lon": 77.46882,
+"state": "Uttar Pradesh"
+},
+{
+"code": "AKNR",
+"name": "Adhyatmik Nagar",
+"lat": 28.67987,
+"lon": 77.49973,
+"state": "Uttar Pradesh"
+},
+{
+"code": "DS",
+"name": "Dasna",
+"lat": 28.69072,
+"lon": 77.52812,
+"state": "Uttar Pradesh"
+},
+{
+"code": "KKMB",
+"name": "Kastla Kasambad",
+"lat": 28.72107,
+"lon": 77.7103,
+"state": "Uttar Pradesh"
+},
+{
+"code": "HPU",
+"name": "Hapur",
+"lat": 28.73961,
+"lon": 77.77958,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BBO",
+"name": "Babugarh",
+"lat": 28.74739,
+"lon": 77.85552,
+"state": "Uttar Pradesh"
+},
+{
+"code": "GJL",
+"name": "Gajraula Jn",
+"lat": 28.83494,
+"lon": 78.25078,
+"state": "Uttar Pradesh"
+},
+{
+"code": "MHHR",
+"name": "Mahesra",
+"lat": 28.85639,
+"lon": 78.33032,
+"state": "Uttar Pradesh"
+},
+{
+"code": "LPB",
+"name": "Lodipur Bishanp",
+"lat": 28.86978,
+"lon": 78.71803,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BRM",
+"name": "Barabambo",
+"lat": 22.7017,
+"lon": 85.72903,
+"state": "Jharkhand"
+},
+{
+"code": "RKSN",
+"name": "Rajkharsawan Jn",
+"lat": 22.73353,
+"lon": 85.81116,
+"state": "Jharkhand"
+},
+{
+"code": "MSV",
+"name": "Mustara",
+"lat": 25.4967,
+"lon": 78.63498,
+"state": "Uttar Pradesh"
+},
+{
+"code": "RPGU",
+"name": "Rasulpurgogamau",
+"lat": 26.37629,
+"lon": 80.11843,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BNAR",
+"name": "Binaur",
+"lat": 26.40273,
+"lon": 80.17872,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BZM",
+"name": "Bhimsen",
+"lat": 26.41975,
+"lon": 80.21814,
+"state": "Uttar Pradesh"
+},
+{
+"code": "HLIN",
+"name": "Holding Line",
+"lat": 26.43827,
+"lon": 80.26021,
+"state": "Uttar Pradesh"
+},
+{
+"code": "ASH",
+"name": "Aishbagh",
+"lat": 26.83739,
+"lon": 80.90961,
+"state": "Uttar Pradesh"
+},
+{
+"code": "LC",
+"name": "Lucknow City",
+"lat": 26.85911,
+"lon": 80.91787,
+"state": "Uttar Pradesh"
+},
+{
+"code": "DAL",
+"name": "Daliganj",
+"lat": 26.87538,
+"lon": 80.92748,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BNZ",
+"name": "Badshahnagar",
+"lat": 26.86861,
+"lon": 80.96136,
+"state": "Uttar Pradesh"
+},
+{
+"code": "GTNR",
+"name": "Gomati Nagar",
+"lat": 26.86034,
+"lon": 81.00343,
+"state": "Uttar Pradesh"
+},
+{
+"code": "NGB",
+"name": "Nawabganj Gonda",
+"lat": 27.15382,
+"lon": 81.97706,
+"state": "Uttar Pradesh"
+},
+{
+"code": "LJN",
+"name": "Lucknow Jn",
+"lat": 26.83197,
+"lon": 80.91859,
+"state": "Uttar Pradesh"
+},
+{
+"code": "AGA",
+"name": "Agra City",
+"lat": 27.19457,
+"lon": 78.01578,
+"state": "Uttar Pradesh"
+},
+{
+"code": "IAA",
+"name": "Indara Jn",
+"lat": 25.98783,
+"lon": 83.61961,
+"state": "Uttar Pradesh"
+},
+{
+"code": "MAU",
+"name": "Mau Jn",
+"lat": 25.93948,
+"lon": 83.56435,
+"state": "Uttar Pradesh"
+},
+{
+"code": "PLGH",
+"name": "Paligarh",
+"lat": 25.95954,
+"lon": 83.50513,
+"state": "Uttar Pradesh"
+},
+{
+"code": "SHG",
+"name": "Shahganj Jn",
+"lat": 26.0614,
+"lon": 82.67966,
+"state": "Uttar Pradesh"
+},
+{
+"code": "PEP",
+"name": "Phephna Jn",
+"lat": 25.77031,
+"lon": 84.05132,
+"state": "Uttar Pradesh"
+},
+{
+"code": "SVI",
+"name": "Sagarpali",
+"lat": 25.75802,
+"lon": 84.09866,
+"state": "Uttar Pradesh"
+},
+{
+"code": "HLP",
+"name": "Haldharpur",
+"lat": 25.96335,
+"lon": 83.67908,
+"state": "Uttar Pradesh"
+},
+{
+"code": "RTP",
+"name": "Ratanpura",
+"lat": 25.92192,
+"lon": 83.74447,
+"state": "Uttar Pradesh"
+},
+{
+"code": "CHR",
+"name": "Chilkahar",
+"lat": 25.82699,
+"lon": 83.96531,
+"state": "Uttar Pradesh"
+},
+{
+"code": "JGKS",
+"name": "Jigni Khas",
+"lat": 25.80219,
+"lon": 84.00627,
+"state": "Uttar Pradesh"
+},
+{
+"code": "SPC",
+"name": "Sitapur City",
+"lat": 27.58361,
+"lon": 80.67969,
+"state": "Uttar Pradesh"
+},
+{
+"code": "STRK",
+"name": "Sitapur Kutchery Halt",
+"lat": 27.5646,
+"lon": 80.68716,
+"state": "Uttar Pradesh"
+},
+{
+"code": "SCC",
+"name": "Sitapur Cant",
+"lat": 27.55947,
+"lon": 80.69878,
+"state": "Uttar Pradesh"
+},
+{
+"code": "TKUR",
+"name": "Tappa Khajuria",
+"lat": 27.57943,
+"lon": 80.76164,
+"state": "Uttar Pradesh"
+},
+{
+"code": "HMP",
+"name": "Hempur",
+"lat": 27.61628,
+"lon": 80.56265,
+"state": "Uttar Pradesh"
+},
+{
+"code": "KATA",
+"name": "Katili",
+"lat": 27.61676,
+"lon": 80.61409,
+"state": "Uttar Pradesh"
+},
+{
+"code": "KGG",
+"name": "Khagaria Jn",
+"lat": 25.50589,
+"lon": 86.46525,
+"state": "Bihar"
+},
+{
+"code": "MNE",
+"name": "Mansi Jn",
+"lat": 25.5094,
+"lon": 86.55445,
+"state": "Bihar"
+},
+{
+"code": "CDBN",
+"name": "Chedhabanni Halt",
+"lat": 25.49182,
+"lon": 86.5972,
+"state": "Bihar"
+},
+{
+"code": "HPO",
+"name": "Hasanpur Road",
+"lat": 25.71477,
+"lon": 86.18537,
+"state": "Bihar"
+},
+{
+"code": "SSRH",
+"name": "Shasan Halt",
+"lat": 25.68598,
+"lon": 86.19704,
+"state": "Bihar"
+},
+{
+"code": "SOPR",
+"name": "Sonma Pranpur(H",
+"lat": 25.63144,
+"lon": 86.22637,
+"state": "Bihar"
+},
+{
+"code": "SLNA",
+"name": "Salauna",
+"lat": 25.60348,
+"lon": 86.26028,
+"state": "Bihar"
+},
+{
+"code": "PRGA",
+"name": "Paharjagangau",
+"lat": 25.53187,
+"lon": 86.32483,
+"state": "Bihar"
+},
+{
+"code": "OLP",
+"name": "Olapur",
+"lat": 25.51746,
+"lon": 86.37012,
+"state": "Bihar"
+},
+{
+"code": "MSK",
+"name": "Mahes Khunt",
+"lat": 25.46082,
+"lon": 86.64182,
+"state": "Bihar"
+},
+{
+"code": "DNH",
+"name": "Deonagar",
+"lat": 23.75869,
+"lon": 86.16169,
+"state": "Jharkhand"
+},
+{
+"code": "DDGA",
+"name": "Dugda",
+"lat": 23.75874,
+"lon": 86.16193,
+"state": "Jharkhand"
+},
+{
+"code": "LOT",
+"name": "Lohra",
+"lat": 25.3156,
+"lon": 82.93066,
+"state": "Uttar Pradesh"
+},
+{
+"code": "CHH",
+"name": "Chaukhandi",
+"lat": 25.33989,
+"lon": 82.83483,
+"state": "Uttar Pradesh"
+},
+{
+"code": "SWPR",
+"name": "Sewapuri",
+"lat": 25.35077,
+"lon": 82.76955,
+"state": "Uttar Pradesh"
+},
+{
+"code": "KEH",
+"name": "Kapseti",
+"lat": 25.35785,
+"lon": 82.71769,
+"state": "Uttar Pradesh"
+},
+{
+"code": "SAW",
+"name": "Suriawan",
+"lat": 25.46104,
+"lon": 82.42366,
+"state": "Uttar Pradesh"
+},
+{
+"code": "SQN",
+"name": "Sarai Kansrai",
+"lat": 25.51663,
+"lon": 82.3452,
+"state": "Uttar Pradesh"
+},
+{
+"code": "JNH",
+"name": "Janghai Jn",
+"lat": 25.54991,
+"lon": 82.31096,
+"state": "Uttar Pradesh"
+},
+{
+"code": "MGW",
+"name": "Magarwara",
+"lat": 26.5237,
+"lon": 80.42889,
+"state": "Uttar Pradesh"
+},
+{
+"code": "ON",
+"name": "Unnao Jn",
+"lat": 26.54835,
+"lon": 80.4862,
+"state": "Uttar Pradesh"
+},
+{
+"code": "SIC",
+"name": "Sonik",
+"lat": 26.58619,
+"lon": 80.55983,
+"state": "Uttar Pradesh"
+},
+{
+"code": "RBL",
+"name": "Rae Bareli Jn",
+"lat": 26.23268,
+"lon": 81.23932,
+"state": "Uttar Pradesh"
+},
+{
+"code": "RUM",
+"name": "Rupamau",
+"lat": 26.23021,
+"lon": 81.32535,
+"state": "Uttar Pradesh"
+},
+{
+"code": "JGJ",
+"name": "Jagesharganj",
+"lat": 26.02764,
+"lon": 81.92887,
+"state": "Uttar Pradesh"
+},
+{
+"code": "CIL",
+"name": "Chilbila Jn",
+"lat": 25.94733,
+"lon": 82.00424,
+"state": "Uttar Pradesh"
+},
+{
+"code": "PBH",
+"name": "Partapgarh Jn",
+"lat": 25.91331,
+"lon": 82.00178,
+"state": "Uttar Pradesh"
+},
+{
+"code": "PHV",
+"name": "Pirthiganj",
+"lat": 25.85554,
+"lon": 82.01283,
+"state": "Uttar Pradesh"
+},
+{
+"code": "DND",
+"name": "Dandupur",
+"lat": 25.80159,
+"lon": 82.04063,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BSE",
+"name": "Badshahpur",
+"lat": 25.65227,
+"lon": 82.19055,
+"state": "Uttar Pradesh"
+},
+{
+"code": "NBP",
+"name": "Nibhapur",
+"lat": 25.60035,
+"lon": 82.2497,
+"state": "Uttar Pradesh"
+},
+{
+"code": "TELO",
+"name": "Telo",
+"lat": 23.81104,
+"lon": 86.13389,
+"state": "Jharkhand"
+},
+{
+"code": "GHD",
+"name": "Garwa Road",
+"lat": 24.21442,
+"lon": 83.88512,
+"state": "Jharkhand"
+},
+{
+"code": "SQS",
+"name": "Sigsigi",
+"lat": 24.26057,
+"lon": 83.85332,
+"state": "Jharkhand"
+},
+{
+"code": "KWKC",
+"name": "Kherwa Kocha",
+"lat": 23.36057,
+"lon": 85.59486,
+"state": "Jharkhand"
+},
+{
+"code": "JON",
+"name": "Jonha",
+"lat": 23.35896,
+"lon": 85.60891,
+"state": "Jharkhand"
+},
+{
+"code": "CRP",
+"name": "Chandrapura",
+"lat": 23.75568,
+"lon": 86.11978,
+"state": "Jharkhand"
+},
+{
+"code": "JNNA",
+"name": "Jamuniatanr Halt",
+"lat": 23.7549,
+"lon": 86.19219,
+"state": "Jharkhand"
+},
+{
+"code": "JMX",
+"name": "Jamuni",
+"lat": 23.76274,
+"lon": 86.19373,
+"state": "Jharkhand"
+},
+{
+"code": "PLJE",
+"name": "Phulwartanr",
+"lat": 23.77515,
+"lon": 86.22658,
+"state": "Jharkhand"
+},
+{
+"code": "BDQ",
+"name": "Budora",
+"lat": 23.77856,
+"lon": 86.23545,
+"state": "Jharkhand"
+},
+{
+"code": "TNO",
+"name": "Tundu",
+"lat": 23.78873,
+"lon": 86.25229,
+"state": "Jharkhand"
+},
+{
+"code": "SZE",
+"name": "Sonardih",
+"lat": 23.7915,
+"lon": 86.26506,
+"state": "Jharkhand"
+},
+{
+"code": "TNJE",
+"name": "Tentulla",
+"lat": 23.79033,
+"lon": 86.27717,
+"state": "Jharkhand"
+},
+{
+"code": "KTH",
+"name": "Katrasgarh",
+"lat": 23.79576,
+"lon": 86.3024,
+"state": "Jharkhand"
+},
+{
+"code": "ANJE",
+"name": "Angarpathra Halt",
+"lat": 23.79306,
+"lon": 86.31937,
+"state": "Jharkhand"
+},
+{
+"code": "SJA",
+"name": "Sijua",
+"lat": 23.79016,
+"lon": 86.32973,
+"state": "Jharkhand"
+},
+{
+"code": "BZS",
+"name": "Bansjora",
+"lat": 23.78993,
+"lon": 86.35455,
+"state": "Jharkhand"
+},
+{
+"code": "BZE",
+"name": "Baseria",
+"lat": 23.78675,
+"lon": 86.38165,
+"state": "Jharkhand"
+},
+{
+"code": "KDS",
+"name": "Kasunda Jn",
+"lat": 23.78999,
+"lon": 86.39589,
+"state": "Jharkhand"
+},
+{
+"code": "SMI",
+"name": "Sitamarhi Jn",
+"lat": 26.59437,
+"lon": 85.50471,
+"state": "Bihar"
+},
+{
+"code": "BHSA",
+"name": "Bhisa Halt",
+"lat": 26.57653,
+"lon": 85.5335,
+"state": "Bihar"
+},
+{
+"code": "PSZ",
+"name": "Parsauni",
+"lat": 26.55631,
+"lon": 85.57461,
+"state": "Bihar"
+},
+{
+"code": "BJT",
+"name": "Bajpatti",
+"lat": 26.54698,
+"lon": 85.62061,
+"state": "Bihar"
+},
+{
+"code": "MFP",
+"name": "Muzaffarpur Jn",
+"lat": 26.12231,
+"lon": 85.37801,
+"state": "Bihar"
+},
+{
+"code": "KIR",
+"name": "Katihar Jn",
+"lat": 25.54895,
+"lon": 87.56641,
+"state": "Bihar"
+},
+{
+"code": "KIRB",
+"name": "Katihar Cbo Mb",
+"lat": 25.55273,
+"lon": 87.57887,
+"state": "Bihar"
+},
+{
+"code": "KLJ",
+"name": "Kamalganj",
+"lat": 27.29266,
+"lon": 79.62083,
+"state": "Uttar Pradesh"
+},
+{
+"code": "YAG",
+"name": "Yaqutganj",
+"lat": 27.32595,
+"lon": 79.61849,
+"state": "Uttar Pradesh"
+},
+{
+"code": "FGR",
+"name": "Fatehgarh",
+"lat": 27.36961,
+"lon": 79.62159,
+"state": "Uttar Pradesh"
+},
+{
+"code": "FBD",
+"name": "Farrukhabad",
+"lat": 27.38236,
+"lon": 79.57174,
+"state": "Uttar Pradesh"
+},
+{
+"code": "HSY",
+"name": "Harsingpur Goba",
+"lat": 27.43002,
+"lon": 79.49825,
+"state": "Uttar Pradesh"
+},
+{
+"code": "SHX",
+"name": "Shukharullapur",
+"lat": 27.44826,
+"lon": 79.47194,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BHK",
+"name": "Badhari Kalan",
+"lat": 27.79905,
+"lon": 78.73459,
+"state": "Uttar Pradesh"
+},
+{
+"code": "KSJ",
+"name": "Kasganj",
+"lat": 27.80189,
+"lon": 78.64603,
+"state": "Uttar Pradesh"
+},
+{
+"code": "MHA",
+"name": "Marahra",
+"lat": 27.74647,
+"lon": 78.55504,
+"state": "Uttar Pradesh"
+},
+{
+"code": "HTJ",
+"name": "Hathras Road",
+"lat": 27.62244,
+"lon": 78.1369,
+"state": "Uttar Pradesh"
+},
+{
+"code": "MEU",
+"name": "Mendu",
+"lat": 27.61425,
+"lon": 78.09996,
+"state": "Uttar Pradesh"
+},
+{
+"code": "HTC",
+"name": "Hathras City",
+"lat": 27.59982,
+"lon": 78.05507,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BC",
+"name": "Bareilly City",
+"lat": 28.35566,
+"lon": 79.40372,
+"state": "Uttar Pradesh"
+},
+{
+"code": "CMR",
+"name": "Chamrola",
+"lat": 27.39303,
+"lon": 78.18014,
+"state": "Uttar Pradesh"
+},
+{
+"code": "JLS",
+"name": "Jalesar Road",
+"lat": 27.44546,
+"lon": 78.16993,
+"state": "Uttar Pradesh"
+},
+{
+"code": "HRS",
+"name": "Hathras Jn",
+"lat": 27.62483,
+"lon": 78.13707,
+"state": "Uttar Pradesh"
+},
+{
+"code": "ALJN",
+"name": "Aligarh Jn",
+"lat": 27.88958,
+"lon": 78.07456,
+"state": "Uttar Pradesh"
+},
+{
+"code": "GZB",
+"name": "Ghaziabad",
+"lat": 28.6497,
+"lon": 77.4311,
+"state": "Uttar Pradesh"
+},
+{
+"code": "CYZ",
+"name": "Chipyana Buzurg",
+"lat": 28.62798,
+"lon": 77.45935,
+"state": "Uttar Pradesh"
+},
+{
+"code": "MIU",
+"name": "Maripat",
+"lat": 28.58689,
+"lon": 77.49543,
+"state": "Uttar Pradesh"
+},
+{
+"code": "GNRL",
+"name": "Gangraul",
+"lat": 28.28297,
+"lon": 77.75473,
+"state": "Uttar Pradesh"
+},
+{
+"code": "SKQ",
+"name": "Sikandarpur",
+"lat": 28.24776,
+"lon": 77.78393,
+"state": "Uttar Pradesh"
+},
+{
+"code": "KRJ",
+"name": "Khurja Jn",
+"lat": 28.20641,
+"lon": 77.81904,
+"state": "Uttar Pradesh"
+},
+{
+"code": "KAMP",
+"name": "Kamalpur",
+"lat": 28.18267,
+"lon": 77.83998,
+"state": "Uttar Pradesh"
+},
+{
+"code": "KLA",
+"name": "Kulwa",
+"lat": 27.98251,
+"lon": 78.00706,
+"state": "Uttar Pradesh"
+},
+{
+"code": "MWUE",
+"name": "Mahrawal",
+"lat": 27.93788,
+"lon": 78.04247,
+"state": "Uttar Pradesh"
+},
+{
+"code": "MZM",
+"name": "Muzzampur Narain",
+"lat": 29.58301,
+"lon": 78.22236,
+"state": "Uttar Pradesh"
+},
+{
+"code": "SRE",
+"name": "Saharanpur",
+"lat": 29.96053,
+"lon": 77.54174,
+"state": "Uttar Pradesh"
+},
+{
+"code": "HNC",
+"name": "Hindan Cabin",
+"lat": 29.94,
+"lon": 77.59721,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BAE",
+"name": "Baliakheri",
+"lat": 29.9285,
+"lon": 77.63368,
+"state": "Uttar Pradesh"
+},
+{
+"code": "SNKE",
+"name": "Sunehti Kharkhari",
+"lat": 29.9131,
+"lon": 77.68352,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BHDH",
+"name": "Bahadurpur Halt",
+"lat": 27.95226,
+"lon": 79.78254,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BTRA",
+"name": "Banthra",
+"lat": 27.92924,
+"lon": 79.82818,
+"state": "Uttar Pradesh"
+},
+{
+"code": "SPN",
+"name": "Shahjehanpur",
+"lat": 27.89422,
+"lon": 79.90461,
+"state": "Uttar Pradesh"
+},
+{
+"code": "SXK",
+"name": "Shajahanpurcort",
+"lat": 27.89086,
+"lon": 79.91352,
+"state": "Uttar Pradesh"
+},
+{
+"code": "ROZA",
+"name": "Roza Jn",
+"lat": 27.85312,
+"lon": 79.95604,
+"state": "Uttar Pradesh"
+},
+{
+"code": "PRPM",
+"name": "Pt Ram Prasad Bismil",
+"lat": 27.81471,
+"lon": 79.9576,
+"state": "Uttar Pradesh"
+},
+{
+"code": "LBH",
+"name": "Dilkusha Cabin",
+"lat": 26.83113,
+"lon": 80.96687,
+"state": "Uttar Pradesh"
+},
+{
+"code": "ZBD",
+"name": "Zafarabad Jn",
+"lat": 25.70844,
+"lon": 82.71901,
+"state": "Uttar Pradesh"
+},
+{
+"code": "SIQ",
+"name": "Sarkoni",
+"lat": 25.64311,
+"lon": 82.75212,
+"state": "Uttar Pradesh"
+},
+{
+"code": "JLL",
+"name": "Jalalganj",
+"lat": 25.61252,
+"lon": 82.77246,
+"state": "Uttar Pradesh"
+},
+{
+"code": "SOP",
+"name": "Shiupur",
+"lat": 25.35542,
+"lon": 82.94697,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BSBY",
+"name": "Varanasi Yard",
+"lat": 25.32521,
+"lon": 82.9752,
+"state": "Uttar Pradesh"
+},
+{
+"code": "SLN",
+"name": "Sultanpur",
+"lat": 26.26303,
+"lon": 82.06611,
+"state": "Uttar Pradesh"
+},
+{
+"code": "PKX",
+"name": "Pakhruli",
+"lat": 26.20503,
+"lon": 82.12257,
+"state": "Uttar Pradesh"
+},
+{
+"code": "JOP",
+"name": "Jaunpur City",
+"lat": 25.73412,
+"lon": 82.667,
+"state": "Uttar Pradesh"
+},
+{
+"code": "JNUK",
+"name": "Jaunpur Kutcherry",
+"lat": 25.72519,
+"lon": 82.69261,
+"state": "Uttar Pradesh"
+},
+{
+"code": "ARA",
+"name": "Ara",
+"lat": 25.54889,
+"lon": 84.6626,
+"state": "Bihar"
+},
+{
+"code": "KYA",
+"name": "Kauriya",
+"lat": 25.55091,
+"lon": 84.52129,
+"state": "Bihar"
+},
+{
+"code": "KRS",
+"name": "Karisath",
+"lat": 25.54949,
+"lon": 84.56314,
+"state": "Bihar"
+},
+{
+"code": "JGWL",
+"name": "Jagjivan Halt",
+"lat": 25.54789,
+"lon": 84.63012,
+"state": "Bihar"
+},
+{
+"code": "DNR",
+"name": "Danapur",
+"lat": 25.58192,
+"lon": 85.04463,
+"state": "Bihar"
+},
+{
+"code": "PWS",
+"name": "Phulwari Sharif",
+"lat": 25.5863,
+"lon": 85.07943,
+"state": "Bihar"
+},
+{
+"code": "SCY",
+"name": "Sachiwalay Halt",
+"lat": 25.5962,
+"lon": 85.11735,
+"state": "Bihar"
+},
+{
+"code": "JSME",
+"name": "Jasidih Jn",
+"lat": 24.51452,
+"lon": 86.64426,
+"state": "Jharkhand"
+},
+{
+"code": "TTN",
+"name": "Tulsitanr",
+"lat": 24.569,
+"lon": 86.61441,
+"state": "Jharkhand"
+},
+{
+"code": "GZH",
+"name": "Gulzarbagh",
+"lat": 25.59754,
+"lon": 85.20523,
+"state": "Bihar"
+},
+{
+"code": "FUT",
+"name": "Fatwa",
+"lat": 25.50144,
+"lon": 85.30549,
+"state": "Bihar"
+},
+{
+"code": "BCYN",
+"name": "Budhdevchak Y Nagar",
+"lat": 25.49683,
+"lon": 85.33131,
+"state": "Bihar"
+},
+{
+"code": "HDE",
+"name": "Hardas Bigha",
+"lat": 25.49692,
+"lon": 85.32767,
+"state": "Bihar"
+},
+{
+"code": "BKP",
+"name": "Bakhtiyarpur Jn",
+"lat": 25.45611,
+"lon": 85.52956,
+"state": "Bihar"
+},
+{
+"code": "JPML",
+"name": "Jai Prakash Mahuli",
+"lat": 25.4538,
+"lon": 85.60063,
+"state": "Bihar"
+},
+{
+"code": "PNBE",
+"name": "Patna Jn",
+"lat": 25.60256,
+"lon": 85.13682,
+"state": "Bihar"
+},
+{
+"code": "RJPB",
+"name": "Rajendra Nagar Bihar",
+"lat": 25.60335,
+"lon": 85.16245,
+"state": "Bihar"
+},
+{
+"code": "KBQ",
+"name": "Kumrabad Rohini",
+"lat": 24.46731,
+"lon": 86.64535,
+"state": "Jharkhand"
+},
+{
+"code": "SNQ",
+"name": "Sankarpur",
+"lat": 24.42762,
+"lon": 86.63755,
+"state": "Jharkhand"
+},
+{
+"code": "NPZ",
+"name": "Nawapatra",
+"lat": 24.31839,
+"lon": 86.64787,
+"state": "Jharkhand"
+},
+{
+"code": "MDP",
+"name": "Madhupur Jn",
+"lat": 24.27063,
+"lon": 86.64218,
+"state": "Jharkhand"
+},
+{
+"code": "BHN",
+"name": "Bhuli",
+"lat": 23.80228,
+"lon": 86.39469,
+"state": "Jharkhand"
+},
+{
+"code": "TET",
+"name": "Tetulmari",
+"lat": 23.81444,
+"lon": 86.34357,
+"state": "Jharkhand"
+},
+{
+"code": "NPJE",
+"name": "Nichitpur",
+"lat": 23.82591,
+"lon": 86.28777,
+"state": "Jharkhand"
+},
+{
+"code": "MRQ",
+"name": "Matari",
+"lat": 23.84052,
+"lon": 86.23904,
+"state": "Jharkhand"
+},
+{
+"code": "GMO",
+"name": "Gomoh Jn",
+"lat": 23.87311,
+"lon": 86.14823,
+"state": "Jharkhand"
+},
+{
+"code": "TKN",
+"name": "Tankuppa",
+"lat": 24.70405,
+"lon": 85.1194,
+"state": "Bihar"
+},
+{
+"code": "BNF",
+"name": "Bandhua",
+"lat": 24.75197,
+"lon": 85.0662,
+"state": "Bihar"
+},
+{
+"code": "MPO",
+"name": "Manpur Jn",
+"lat": 24.80711,
+"lon": 85.04474,
+"state": "Bihar"
+},
+{
+"code": "SICY",
+"name": "Shaheed Ishwar Chowdhary Halt",
+"lat": 24.80741,
+"lon": 85.01491,
+"state": "Bihar"
+},
+{
+"code": "GAYA",
+"name": "Gaya Jn",
+"lat": 24.80398,
+"lon": 84.99929,
+"state": "Bihar"
+},
+{
+"code": "WCB",
+"name": "West Cabin Gaya",
+"lat": 24.79868,
+"lon": 84.9713,
+"state": "Bihar"
+},
+{
+"code": "RAI",
+"name": "Raibha",
+"lat": 27.18155,
+"lon": 77.80363,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BCP",
+"name": "Bichpuri",
+"lat": 27.1764,
+"lon": 77.91435,
+"state": "Uttar Pradesh"
+},
+{
+"code": "IDH",
+"name": "Idgah Agra Jn",
+"lat": 27.17265,
+"lon": 77.99781,
+"state": "Uttar Pradesh"
+},
+{
+"code": "AF",
+"name": "Agra Fort",
+"lat": 27.18331,
+"lon": 78.0191,
+"state": "Uttar Pradesh"
+},
+{
+"code": "COI",
+"name": "Cheoki",
+"lat": 25.37967,
+"lon": 81.86492,
+"state": "Uttar Pradesh"
+},
+{
+"code": "KCN",
+"name": "Karchana",
+"lat": 25.31367,
+"lon": 81.91613,
+"state": "Uttar Pradesh"
+},
+{
+"code": "BEO",
+"name": "Birohe",
+"lat": 25.17379,
+"lon": 82.44975,
+"state": "Uttar Pradesh"
+},
+{
+"code": "DMRX",
+"name": "Dumri Halt",
+"lat": 25.24594,
+"lon": 86.0284,
+"state": "Bihar"
+},
+{
+"code": "DJS",
+"name": "Dhurant Jwas Halt",
+"lat": 25.22047,
+"lon": 86.04771,
+"state": "Bihar"
+},
+{
+"code": "GHX",
+"name": "Garhara",
+"lat": 25.44091,
+"lon": 86.00531,
+"state": "Bihar"
+},
+{
+"code": "PDW",
+"name": "Pandaul",
+"lat": 26.28049,
+"lon": 86.08664,
+"state": "Bihar"
+},
+{
+"code": "UGNA",
+"name": "Ugna Halt",
+"lat": 26.25065,
+"lon": 86.09251,
+"state": "Bihar"
+},
+{
+"code": "BSRA",
+"name": "Basarhia Halt",
+"lat": 25.6921,
+"lon": 85.81098,
+"state": "Bihar"
+},
+{
+"code": "SKI",
+"name": "Sakri Jn",
+"lat": 26.20895,
+"lon": 86.07814,
+"state": "Bihar"
+},
+{
+"code": "DSS",
+"name": "Dalsingh Sarai",
+"lat": 25.66475,
+"lon": 85.84147,
+"state": "Bihar"
+},
+{
+"code": "SSNS",
+"name": "Shaheed S N Singh Halt",
+"lat": 26.20102,
+"lon": 86.0429,
+"state": "Bihar"
+},
+{
+"code": "STJT",
+"name": "Sathajagat",
+"lat": 25.63101,
+"lon": 85.86779,
+"state": "Bihar"
+},
+{
+"code": "BCA",
+"name": "Bachwara Jn",
+"lat": 25.58126,
+"lon": 85.90014,
+"state": "Bihar"
+},
+{
+"code": "DKGS",
+"name": "Simaria",
+"lat": 25.41145,
+"lon": 86.01446,
+"state": "Bihar"
+},
+{
+"code": "MKB",
+"name": "Mankatha",
+"lat": 25.20722,
+"lon": 86.05635,
+"state": "Bihar"
+},
+{
+"code": "LKR",
+"name": "Luckeesarai Jn",
+"lat": 25.17166,
+"lon": 86.09321,
+"state": "Bihar"
+},
+{
+"code": "KIUL",
+"name": "Kiul Jn",
+"lat": 25.1715,
+"lon": 86.1062,
+"state": "Bihar"
+},
+{
+"code": "NAT",
+"name": "Nathnagar",
+"lat": 25.23705,
+"lon": 86.93537,
+"state": "Bihar"
+},
+{
+"code": "BGP",
+"name": "Bhagalpur",
+"lat": 25.24191,
+"lon": 86.97679,
+"state": "Bihar"
+},
+{
+"code": "SBO",
+"name": "Sabaur",
+"lat": 25.23908,
+"lon": 87.04592,
+"state": "Bihar"
+},
+{
+"code": "BKSL",
+"name": "Bikram Shila",
+"lat": 25.30004,
+"lon": 87.30022,
+"state": "Bihar"
+},
+{
+"code": "SVRP",
+"name": "Shivanarayanpur",
+"lat": 25.29373,
+"lon": 87.33309,
+"state": "Bihar"
+},
+{
+"code": "LKB",
+"name": "Lakshmipur Bhorang",
+"lat": 25.28826,
+"lon": 87.36336,
+"state": "Bihar"
+},
+{
+"code": "LOM",
+"name": "Lodhma",
+"lat": 23.22335,
+"lon": 85.20012,
+"state": "Jharkhand"
+},
+{
+"code": "BLRG",
+"name": "Balasiring",
+"lat": 23.26913,
+"lon": 85.2812,
+"state": "Jharkhand"
+},
+{
+"code": "HTE",
+"name": "Hatia",
+"lat": 23.31161,
+"lon": 85.30822,
+"state": "Jharkhand"
+}
+]
